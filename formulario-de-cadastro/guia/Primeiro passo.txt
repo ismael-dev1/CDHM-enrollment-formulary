@@ -1,0 +1,178 @@
+Cadastro de alunos - lógica e particularidades
+
+1. Ponto de partida
+   Começar com o cadastro dos alunos já é um bom primeiro passo para o sistema da escola.
+
+2. Particularidades do cadastro
+   O cadastro de aluno tem duas situações distintas, conforme a idade:
+
+   - Aluno menor de idade (criança/adolescente)
+     Além das informações pessoais do aluno, é obrigatório cadastrar um responsável legal e vincular esse responsável ao cadastro do aluno.
+
+   - Aluno maior de idade
+     Não há necessidade de responsável legal. O cadastro contém apenas os dados do próprio aluno.
+
+3. Comportamento automático pela data de nascimento
+   Para tornar o processo fluido, o sistema deve:
+   - No momento em que o usuário digitar a data de nascimento, identificar automaticamente se o aluno é menor de idade.
+   - Se for menor, abrir uma seção/aba específica para o cadastro do responsável legal.
+   - Se for maior, prosseguir com o cadastro normal, sem exigir nem exibir a etapa de responsável legal.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------
+CADASTRO DO ALUNO (MENOR DE IDADE)
+-----------------------------------------------------------
+- Nome completo
+- Data de nascimento
+- Sexo
+- Nacionalidade
+- Naturalidade (cidade/estado de nascimento)
+- CPF (se possuir)
+- RG (número e órgão emissor)
+- Endereço completo
+  - Logradouro
+  - Número
+  - Complemento
+  - Bairro
+  - Cidade
+  - Estado
+  - CEP
+- Telefone de contato (se houver)
+- E-mail (se houver)
+- Série/ano escolar
+- Informações de saúde (opcional)
+  - Alergias
+  - Medicamentos de uso contínuo
+  - Tipo sanguíneo
+  - Observações médicas relevantes
+- Foto (opcional)
+
+-----------------------------------------------------------
+INFORMAÇÕES MUSICAIS (MENOR DE IDADE)
+-----------------------------------------------------------
+- Instrumento(s) de interesse ou que já toca
+- Nível de conhecimento musical
+  ( ) Iniciante
+  ( ) Intermediário
+  ( ) Avançado
+- Tempo de estudo musical anterior (se houver)
+- Possui instrumento próprio?
+  ( ) Sim
+  ( ) Não
+- Tipo de aula pretendida
+  ( ) Individual
+  ( ) Em grupo
+  ( ) Teoria musical
+  ( ) Prática instrumental
+- Disponibilidade de horários
+  - Dias da semana preferenciais
+  - Turno (manhã, tarde, noite)
+- Repertório de preferência ou estilos musicais
+- Objetivo com as aulas (hobby, formação profissional, etc.)
+- Se já participou de apresentações, bandas ou orquestras
+- Nome do professor preferencial (se houver)
+
+-----------------------------------------------------------
+CADASTRO DO RESPONSÁVEL LEGAL/FINANCEIRO
+-----------------------------------------------------------
+- Nome completo
+- Grau de parentesco (pai, mãe, tutor, guardião, etc.)
+- CPF
+- RG (número e órgão emissor)
+- Data de nascimento (obrigatória, para validação de maioridade)
+- Nacionalidade
+- Estado civil (opcional)
+- Endereço Completo
+  - Opção "mesmo endereço do aluno"
+  - Caso contrário: logradouro, número, complemento,
+    bairro, cidade, estado, CEP
+- Telefones
+  - Telefone 1
+  - Telefone 2
+  - Telefone 3
+- E-mail
+- Profissão / Ocupação
+- Local de trabalho (opcional)
+- Autorizações / observações
+  - Pessoas autorizadas a buscar o aluno (nome, parentesco,
+    telefone)
+  - Plano de saúde (se aplicável)
+
+-----------------------------------------------------------
+OBSERVAÇÃO:
+-----------------------------------------------------------
+O sistema deve calcular automaticamente, a partir da data de
+nascimento informada, se o responsável tem 18 anos ou mais.
+Caso contrário, o cadastro não pode ser concluído.
+-----------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------
+CADASTRO DO ALUNO (MAIOR DE IDADE)
+-----------------------------------------------------------
+- Nome completo
+- Data de nascimento (validar automaticamente maioridade)
+- Sexo
+- Nacionalidade
+- Naturalidade (cidade/estado de nascimento)
+- CPF
+- RG (número e órgão emissor)
+- Estado civil (opcional)
+- Endereço completo
+  - Logradouro
+  - Número
+  - Complemento
+  - Bairro
+  - Cidade
+  - Estado
+  - CEP
+- Telefones
+  - Residencial
+  - Celular
+  - Comercial (opcional)
+- E-mail
+- Profissão / Ocupação (opcional)
+- Local de trabalho (opcional)
+- Série/ano escolar ou curso
+- Informações de saúde (opcional)
+  - Alergias
+  - Medicamentos de uso contínuo
+  - Tipo sanguíneo
+  - Observações médicas relevantes
+- Foto (opcional)
+
+-----------------------------------------------------------
+INFORMAÇÕES MUSICAIS (MAIOR DE IDADE)
+-----------------------------------------------------------
+- Instrumento(s) de interesse ou que já toca
+- Nível de conhecimento musical
+  ( ) Iniciante
+  ( ) Intermediário
+  ( ) Avançado
+- Tempo de estudo musical anterior (se houver)
+- Possui instrumento próprio?
+  ( ) Sim
+  ( ) Não
+- Tipo de aula pretendida
+  ( ) Individual
+  ( ) Em grupo
+  ( ) Teoria musical
+  ( ) Prática instrumental
+- Disponibilidade de horários
+  - Dias da semana preferenciais
+  - Turno (manhã, tarde, noite)
+- Repertório de preferência ou estilos musicais
+- Objetivo com as aulas (hobby, formação profissional, etc.)
+- Se já participou de apresentações, bandas ou orquestras
+- Nome do professor preferencial (se houver)
+
+-----------------------------------------------------------
+OBSERVAÇÃO:
+-----------------------------------------------------------
+O sistema deve verificar, pela data de nascimento, se o aluno
+é maior de idade. Caso positivo, o cadastro é concluído sem
+exigência de responsável legal.
+-----------------------------------------------------------
