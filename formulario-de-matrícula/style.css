@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 html {
@@ -18,24 +17,136 @@ body {
     font-size: 1.6rem;
 }
 
-/*================Cabeçalho===================*/
-.cabecalho {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================Header===================*/
+.header {
     /* Box model*/
     width: 100%;
     height: auto;
 
+    padding: 2.1rem 0 2.6rem 0;
+
     /*Flex box*/
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
-    /*Fonte*/
-    font-size: 50px;
-    color: #FCF0F9;
+    /* main-axis */
+    justify-content: flex-start;
+    /*  cross-axis */
+    align-items: center; 
 
     /* Cores */
-    background-color: #DA1F81;
+    background-color: #808080;
 }
+
+/*================Headings===================*/
+.headings {
+    /* background-color: rebeccapurple; */
+    color: #FFFFFF;
+    width: 115rem;
+    height: auto;
+
+    margin-left: 9.45rem; 
+
+    /* Flex box */
+    display: flex;
+    flex-direction: column;
+    /* cross-axis */
+    align-items: center;
+}
+
+.heading-1 {
+    font-size: 12.5rem;
+}
+
+.heading-2 {
+    font-size: 5rem;
+}
+
+.heading-3 {
+    font-size: 4.5rem;
+}
+
+/*================Images===================*/
+
+.cdhm-icon {
+    /* background-color: blue; */
+
+    width: 28.4rem;
+    height: 25.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Conteúdo Pricipal*/
 .conteudo-principal {
@@ -68,7 +179,7 @@ body {
     /*Cores*/
 
     /*Cor de fundo*/
-    background-color: #DA1F81;
+    background-color: #808080;
     /*Cor da fonte*/
     color: #FCF0F9;
 }
