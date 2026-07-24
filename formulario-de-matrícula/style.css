@@ -1,3 +1,13 @@
+/* Importando a fonte hospedada localmente */
+@font-face {
+    /* Nome da fonte local no arquivo */
+    font-family: 'arial-rounded-mt-bold-regular';
+    /* Caminho */
+    src: url('./assets/fonts/arial_rounded_mt_bold_regular.ttf') 
+    /* Identificador de formato de arquivo */
+    format('truetype') /* Instruções na pasta do arquivo da fonte */
+}
+
 /*================CSS general reset===================*/
 * {
     margin: 0;
@@ -11,10 +21,14 @@ html {
 }
 
 body {
+    /* Box model */
     width: 100%;
     min-height: 100vh;
+    /* Temporary background color */
     background-color: black;
+    /* General font settings */
     font-size: 1.6rem;
+    font-family: 'arial-rounded-mt-bold-regular', Arial, Helvetica, sans-serif;
 }
 
 /*================Header===================*/
@@ -53,7 +67,7 @@ body {
     width: 28.4rem;
     height: 25.3rem;
     
-    margin-left: 31.5rem;
+    margin-left: 180px;
 
     display: block;
 
@@ -75,6 +89,7 @@ body {
 }
 
 .heading-1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12.5rem;
 }
 
@@ -114,7 +129,7 @@ body {
 }
 
 /*================Formulário===================*/
-.formulario {
+.formulary {
     /*Box model*/
     width: 115rem;
     height: auto;
@@ -147,7 +162,7 @@ body {
 /*================DADOS PESSOAIS===================*/
 
 /*Fieldset Dados pessoais*/
-.dados-pessoais {
+.personal-data {
     width: 1050px;
     height: auto;
     border: none;
@@ -170,7 +185,7 @@ body {
 }
 
 /*Definições gerais para parágrafos de dados pessoais*/
-.dados-pessoais p {
+.personal-data p {
     /*Box model*/
     width: 980px;
     height: auto;
