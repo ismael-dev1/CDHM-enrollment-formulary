@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'arial-rounded-mt-bold-regular', Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -28,10 +29,9 @@ body {
     background-color: black;
     /* General font settings */
     font-size: 1.6rem;
-    font-family: 'arial-rounded-mt-bold-regular', Arial, Helvetica, sans-serif;
 }
 
-/*================Header===================*/
+/*================HEADER===================*/
 .header {
     /* Box model*/
     width: 100%;
@@ -45,8 +45,7 @@ body {
 
 /*================Header content===================*/
 .header-content {
-    /* background-color: aqua; */
-    
+    /* background-color: aqua; */    
     width: 100%;
     height: auto;
 
@@ -101,26 +100,9 @@ body {
     font-size: 4.5rem;
 }
 
+/*================MAIN CONTENT===================*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*================Main content===================*/
 /* main content */
 .main-content {
     /* Flex box */
@@ -128,19 +110,16 @@ body {
     justify-content: center;
 }
 
-/*================Formulário===================*/
+/*================Formulary===================*/
 .formulary {
     /*Box model*/
     width: 115rem;
     height: auto;
     
-    margin: 70px 180px 69px 180px;
+    margin: 7rem 18rem 6.9rem 18rem;
     border-radius: 25px;
 
-    padding-bottom: 5rem;
-
-    /*Gap*/
-    /*gap: 300px;*/
+    /* padding-bottom: 5rem; */
 
     /*Flex box*/
     display: flex;
@@ -159,15 +138,37 @@ body {
     color: #FCF0F9;
 }
 
-/*================DADOS PESSOAIS===================*/
-
-/*Fieldset Dados pessoais*/
-.personal-data {
-    width: 1050px;
+/*================STUDENT'S DATA===================*/
+.students-data {
+    width: auto;
     height: auto;
-    border: none;
+    background-color: darkviolet;
+    padding-top: 3.5rem;
+}
+
+.students-data-title {
+    background-color: black;
+    width: 100%;
+    padding-left: 3rem;
+    font-size: 7rem; 
+}
+
+.contact {
+    background-color: indigo;
+}
+
+.adress {
+    background-color: blue;
+}
+
+/* Fieldset Personal Data */
+.personal-data {
+    width: 105rem;
+    height: auto;
+    /* border: none; */
+    margin-top: 3.2rem;
     margin-bottom: 38.7px;
-    /*background-color: green;*/
+    background-color: green;
 
     display: flex;
     flex-direction: column;
@@ -175,19 +176,20 @@ body {
     align-items: center;
 } 
 
-/*Título do fieldset*/
+/* Fieldset's title */
 .legenda-1 {
-    margin-bottom: 26.4px;
-    padding: 60px 0 0 30px;
+    background-color: darkslategray;
+    padding: 0rem 0 0 3rem;
+    margin-bottom: 2.64rem;
 
-    font-size: 70px;
+    font-size: 5.5rem;
     font-weight: bold;
 }
 
-/*Definições gerais para parágrafos de dados pessoais*/
-.personal-data p {
+/* General settings for personal data paragraphs */
+.personal-data div {
     /*Box model*/
-    width: 980px;
+    width: 98rem;
     height: auto;
     
     /*Flex Box*/
@@ -195,16 +197,21 @@ body {
     flex-direction: column;
 }
 
-/*================Nome Completo===================*/
+/*================COLOR FOR ALL PLACEHOLDERS===================*/
+fieldset div input::placeholder {
+    color: #BDBCBC;
+}
 
-/*Definições gerais para nome completo*/
-.nome-completo {
-    /*background-color: lightblue;*/
+/*================Full name===================*/
+
+/* General settings for full name */
+.full-name {
+    /* background-color: lightblue; */
     font-size: 45px;
 }
 
-/*Definições do título do input*/
-.nome-completo label {
+/* Input title settings */
+.full-name label {
     /*Box model*/ 
     margin-bottom: 14.04px;
 
@@ -212,7 +219,7 @@ body {
 }
 
 /*Definições do input*/
-.nome-completo input {
+.full-name input {
     /*Box model*/
     height: 51.13px;
     padding: 13px 0 15px 15px;
@@ -221,31 +228,86 @@ body {
 
     /*Definições de fonte*/
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
+}
+
+/*================BIRTH DATE===================*/ 
+
+/* General settings to birth date */
+.birth-date {
+    /* Box model */
+    margin-top: 0.902rem;
+
+    /* background-color: darkblue; */
+
+    /* Font settings */
+    font-size: 4.5rem;
+}
+
+/* Birth date title settings */
+.birth-date label {
+    /*Box model*/
+    margin-bottom: 1rem;
+
+    cursor: pointer;
+}
+
+/* Input settings */
+.birth-date input {
+    /*Box model*/
+    height: 5.113rem;
+    padding: 0 1.5rem 0 1.5rem;
+    border-radius: 2.5rem;
+    border: none;
+    
+    /*Definições da fonte*/
+    font-size: 3rem;
+}
+
+/* Off focus settings */
+/*Cor do texto de data-nascimento*/
+.birth-date input {
+    color: #BDBCBC;
+}
+/* Calendar icon */
+.birth-date input::-webkit-calendar-picker-indicator {
+    opacity: 0.2;
+}
+
+/* On focus settings */
+
+/* Birth date color */
+.birth-date input:focus {
+    color: black; 
+}
+
+/* Calendar icon color */ 
+.birth-date input:focus::-webkit-calendar-picker-indicator {
+    opacity: 1.0;
 }
 
 /*================CPF===================*/
 
-/*Deifinções gerais do CPF*/
+/* General CPF settings */
 .cpf {
     /*background-color: darkgray;*/
     /*Box model*/
     margin-top: 9.02px;
 
-    /*Deifnições de fonte*/
-    font-size: 45px;
+    /* Font settings */ 
+    font-size: 4.5rem;
 }
 
-/*Definições do título do input*/
+/* Label settings */ 
 .cpf label {
 
     /*Box model*/ 
     margin-bottom: 14.04px;
 
+    /* Cursor settings */
     cursor: pointer;
 }
 
-/*Definições do input*/
+/* Input settings */ 
 .cpf input {
     /*Box model*/
     height: 51.13px;
@@ -253,182 +315,235 @@ body {
     border-radius: 25px;
     border: none;
 
-    /*Definições de fonte*/
+    /* Font settings */
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-/*================Data de Nascimento===================*/
+/*================RG===================*/
 
-/*Definições gerais da data de nascimento*/
-.data-nascimento {
+.rg {
+    /*background-color: darkgray;*/
     /*Box model*/
     margin-top: 9.02px;
 
-    /*background-color: darkblue;*/
-
-    /*Definições da fonte*/
-    font-size: 45px;
+    /* Font settings */ 
+    font-size: 4.5rem;
 }
 
-/*Definições do título da data de nascimento*/
-.data-nascimento label {
-    /*Box model*/
-    margin-bottom: 10px;
+/* Label settings */ 
+.rg label {
 
+    /*Box model*/ 
+    margin-bottom: 14.04px;
+
+    /* Cursor settings */
     cursor: pointer;
 }
 
-/*Definções do input*/
-.data-nascimento input {
+/* Input settings */ 
+.rg input {
     /*Box model*/
     height: 51.13px;
-    padding: 0 15px 0 15px;
+    padding: 15px 0 15px 15px;
     border-radius: 25px;
     border: none;
-    
-    /*Definições da fonte*/
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+
+    /* Font settings */
+    font-size: 32px;
 }
 
-/*Defições off focus*/
-/*Cor do texto de data-nascimento*/
-.data-nascimento input {
-    color: grey;
-}
-/*Cor do ícone de calendário*/
-.data-nascimento input::-webkit-calendar-picker-indicator {
-    opacity: 0.5;
+/*================SEXO===================*/
+
+/* General section settings */
+.sex {
+    margin-top: 9.02px;
 }
 
-/*Definições on focus*/
-/*Cor do texto de data-nascimento*/
-.data-nascimento input:focus {
-    color: black; 
-}
-/*Cor do ícone de calendário*/
-.data-nascimento input:focus::-webkit-calendar-picker-indicator {
-    opacity: 1.0;
+/* Section's title */
+.sex .title {
+    /* Font settings */ 
+    font-size: 45px;
 }
 
-/*================CONTATO===================*/
-
-/*Fieldset Contato*/
-.contato {
-    width: 1050px;
+/* Sex options settings */
+.sex div {
+    /*Box model*/
+    width: auto;
     height: auto;
+
+    /* Flex box */
+    display: flex;
+    /* main axis direction */
+    flex-direction: row;
+    /* main-axis */
+    justify-content: flex-start;
+    /* cross-axis */
+    align-items: center;    
+}
+
+/* General label settings */
+.sex label {
+    /* Box model */
+    margin-left: 0.3rem;
+
+    /* Font settings */
+    font-size: 2.5rem;
+
+    /* Cursor settings */
+    cursor: pointer;
+}
+
+/* General input settings */
+.sex input {
+    /*Box model*/
+    width: 2.5rem;
+    height: 3rem;
+}
+
+.sex .female {
+    margin-left: 1rem;
+}
+
+/*================NACIONALIDADE===================*/
+
+.nationality {
+    /*background-color: darkgray;*/
+    /*Box model*/
+    margin-top: 9.02px;
+
+    /* Font settings */ 
+    font-size: 4.5rem;
+}
+
+/* Label settings */ 
+.nationality label {
+
+    /*Box model*/ 
+    margin-bottom: 1.404rem;
+
+    /* Cursor settings */
+    cursor: pointer;
+}
+
+/* Input settings */ 
+.nationality input {
+    /*Box model*/
+    height: 51.13px;
+    padding: 15px 0 15px 15px;
+    border-radius: 25px;
     border: none;
-    margin-bottom: 46.26px; 
 
-    display: flex;
-    flex-direction: column;  
-    /*Eixo transversal*/
-    align-items: center;
-
-    /*background-color: forestgreen;*/
+    /* Font settings */
+    font-size: 32px;
 }
 
-/*Título do fieldset*/
-.legenda-2 {
-    padding: 0 0 0 30px;
+/*================NATURALIDADE===================*/
 
-    font-size: 70px;
-    font-weight: bold;
-
-    /*background-color: gray;*/
-}
-
-/*================Parágrafos===================*/
-
-/*Definições gerais para parágrafos de contato*/
-.contato p {
-    display: flex;
-    flex-direction: column;
-
-    width: 980px;
+.naturality {
+    /* background-color: darkgray; */
+    /*Box model*/
+    width: auto;
     height: auto;
+    /* padding: 5px; */
+    margin-top: 0.902rem;
+
+    /* Font settings */ 
+    font-size: 4.5rem;
 }
 
-/*================Telefone===================*/
+.naturality .naturality-content {
+    /* background-color: #1E3A5F; */
+    width: 100%;
+    /* padding: 0.5rem; */
 
+    /* Flex box */
+    display: flex;
+    /* main axis direction */
+    flex-direction: row;
+    gap: 1rem;
+}
 
-/*Definições gerais para telefone*/
+/* City */
+.naturality .naturality-content #city {
+    /*Box model*/
+    width: 77.7rem;
+    height: 51.13px;
+    padding: 0 0 0 15px;
+    border-radius: 25px;
+    border: none;
+
+    /* Font settings */
+    font-size: 3.2rem;
+    color: #BDBCBC;
+}
+
+/* UF */
+.naturality .naturality-content #uf {
+    /*Box model*/
+    /* width: 98rem; */
+    width: 25rem;
+    height: 51.13px;
+    padding: 0 0 0 15px;
+    border: none;
+    border-radius: 2.5rem;
+    
+
+    /* Font settings */
+    font-size: 3.2rem;
+    color: #BDBCBC;
+}
+
+/* Cellphone number */
+
+/* Cellphone number settings */
 .telefone {
     /*background-color: deepskyblue;*/
     margin-top: 25px;
     font-size: 45px;
 }
 
-/*Definições do título do input*/
+/* Input title settings */
 .telefone label {
     cursor: pointer;
     margin-bottom: 5px;
 }
 
-/*Definições do input*/
+/* Input settings */
 .telefone input {
     height: 51.13px;
     padding: 15px 0 18px 15px;
     border-radius: 25px;
     border: none;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-/*================Telefone 2===================*/
+/*================E-MAIL===================*/
 
-/*Definições gerais para Telefone 2*/
-.telefone-2 {
-    /*background-color: black;*/
-    margin-top: 41.11px;
-    font-size: 45px;
-}
-
-/*Definições do título do input*/
-.telefone-2 label {
-    cursor: pointer;
-    /*margin-bottom: 5px;*/
-}
-
-/*Definições do input*/
-.telefone-2 input {
-    height: 51.13px;
-    padding: 15px 0 18px 15px;
-    border: none;
-    border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-/*================E-mail===================*/
-
-/*Definições gerais para E-mail*/
+/* General email settings */
 .email {
     /*background-color: brown;*/ 
     margin-top: 34.09px;
 }
 
-/*Definições do título do input*/
+/* Input title's settings */
 .email label {
     font-size: 45px;
     margin-bottom: 3px; 
 }
 
-/*Definições do input*/
+/* Input settings */
 .email input {
     height: 51.13px;
     padding: 0 0 7px 10px; 
     border-radius: 25px;
     border: none;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-/*================ENDEREÇO===================*/ 
+/*================ADRESS===================*/ 
 
-/*Fieldset Endereço*/
-.endereco {
+/* Fieldset adress */
+.adress {
     /*background-color: darkgrey;*/
     width: 1050px;
     height: auto;
@@ -441,7 +556,7 @@ body {
     align-items: center;   
 }
 
-/*Título do fieldset*/
+/* Fieldset's title */
 .legenda-3 { 
     margin: 0 0 0 30px; 
     
@@ -449,7 +564,7 @@ body {
     font-weight: bold; 
 }
 
-/*================Duplas de parágrafos===================*/
+/* Paragraph's duos */
 .duplas {
     width: 980px;
     height: auto;
@@ -462,7 +577,7 @@ body {
     gap: 11.04px;  
 }
 
-/*Identificação visual das duplas*/
+/* Duo's visual identification */
 .dupla-a {
     /*background-color: lightgreen;*/
     margin-top: 8px; 
@@ -476,10 +591,10 @@ body {
     margin-top: 4.74px; 
 }
 
-/*================Parágrafos===================*/
+/* Paragraphs */ 
 
-/*Definições gerais para parágrafos de endereço*/
-.endereco .duplas p {
+/* General adress inputs settings */
+.adress .duplas p {
     width: 490px;
     display: flex;
     flex-direction: column;
@@ -488,116 +603,110 @@ body {
 }
 
 /*================CEP===================*/
-.endereco .dupla-a .cep {
+.adress .dupla-a .cep {
     font-size: 45px;
 }
 
-.endereco .dupla-a .cep label {
+.adress .dupla-a .cep label {
     cursor: pointer;
 }
 
-.endereco .dupla-a .cep input {
+.adress .dupla-a .cep input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
     border-radius: 25px;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 /*================Número===================*/
-.endereco .dupla-a .numero {
+.adress .dupla-a .numero {
     font-size: 45px; 
 }
 
-.endereco .dupla-a .numero label {
+.adress .dupla-a .numero label {
     cursor: pointer; 
 }
 
-.endereco .dupla-a .numero input {
+.adress .dupla-a .numero input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
     border-radius: 25px;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 /*================Rua===================*/
-.endereco .dupla-b .rua {
+.adress .dupla-b .rua {
     font-size: 45px;
 }
 
-.endereco .dupla-b .rua label {
+.adress .dupla-b .rua label {
     cursor: pointer; 
 }
 
-.endereco .dupla-b .rua input {
+.adress .dupla-b .rua input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none; 
     border-radius: 25px;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 /*================Bairro===================*/
-.endereco .dupla-b .bairro {
+.adress .dupla-b .bairro {
     font-size: 45px; 
 }
 
-.endereco .dupla-b .bairro label {
+.adress .dupla-b .bairro label {
     cursor: pointer; 
 }
 
-.endereco .dupla-b .bairro input {
+.adress .dupla-b .bairro input {
     height: 51.13px;
     padding: 0 0 0 15px;  
     border: none;
     border-radius: 25px;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif; 
 }
 
 /*================Cidade===================*/
-.endereco .dupla-c .cidade {
+.adress .dupla-c .cidade {
     font-size: 45px; 
 }
 
-.endereco .dupla-c .cidade label {
+.adress .dupla-c .cidade label {
     cursor: pointer; 
 }
 
-.endereco .dupla-c .cidade input {
+.adress .dupla-c .cidade input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
     border-radius:25px; 
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 /*================Estado===================*/
 
-.endereco .dupla-c .estado {
+.adress .dupla-c .estado {
     font-size: 45px;
 }
 
-.endereco .dupla-c .estado label {
+.adress .dupla-c .estado label {
     cursor: pointer; 
 }
 
-.endereco .dupla-c .estado input {
+.adress .dupla-c .estado input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
     border-radius: 25px;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 /*================Complemento===================*/ 
-.endereco .complemento {
+.adress .complemento {
     /*background-color: darkolivegreen;*/ 
     width: 980px;
     height: auto;
@@ -608,109 +717,130 @@ body {
     flex-direction: column;
 }
 
-.endereco .complemento label {
+.adress .complemento label {
     cursor: pointer;
     margin-bottom: 5px;
 }
 
-.endereco .complemento input {
+.adress .complemento input {
     height: 51.13px;
     padding: 0 0 0 15px;
     border: none;
     border-radius: 25px;
     font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-/*================DADOS INSTITUCIONAIS===================*/
+/*================CONTACT===================*/
 
-/*Fieldset Dados institucionais*/
-.dados-institucionais {
-    /*background-color:brown;*/
+/* Contact general settings */
+.contact {
     width: 1050px;
     height: auto;
     border: none;
-    margin-bottom: 84.59px;
+    margin-bottom: 46.26px; 
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     /*Eixo transversal*/
     align-items: center;
 
-    gap: 10px; 
+    /*background-color: forestgreen;*/
 }
 
-/*Título do fieldset*/
-.legenda-4 {
-    margin: 0 0 0 30px;
+/* Fieldset's title */
+.contacts-legend {
+    padding: 0 0 0 30px;
 
     font-size: 70px;
-    font-weight: bold; 
+    font-weight: bold;
+
+    /*background-color: gray;*/
 }
 
-/*================Definições gerais para parágrafos===================*/
-.dados-institucionais p {
-    /*background-color: blue;*/
-    width: 980px;
-
+/* General contact paragraph settings */
+.contact p {
     display: flex;
     flex-direction: column;
+
+    width: 980px;
+    height: auto;
 }
 
-/*================Nome da Igreja===================*/
-.dados-institucionais .nome-igreja {
-    font-size: 45px;
-}
 
-.dados-institucionais .nome-igreja label {
-    cursor: pointer;
-    margin-bottom: 5px;
-}
 
-.dados-institucionais .nome-igreja input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
-    border: none;
-    border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
- /*===============Cidade===================*/
-.dados-institucionais .cidade-igreja {
-    font-size: 45px;
-}
 
-.dados-institucionais .cidade-igreja label{
-    cursor: pointer; 
-}
 
-.dados-institucionais .cidade-igreja input {
-    height: 51.13px;
-    padding:  0 0 0 15px; 
-    border: none;
-    border-radius: 25px; 
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
-/*===============Cidade===================*/
-.dados-institucionais .lider-local {
-    font-size: 45px;
-}
 
-.dados-institucionais .lider-local label {
-    cursor: pointer; 
-}
 
-.dados-institucionais .lider-local input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
-    border: none;
-    border-radius: 25px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*===============Botão CONTINUAR===================*/
 
@@ -723,7 +853,6 @@ body {
     background-color: #1E3A5F;
     color: white; 
     font-size: 48px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     cursor: pointer;
 
