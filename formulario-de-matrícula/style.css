@@ -547,7 +547,7 @@ fieldset div input::placeholder {
     /*background-color: darkgrey;*/
     width: 1050px;
     height: auto;
-    border: none;
+    /* border: none; */
     margin-bottom: 41.73px; 
 
     display: flex;
@@ -560,7 +560,7 @@ fieldset div input::placeholder {
 .legenda-3 { 
     margin: 0 0 0 30px; 
     
-    font-size: 70px;
+    font-size: 55px;
     font-weight: bold; 
 }
 
@@ -719,7 +719,7 @@ fieldset div input::placeholder {
 
 .adress .complemento label {
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .adress .complemento input {
@@ -736,7 +736,7 @@ fieldset div input::placeholder {
 .contact {
     width: 1050px;
     height: auto;
-    border: none;
+    /* border: none; */
     margin-bottom: 46.26px; 
 
     display: flex;
@@ -758,7 +758,7 @@ fieldset div input::placeholder {
 }
 
 /* General contact paragraph settings */
-.contact p {
+.contact div {
     display: flex;
     flex-direction: column;
 
@@ -766,11 +766,25 @@ fieldset div input::placeholder {
     height: auto;
 }
 
+/*================HEALTH INFO===================*/
+.health-info {
+    background-color: darkslategray;
+    min-width: 105rem;
+    height: auto;
+}
 
+.health-info .legenda-4 {
+    background-color: black;
+    padding: 0rem 0 0 3rem;
+    margin-bottom: 2.64rem;
 
+    font-size: 5.5rem;
+    font-weight: bold;
+}
 
-
-
+.health-info .pcd-sn {
+    
+}
 
 
 

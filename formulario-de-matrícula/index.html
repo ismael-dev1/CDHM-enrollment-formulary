@@ -79,7 +79,7 @@
 
                 <span class="students-data-title">Dados do aluno</span>
 
-                <!--Personal data-->
+                <!-- PERSONAL DATA -->
                 <fieldset class="personal-data">
                     <!--Título do campo-->
                     <legend class="legenda-1">Dados pessoais</legend>
@@ -112,7 +112,7 @@
                         <!-- Visual id -->
                         <span class="title">Sexo</span>
 
-                        <div>
+                        <div class="sex-option">
                             <div class="male">
                                 <input type="radio" id="male" name="sex" value="male">
                                 <label for="male">Masculino</label>
@@ -199,7 +199,7 @@
                     </div>
                 </fieldset>
             
-                <!--Campo de endereço-->
+                <!-- ADRESS -->
                 <fieldset class="adress categoria">
                     <!--Título do campo-->
                     <legend class="legenda-3">Endereço</legend>
@@ -247,125 +247,171 @@
                     </div>
 
                     <!--Entrada - Complemento-->
-                    <p class="complemento">
+                    <div class="complemento">
                         <label for="complemento">Complemento</label>
                         <input type="text" id="complemento" name="complemento" placeholder="Complemento exemplo">
-                    </p>
+                    </div>
                 </fieldset>
         
-                <!--Campo de Contato-->
+                <!-- CONTACT -->
                 <fieldset class="contact">
                     <!--Título do campo-->
                     <legend class="contacts-legend">Contato</legend>
 
                     <!--Entrada do telefone-->
-                    <p class="telefone">
+                    <div class="telefone">
                         <label for="telefone">Telefone</label>
                         <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
-                    </p>
+                    </div>
 
                     <!--Entrada do E-mail-->
-                    <p class="email">
+                    <div class="email">
                         <label for="email">E-mail</label>
                         <input type="email" id="email" name="email" placeholder="exemplo@email.com">
-                    </p>
+                    </div>
                 </fieldset>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
+                <fieldset class="health-info">
+                    <legend class="legenda-4">Informções de saúde</legend>
+
+                    <div class="pcd-sn">
+                        <span>O aluno é PCD?</span>
+
+                        <div class="yes">
+                            <input type="radio" id="yes" name="pcd-option" value="YES">
+                            <label for="male">Sim</label>
+                        </div>
+
+                        <div class="no">
+                            <input type="radio" id="no" name="pcd-option" value="NO">
+                            <label for="female">Não</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <!-- Botão "CONTINUAR" Leva à página de pagamento
             <p class="botao-enviar">
                 <button type="submit" id="verdadeiro-botao-enviar">ENVIAR</button>
-                <!--"CONTINUAR" para fins didáticos e pedagógicos. Observe o "type" do botão.
+                "CONTINUAR" para fins didáticos e pedagógicos. Observe o "type" do botão.
             </p> -->
         </form>
     </main>
