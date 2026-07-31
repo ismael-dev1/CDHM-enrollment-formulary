@@ -769,26 +769,93 @@ fieldset div input::placeholder {
 /*================HEALTH INFO===================*/
 .health-info {
     background-color: darkslategray;
-    min-width: 105rem;
+    width: 100%;
     height: auto;
+
+    /* padding: 5px; */
 }
 
 .health-info .legenda-4 {
     background-color: black;
-    padding: 0rem 0 0 3rem;
-    margin-bottom: 2.64rem;
+    padding: 0 0 0 3rem;
 
     font-size: 5.5rem;
     font-weight: bold;
 }
 
-.health-info .pcd-sn {
-    
+/* Does the student has any disability? */
+.health-info .pcd-yn {
+    background-color: aqua;
+    margin-top: 4.2rem;
 }
 
+.health-info .pcd-yn .pcd-title {
+    background-color: darkblue;
 
+    /* Box model */
+    margin-left: 3rem;
 
+    /* Font settings */
+    font-size: 4.5rem;
+}
 
+.health-info .pcd-yn .pcd-options {
+    background-color: dodgerblue;
+
+    /*Box model*/
+    width: auto;
+    height: auto;
+
+    margin: 3.4rem 0 0 3rem;
+
+    /* Flex box */
+    display: flex;
+    /* main axis direction */
+    flex-direction: row;
+    /* main-axis */
+    justify-content: flex-start;
+    /* cross-axis */
+    align-items: center; 
+}
+
+/* General label settings */
+.health-info .pcd-yn .pcd-options label {
+    background-color: brown;
+    
+    /* Box model */
+    margin-left: 0.3rem;
+
+    /* Font settings */
+    font-size: 2.5rem;
+
+    /* Cursor settings */
+    cursor: pointer;
+}
+
+/* General input settings */
+.health-info .pcd-yn .pcd-options input {
+    /*Box model*/
+    width: 2.5rem;
+    height: 3rem;
+}
+
+.health-info .pcd-yn .pcd-options .option-no {
+    margin-left: 1rem;
+}
+
+.health-info .pcd-yn #disa-name {
+    display: block;
+    background-color: yellow;
+    margin: 2.287rem 0 0 3rem;
+}
+
+.health-info .pcd-yn .medical-report {
+    background-color: blue;
+    margin: 2.287rem 0 0 3rem;
+
+    display: flex;
+    flex-direction: column;
+}
 
 
 
