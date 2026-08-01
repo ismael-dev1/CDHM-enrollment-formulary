@@ -186,7 +186,7 @@ body {
     font-weight: bold;
 }
 
-/* General settings for personal data paragraphs */
+/* General settings for personal data divs */
 .personal-data div {
     /*Box model*/
     width: 98rem;
@@ -839,27 +839,51 @@ fieldset div input::placeholder {
     height: 3rem;
 }
 
+/* Yes or no */
+.health-info .pcd-yn .pcd-options .option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .health-info .pcd-yn .pcd-options .option-no {
     margin-left: 1rem;
 }
 
+/* Disability name */
 .health-info .pcd-yn #disa-name {
+    width: 98rem;
+    height: 5.1rem;
+    padding: 0 0 0 1.5rem;
+    border: none;
+    border-radius: 25px;
     display: block;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin: 2.287rem 0 0 3rem;
+    font-size: 3.2rem;
 }
 
+
+/* Medica report file */
 .health-info .pcd-yn .medical-report {
     background-color: blue;
     margin: 2.287rem 0 0 3rem;
 
     display: flex;
     flex-direction: column;
+    gap: 1.2rem;
 }
 
+.health-info .pcd-yn .medical-report span {
+    font-size: 4rem;
+}
 
+.health-info .pcd-yn .medical-report input {
+    background-color: #DA1F81;
 
-
+    width: 30rem;
+    height: 5.113rem;
+}
 
 
 
