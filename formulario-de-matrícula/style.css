@@ -1047,8 +1047,82 @@ fieldset div input::placeholder {
 
 /* GENERAL INFO */
 .general-info {
-    /* background-color: black; */
-    margin-left: 3rem;
+    background-color: aqua;
+    margin: 3.17rem 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.gi-title {
+    font-size: 4rem;
+    margin: 0 0 1rem 3rem;
+}
+
+#gi-textarea {
+    width: 98rem;
+    height: 30rem;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 0 0 3rem;
+    font-size: 2rem;
+}
+
+/* STUTENT'S PHOTO */
+
+.students-photo {
+    background-color: black;
+    margin: 9.8rem 0 0 0;
+}
+
+.sf-title {
+    background-color: aqua;
+    font-size: 5.5rem;
+    margin: 0 0 0 3rem;
+}
+
+.students-photo div {
+    background-color: lightgray;
+    padding: 1.6rem 0 0 0;
+    margin: 0 0 0 3rem;
+}
+
+.students-photo span {
+    background-color: blue;
+    font-size: 2.5rem;
+}
+
+
+.students-photo input {
+    background-color: #FFFFFF;
+
+    /* width: 27.8rem; */
+    width: 98rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2.5rem;
+    margin-top: 1.2rem;
+
+    display: block;
+
+    font-size: 1.6rem;
+    color: black;
+}
+
+.students-photo input::file-selector-button {
+    background-color: transparent;
+    border: none;
+
+    font-size: 3.2rem;
+    font-family: 'arial-rounded-mt-bold-regular', Arial, Helvetica, sans-serif;
+    color: #BDBCBC;
+
+    cursor: pointer;
+}
+
+.students-photo input::file-selector-button:hover {
+    color: #000000;
 }
 
 
