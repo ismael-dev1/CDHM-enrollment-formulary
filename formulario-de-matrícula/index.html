@@ -273,6 +273,7 @@
                 <fieldset class="health-info">
                     <legend class="legenda-4">Informações de saúde</legend>
 
+                    <!-- DISABILITY -->
                     <div class="pcd-yn">
                         <span class="pcd-title">O aluno(a) é PCD?</span>
 
@@ -297,6 +298,40 @@
                             <input type="file" id="mr-file" name="mr-file">
                         </div>
                     </div>
+
+
+                    <!-- ALLERGY -->
+                    <div class="allergy-yn">
+                        <span class="allergy-title">O aluno(a) tem alergia?</span>
+
+                        <div class="allergy-options">
+                            <div class="option-yes option">
+                                <input type="radio" id="input-yes" name="allergy-option" value="yes">
+                                <label for="input-yes">Sim</label>
+                            </div>
+
+                            <div class="option-no option">
+                                <input type="radio" id="input-no" name="allergy-option" value="no">
+                                <label for="input-no">Não</label>
+                            </div>
+                        </div>
+
+
+                        <input type="text" id="allergy-name" name="disa-name" placeholder="Informe o nome da alergia">
+
+
+                        <div class="medical-report">
+                            <span for="mr-file">Anexe o laudo abaixo</span>
+                            <input type="file" id="mr-file" name="mr-file">
+                        </div>
+                    </div>
+
+                    <!-- GENERAL INFO -->
+                     <div class="general-info">
+                        <span class="gf-title">Observações gerais</span>
+
+                        <input type="">
+                     </div>
                 </fieldset>
             </div>
 

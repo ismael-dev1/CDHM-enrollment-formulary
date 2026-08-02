@@ -783,7 +783,7 @@ fieldset div input::placeholder {
     font-weight: bold;
 }
 
-/* Does the student has any disability? */
+/* Does the student has any DISABILITY? */
 .health-info .pcd-yn {
     background-color: aqua;
     margin-top: 4.2rem;
@@ -852,14 +852,17 @@ fieldset div input::placeholder {
 
 /* Disability name */
 .health-info .pcd-yn #disa-name {
+    /* background-color: yellow; */
+
+    display: block;
+
     width: 98rem;
     height: 5.1rem;
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    display: block;
-    /* background-color: yellow; */
     margin: 2.287rem 0 0 3rem;
+    
     font-size: 3.2rem;
 }
 
@@ -879,25 +882,174 @@ fieldset div input::placeholder {
 }
 
 .health-info .pcd-yn .medical-report input {
-    background-color: #DA1F81;
+    background-color: #FFFFFF;
 
-    width: 30rem;
-    height: 5.113rem;
+    /* width: 27.8rem; */
+    width: 98rem;
+    padding: 0.5rem;
+    /* border: 3px solid black; */
+    border-radius: 2.5rem;
+    margin-top: 1.2rem;
+
+    display: block;
+
+    font-size: 1.6rem;
+    color: black;
+}
+
+.health-info .pcd-yn .medical-report input::file-selector-button {
+    background-color: transparent;
+    border: none;
+
+    font-size: 3.2rem;
+    font-family: 'arial-rounded-mt-bold-regular', Arial, Helvetica, sans-serif;
+    color: #BDBCBC;
+
+    cursor: pointer;
+}
+
+.health-info .pcd-yn .medical-report input::file-selector-button:hover {
+    color: #000000;
 }
 
 
 
 
 
+/* Does the student has any ALLERGY? */
+.health-info .allergy-yn {
+    background-color: aqua;
+    margin-top: 4.2rem;
+}
+
+.health-info .allergy-yn .allergy-title {
+    background-color: darkblue;
+
+    /* Box model */
+    margin-left: 3rem;
+
+    /* Font settings */
+    font-size: 4.5rem;
+}
+
+.health-info .allergy-yn .allergy-options {
+    background-color: dodgerblue;
+
+    /*Box model*/
+    width: auto;
+    height: auto;
+
+    margin: 3.4rem 0 0 3rem;
+
+    /* Flex box */
+    display: flex;
+    /* main axis direction */
+    flex-direction: row;
+    /* main-axis */
+    justify-content: flex-start;
+    /* cross-axis */
+    align-items: center; 
+}
+
+/* General label settings */
+.health-info .allergy-yn .allergy-options label {
+    background-color: brown;
+    
+    /* Box model */
+    margin-left: 0.3rem;
+
+    /* Font settings */
+    font-size: 2.5rem;
+
+    /* Cursor settings */
+    cursor: pointer;
+}
+
+/* General input settings */
+.health-info .allergy-yn .allergy-options input {
+    /*Box model*/
+    width: 2.5rem;
+    height: 3rem;
+}
+
+/* Yes or no */
+.health-info .allergy-yn .allergy-options .option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.health-info .allergy-yn .allergy-options .option-no {
+    margin-left: 1rem;
+}
+
+/* Disability name */
+.health-info .allergy-yn #allergy-name {
+    /* background-color: yellow; */
+
+    display: block;
+
+    width: 98rem;
+    height: 5.1rem;
+    padding: 0 0 0 1.5rem;
+    border: none;
+    border-radius: 25px;
+    margin: 2.287rem 0 0 3rem;
+    
+    font-size: 3.2rem;
+}
 
 
+/* MedicaL report file */
+.health-info .allergy-yn .medical-report {
+    background-color: blue;
+    margin: 2.287rem 0 0 3rem;
 
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
 
+.health-info .allergy-yn .medical-report span {
+    font-size: 4rem;
+}
 
+.health-info .allergy-yn .medical-report input {
+    background-color: #FFFFFF;
 
+    /* width: 27.8rem; */
+    width: 98rem;
+    padding: 0.5rem;
+    border: 3px solid black;
+    border-radius: 2.5rem;
+    margin-top: 1.2rem;
 
+    display: block;
 
+    font-size: 1.6rem;
+    color: black;
+}
 
+.health-info .allergy-yn .medical-report input::file-selector-button {
+    background-color: transparent;
+    border: none;
+
+    font-size: 3.2rem;
+    font-family: 'arial-rounded-mt-bold-regular', Arial, Helvetica, sans-serif;
+    color: #BDBCBC;
+
+    cursor: pointer;
+}
+
+.health-info .allergy-yn .medical-report input::file-selector-button:hover {
+    color: #000000;
+}
+
+/* GENERAL INFO */
+.general-info {
+    /* background-color: black; */
+    margin-left: 3rem;
+}
 
 
 
