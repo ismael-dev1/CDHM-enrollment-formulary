@@ -138,27 +138,26 @@ body {
     color: #FCF0F9;
 }
 
-/*================STUDENT'S DATA===================*/
-.students-data {
+/*================PEOPLE'S DATA===================*/
+
+/* People's data section */
+.pps-data-section {
     width: auto;
     height: auto;
     background-color: darkviolet;
     padding-top: 3.5rem;
 }
 
-.students-data-title {
+/* Section's title */
+.sections-title {
     background-color: black;
     width: 100%;
     padding-left: 3rem;
     font-size: 7rem; 
 }
 
-.contact {
-    background-color: indigo;
-}
-
-.adress {
-    background-color: blue;
+.frd-font-size {
+    font-size: 6.4rem;
 }
 
 /* Fieldset Personal Data */
@@ -174,11 +173,11 @@ body {
     flex-direction: column;
     /*Eixo transversal*/
     align-items: center;
-} 
+}
 
 /* Fieldset's title */
-.legenda-1 {
-    background-color: darkslategray;
+.fs-legend {
+    /* background-color: darkslategray; */
     padding: 0rem 0 0 3rem;
     margin-bottom: 2.64rem;
 
@@ -202,7 +201,7 @@ fieldset div input::placeholder {
     color: #BDBCBC;
 }
 
-/*================Full name===================*/
+/*================FULL NAME===================*/
 
 /* General settings for full name */
 .full-name {
@@ -352,7 +351,7 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================SEXO===================*/
+/*================SEX===================*/
 
 /* General section settings */
 .sex {
@@ -360,7 +359,7 @@ fieldset div input::placeholder {
 }
 
 /* Section's title */
-.sex .title {
+.sex .sex-option-title {
     /* Font settings */ 
     font-size: 45px;
 }
@@ -404,7 +403,7 @@ fieldset div input::placeholder {
     margin-left: 1rem;
 }
 
-/*================NACIONALIDADE===================*/
+/*================NACIONALITY===================*/
 
 .nationality {
     /*background-color: darkgray;*/
@@ -463,22 +462,8 @@ fieldset div input::placeholder {
     gap: 1rem;
 }
 
-/* City */
-.naturality .naturality-content #city {
-    /*Box model*/
-    width: 77.7rem;
-    height: 51.13px;
-    padding: 0 0 0 15px;
-    border-radius: 25px;
-    border: none;
-
-    /* Font settings */
-    font-size: 3.2rem;
-    color: #BDBCBC;
-}
-
 /* UF */
-.naturality .naturality-content #uf {
+.naturality .naturality-content #natu-state {
     /*Box model*/
     /* width: 98rem; */
     width: 25rem;
@@ -493,58 +478,26 @@ fieldset div input::placeholder {
     color: #BDBCBC;
 }
 
-/* Cellphone number */
-
-/* Cellphone number settings */
-.telefone {
-    /*background-color: deepskyblue;*/
-    margin-top: 25px;
-    font-size: 45px;
-}
-
-/* Input title settings */
-.telefone label {
-    cursor: pointer;
-    margin-bottom: 5px;
-}
-
-/* Input settings */
-.telefone input {
+/* City */
+.naturality .naturality-content #natu-city {
+    /*Box model*/
+    width: 77.7rem;
     height: 51.13px;
-    padding: 15px 0 18px 15px;
+    padding: 0 0 0 15px;
     border-radius: 25px;
     border: none;
-    font-size: 32px;
+
+    /* Font settings */
+    font-size: 3.2rem;
+    color: #BDBCBC;
 }
 
-/*================E-MAIL===================*/
-
-/* General email settings */
-.email {
-    /*background-color: brown;*/ 
-    margin-top: 34.09px;
-}
-
-/* Input title's settings */
-.email label {
-    font-size: 45px;
-    margin-bottom: 3px; 
-}
-
-/* Input settings */
-.email input {
-    height: 51.13px;
-    padding: 0 0 7px 10px; 
-    border-radius: 25px;
-    border: none;
-    font-size: 32px;
-}
 
 /*================ADRESS===================*/ 
 
 /* Fieldset adress */
 .adress {
-    /*background-color: darkgrey;*/
+    background-color: blue;
     width: 1050px;
     height: auto;
     /* border: none; */
@@ -556,16 +509,8 @@ fieldset div input::placeholder {
     align-items: center;   
 }
 
-/* Fieldset's title */
-.legenda-3 { 
-    margin: 0 0 0 30px; 
-    
-    font-size: 55px;
-    font-weight: bold; 
-}
-
 /* Paragraph's duos */
-.duplas {
+.duos {
     width: 980px;
     height: auto;
     /*padding: 5px;*/
@@ -578,15 +523,15 @@ fieldset div input::placeholder {
 }
 
 /* Duo's visual identification */
-.dupla-a {
+.duo-a {
     /*background-color: lightgreen;*/
     margin-top: 8px; 
 }
-.dupla-b {
+.duo-b {
     /*background-color: yellow;*/
     margin-top: 4.74px; 
 }
-.dupla-c {
+.duo-c {
     /*background-color: lightblue;*/
     margin-top: 4.74px; 
 }
@@ -594,7 +539,7 @@ fieldset div input::placeholder {
 /* Paragraphs */ 
 
 /* General adress inputs settings */
-.adress .duplas p {
+.adress .duos p {
     width: 490px;
     display: flex;
     flex-direction: column;
@@ -602,16 +547,16 @@ fieldset div input::placeholder {
     /*background-color: darkviolet;*/ 
 }
 
-/*================CEP===================*/
-.adress .dupla-a .cep {
+/*================Zip Code===================*/
+.adress .duo-a .zip-code {
     font-size: 45px;
 }
 
-.adress .dupla-a .cep label {
+.adress .duo-a .zip-code label {
     cursor: pointer;
 }
 
-.adress .dupla-a .cep input {
+.adress .duo-a .zip-code input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
@@ -619,16 +564,16 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================Número===================*/
-.adress .dupla-a .numero {
+/*================House number===================*/
+.adress .duo-a .house-number {
     font-size: 45px; 
 }
 
-.adress .dupla-a .numero label {
+.adress .duo-a .house-number label {
     cursor: pointer; 
 }
 
-.adress .dupla-a .numero input {
+.adress .duo-a .house-number input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
@@ -636,16 +581,16 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================Rua===================*/
-.adress .dupla-b .rua {
+/*================Street===================*/
+.adress .duo-b .street {
     font-size: 45px;
 }
 
-.adress .dupla-b .rua label {
+.adress .duo-b .street label {
     cursor: pointer; 
 }
 
-.adress .dupla-b .rua input {
+.adress .duo-b .street input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none; 
@@ -653,16 +598,16 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================Bairro===================*/
-.adress .dupla-b .bairro {
+/*================Neighborhood===================*/
+.adress .duo-b .neighborhood {
     font-size: 45px; 
 }
 
-.adress .dupla-b .bairro label {
+.adress .duo-b .neighborhood label {
     cursor: pointer; 
 }
 
-.adress .dupla-b .bairro input {
+.adress .duo-b .neighborhood input {
     height: 51.13px;
     padding: 0 0 0 15px;  
     border: none;
@@ -670,16 +615,16 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================Cidade===================*/
-.adress .dupla-c .cidade {
+/*================City===================*/
+.adress .duo-c .city {
     font-size: 45px; 
 }
 
-.adress .dupla-c .cidade label {
+.adress .duo-c .city label {
     cursor: pointer; 
 }
 
-.adress .dupla-c .cidade input {
+.adress .duo-c .city input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
@@ -687,17 +632,17 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================Estado===================*/
+/*================State===================*/
 
-.adress .dupla-c .estado {
+.adress .duo-c .state {
     font-size: 45px;
 }
 
-.adress .dupla-c .estado label {
+.adress .duo-c .state label {
     cursor: pointer; 
 }
 
-.adress .dupla-c .estado input {
+.adress .duo-c .state input {
     height: 51.13px;
     padding: 0 0 0 15px; 
     border: none;
@@ -705,8 +650,8 @@ fieldset div input::placeholder {
     font-size: 32px;
 }
 
-/*================Complemento===================*/ 
-.adress .complemento {
+/*================Complement===================*/ 
+.adress .complement {
     /*background-color: darkolivegreen;*/ 
     width: 980px;
     height: auto;
@@ -717,12 +662,12 @@ fieldset div input::placeholder {
     flex-direction: column;
 }
 
-.adress .complemento label {
+.adress .complement label {
     cursor: pointer;
     margin-bottom: 0.5rem;
 }
 
-.adress .complemento input {
+.adress .complement input {
     height: 51.13px;
     padding: 0 0 0 15px;
     border: none;
@@ -734,6 +679,7 @@ fieldset div input::placeholder {
 
 /* Contact general settings */
 .contact {
+    background-color: indigo;
     width: 1050px;
     height: auto;
     /* border: none; */
@@ -766,6 +712,53 @@ fieldset div input::placeholder {
     height: auto;
 }
 
+/*================CELL PHONE NUMBER===================*/
+
+/* Cellphone number settings */
+.phone-number {
+    /*background-color: deepskyblue;*/
+    margin-top: 25px;
+    font-size: 45px;
+}
+
+/* Input title settings */
+.phone-number label {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+/* Input settings */
+.phone-number input {
+    height: 51.13px;
+    padding: 15px 0 18px 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 32px;
+}
+
+/*================E-MAIL===================*/
+
+/* General email settings */
+.email {
+    /*background-color: brown;*/ 
+    margin-top: 34.09px;
+}
+
+/* Input title's settings */
+.email label {
+    font-size: 45px;
+    margin-bottom: 3px; 
+}
+
+/* Input settings */
+.email input {
+    height: 51.13px;
+    padding: 0 0 7px 10px; 
+    border-radius: 25px;
+    border: none;
+    font-size: 32px;
+}
+
 /*================HEALTH INFO===================*/
 .health-info {
     background-color: darkslategray;
@@ -773,14 +766,6 @@ fieldset div input::placeholder {
     height: auto;
 
     /* padding: 5px; */
-}
-
-.health-info .legenda-4 {
-    background-color: black;
-    padding: 0 0 0 3rem;
-
-    font-size: 5.5rem;
-    font-weight: bold;
 }
 
 /* Does the student has any DISABILITY? */
@@ -911,7 +896,6 @@ fieldset div input::placeholder {
 .health-info .pcd-yn .medical-report input::file-selector-button:hover {
     color: #000000;
 }
-
 
 
 
@@ -1125,54 +1109,6 @@ fieldset div input::placeholder {
     color: #000000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*===============Botão CONTINUAR===================*/
 
 .botao-enviar button {
@@ -1201,48 +1137,6 @@ fieldset div input::placeholder {
     background-color: white;
     color: #DA1F81;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*===============RODAPÉ===================*/
 .rodape {
