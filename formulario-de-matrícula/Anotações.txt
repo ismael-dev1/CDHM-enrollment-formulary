@@ -12,3 +12,9 @@ Projeto Blog preview card
 como base para remodelar o arquivo
 
 Manter a ênfase na semântica 
+
+-------------------------------------------------------------
+
+Questão dos múltiplos ids
+
+px -> rem em spacing and font-size

@@ -66,7 +66,7 @@ body {
     width: 28.4rem;
     height: 25.3rem;
     
-    margin-left: 180px;
+    margin-left: 18rem;
 
     display: block;
 
@@ -166,7 +166,7 @@ body {
     height: auto;
     /* border: none; */
     margin-top: 3.2rem;
-    margin-bottom: 38.7px;
+    margin-bottom: 3.87rem;
     background-color: green;
 
     display: flex;
@@ -206,13 +206,13 @@ fieldset div input::placeholder {
 /* General settings for full name */
 .full-name {
     /* background-color: lightblue; */
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 /* Input title settings */
 .full-name label {
     /*Box model*/ 
-    margin-bottom: 14.04px;
+    margin-bottom: 1.404rem;
 
     cursor: pointer;
 }
@@ -220,13 +220,13 @@ fieldset div input::placeholder {
 /*Definições do input*/
 .full-name input {
     /*Box model*/
-    height: 51.13px;
-    padding: 13px 0 15px 15px;
+    height: 5.113rem;
+    padding: 1.3rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
     /*Definições de fonte*/
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================BIRTH DATE===================*/ 
@@ -288,9 +288,9 @@ fieldset div input::placeholder {
 
 /* General CPF settings */
 .cpf {
-    /*background-color: darkgray;*/
+    /* background-color: darkgray; */
     /*Box model*/
-    margin-top: 9.02px;
+    margin-top: 0.902rem;
 
     /* Font settings */ 
     font-size: 4.5rem;
@@ -300,7 +300,7 @@ fieldset div input::placeholder {
 .cpf label {
 
     /*Box model*/ 
-    margin-bottom: 14.04px;
+    margin-bottom: 1.404rem;
 
     /* Cursor settings */
     cursor: pointer;
@@ -309,13 +309,13 @@ fieldset div input::placeholder {
 /* Input settings */ 
 .cpf input {
     /*Box model*/
-    height: 51.13px;
-    padding: 15px 0 15px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
     /* Font settings */
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================RG===================*/
@@ -323,7 +323,7 @@ fieldset div input::placeholder {
 .rg {
     /*background-color: darkgray;*/
     /*Box model*/
-    margin-top: 9.02px;
+    margin-top: 0.902rem;
 
     /* Font settings */ 
     font-size: 4.5rem;
@@ -333,7 +333,7 @@ fieldset div input::placeholder {
 .rg label {
 
     /*Box model*/ 
-    margin-bottom: 14.04px;
+    margin-bottom: 1.404rem;
 
     /* Cursor settings */
     cursor: pointer;
@@ -342,26 +342,26 @@ fieldset div input::placeholder {
 /* Input settings */ 
 .rg input {
     /*Box model*/
-    height: 51.13px;
-    padding: 15px 0 15px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
     /* Font settings */
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================SEX===================*/
 
 /* General section settings */
 .sex {
-    margin-top: 9.02px;
+    margin-top: 0.902rem;
 }
 
 /* Section's title */
 .sex .sex-option-title {
     /* Font settings */ 
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 /* Sex options settings */
@@ -408,7 +408,7 @@ fieldset div input::placeholder {
 .nationality {
     /*background-color: darkgray;*/
     /*Box model*/
-    margin-top: 9.02px;
+    margin-top: 0.902rem;
 
     /* Font settings */ 
     font-size: 4.5rem;
@@ -427,13 +427,13 @@ fieldset div input::placeholder {
 /* Input settings */ 
 .nationality input {
     /*Box model*/
-    height: 51.13px;
-    padding: 15px 0 15px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
     /* Font settings */
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================NATURALIDADE===================*/
@@ -443,7 +443,6 @@ fieldset div input::placeholder {
     /*Box model*/
     width: auto;
     height: auto;
-    /* padding: 5px; */
     margin-top: 0.902rem;
 
     /* Font settings */ 
@@ -467,10 +466,10 @@ fieldset div input::placeholder {
     /*Box model*/
     /* width: 98rem; */
     width: 25rem;
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
-    border-radius: 2.5rem;
+    border-radius: 25px;
     
 
     /* Font settings */
@@ -482,8 +481,8 @@ fieldset div input::placeholder {
 .naturality .naturality-content #natu-city {
     /*Box model*/
     width: 77.7rem;
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border-radius: 25px;
     border: none;
 
@@ -498,10 +497,10 @@ fieldset div input::placeholder {
 /* Fieldset adress */
 .adress {
     background-color: blue;
-    width: 1050px;
+    width: 105rem;
     height: auto;
     /* border: none; */
-    margin-bottom: 41.73px; 
+    margin-bottom: 4.173rem; 
 
     display: flex;
     flex-direction: column;
@@ -511,36 +510,35 @@ fieldset div input::placeholder {
 
 /* Paragraph's duos */
 .duos {
-    width: 980px;
+    width: 98rem;
     height: auto;
-    /*padding: 5px;*/
     display: flex;
     flex-direction: row;
     /*Eixo principal*/
     justify-content: center;
 
-    gap: 11.04px;  
+    gap: 1.104rem;  
 }
 
 /* Duo's visual identification */
 .duo-a {
     /*background-color: lightgreen;*/
-    margin-top: 8px; 
+    margin-top: 0.8rem; 
 }
 .duo-b {
     /*background-color: yellow;*/
-    margin-top: 4.74px; 
+    margin-top: 0.474rem; 
 }
 .duo-c {
     /*background-color: lightblue;*/
-    margin-top: 4.74px; 
+    margin-top: 0.474rem; 
 }
 
 /* Paragraphs */ 
 
 /* General adress inputs settings */
 .adress .duos p {
-    width: 490px;
+    width: 49rem;
     display: flex;
     flex-direction: column;
 
@@ -549,7 +547,7 @@ fieldset div input::placeholder {
 
 /*================Zip Code===================*/
 .adress .duo-a .zip-code {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-a .zip-code label {
@@ -557,16 +555,16 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-a .zip-code input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem; 
     border: none;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================House number===================*/
 .adress .duo-a .house-number {
-    font-size: 45px; 
+    font-size: 4.5rem; 
 }
 
 .adress .duo-a .house-number label {
@@ -574,16 +572,16 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-a .house-number input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem; 
     border: none;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================Street===================*/
 .adress .duo-b .street {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-b .street label {
@@ -591,16 +589,16 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-b .street input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem; 
     border: none; 
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================Neighborhood===================*/
 .adress .duo-b .neighborhood {
-    font-size: 45px; 
+    font-size: 4.5rem; 
 }
 
 .adress .duo-b .neighborhood label {
@@ -608,16 +606,16 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-b .neighborhood input {
-    height: 51.13px;
-    padding: 0 0 0 15px;  
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;  
     border: none;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================City===================*/
 .adress .duo-c .city {
-    font-size: 45px; 
+    font-size: 4.5rem; 
 }
 
 .adress .duo-c .city label {
@@ -625,17 +623,17 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-c .city input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem; 
     border: none;
-    border-radius:25px; 
-    font-size: 32px;
+    border-radius: 25px; 
+    font-size: 3.2rem;
 }
 
 /*================State===================*/
 
 .adress .duo-c .state {
-    font-size: 45px;
+    font-size: 4.5rem;
 }
 
 .adress .duo-c .state label {
@@ -643,20 +641,20 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-c .state input {
-    height: 51.13px;
-    padding: 0 0 0 15px; 
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem; 
     border: none;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================Complement===================*/ 
 .adress .complement {
     /*background-color: darkolivegreen;*/ 
-    width: 980px;
+    width: 98rem;
     height: auto;
-    margin-top: 8.93px;
-    font-size: 45px;
+    margin-top: 0.893rem;
+    font-size: 4.5rem;
 
     display: flex; 
     flex-direction: column;
@@ -668,11 +666,11 @@ fieldset div input::placeholder {
 }
 
 .adress .complement input {
-    height: 51.13px;
-    padding: 0 0 0 15px;
+    height: 5.113rem;
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================CONTACT===================*/
@@ -680,10 +678,10 @@ fieldset div input::placeholder {
 /* Contact general settings */
 .contact {
     background-color: indigo;
-    width: 1050px;
+    width: 105rem;
     height: auto;
     /* border: none; */
-    margin-bottom: 46.26px; 
+    margin-bottom: 4.626rem; 
 
     display: flex;
     flex-direction: column;  
@@ -695,9 +693,9 @@ fieldset div input::placeholder {
 
 /* Fieldset's title */
 .contacts-legend {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 3rem;
 
-    font-size: 70px;
+    font-size: 7rem;
     font-weight: bold;
 
     /*background-color: gray;*/
@@ -708,7 +706,7 @@ fieldset div input::placeholder {
     display: flex;
     flex-direction: column;
 
-    width: 980px;
+    width: 98rem;
     height: auto;
 }
 
@@ -717,23 +715,23 @@ fieldset div input::placeholder {
 /* Cellphone number settings */
 .phone-number {
     /*background-color: deepskyblue;*/
-    margin-top: 25px;
-    font-size: 45px;
+    margin-top: 2.5rem;
+    font-size: 4.5rem;
 }
 
 /* Input title settings */
 .phone-number label {
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 /* Input settings */
 .phone-number input {
-    height: 51.13px;
-    padding: 15px 0 18px 15px;
+    height: 5.113rem;
+    padding: 1.5rem 0 1.8rem 1.5rem;
     border-radius: 25px;
     border: none;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================E-MAIL===================*/
@@ -741,22 +739,22 @@ fieldset div input::placeholder {
 /* General email settings */
 .email {
     /*background-color: brown;*/ 
-    margin-top: 34.09px;
+    margin-top: 3.409rem;
 }
 
 /* Input title's settings */
 .email label {
-    font-size: 45px;
-    margin-bottom: 3px; 
+    font-size: 4.5rem;
+    margin-bottom: 0.3rem; 
 }
 
 /* Input settings */
 .email input {
-    height: 51.13px;
-    padding: 0 0 7px 10px; 
+    height: 5.113rem;
+    padding: 0 0 0.7rem 1rem; 
     border-radius: 25px;
     border: none;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 /*================HEALTH INFO===================*/
@@ -764,8 +762,6 @@ fieldset div input::placeholder {
     background-color: darkslategray;
     width: 100%;
     height: auto;
-
-    /* padding: 5px; */
 }
 
 /* Does the student has any DISABILITY? */
@@ -869,10 +865,8 @@ fieldset div input::placeholder {
 .health-info .pcd-yn .medical-report input {
     background-color: #FFFFFF;
 
-    /* width: 27.8rem; */
     width: 98rem;
     padding: 0.5rem;
-    /* border: 3px solid black; */
     border-radius: 2.5rem;
     margin-top: 1.2rem;
 
@@ -1004,7 +998,6 @@ fieldset div input::placeholder {
     /* width: 27.8rem; */
     width: 98rem;
     padding: 0.5rem;
-    border: 3px solid black;
     border-radius: 2.5rem;
     margin-top: 1.2rem;
 
@@ -1046,7 +1039,7 @@ fieldset div input::placeholder {
 #gi-textarea {
     width: 98rem;
     height: 30rem;
-    padding: 15px;
+    padding: 1.5rem;
     border: none;
     border-radius: 25px;
     margin: 0 0 0 3rem;
@@ -1112,14 +1105,14 @@ fieldset div input::placeholder {
 /*===============Botão CONTINUAR===================*/
 
 .botao-enviar button {
-    width: 980px;
-    height: 51.13px;  
+    width: 98rem;
+    height: 5.113rem;  
     border: none;
     border-radius: 25px;
     
     background-color: #1E3A5F;
     color: white; 
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: bold;
     cursor: pointer;
 
@@ -1140,13 +1133,13 @@ fieldset div input::placeholder {
 
 /*===============RODAPÉ===================*/
 .rodape {
-    height: 100px; 
-    border-top: 1px solid black;
-    margin-top: 50px;
+    height: 10rem; 
+    border-top: 0.1rem solid black;
+    margin-top: 5rem;
 
     background-color: #DA1F81; 
     color: white;
-    font-size: 30px; 
+    font-size: 3rem; 
 
 
     display: flex;
