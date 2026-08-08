@@ -1,0 +1,26 @@
+Cores: 
+
+Azul escuro (letra C): #12367A
+Laranja (letra D): #F7941D
+Verde (letra H): #58A92A
+Azul petróleo (letra M): #0A5A73
+
+Cinza (tema geral) - #808080
+Branco (tema geral) - #FFFFFF
+Cor do placeholder: #BDBCBC 
+
+
+Fontes:
+
+CDHM - Futura ou Century Gothic
+CENTRO DE DESENVOLVIMENTO HUMANO MUSICAL - Nunito
+ESCOLA DE MÚSICA - Nunito Bold
+
+Formulário de matrícula
+
+
+Símbolo da CDHM à esquerda
+
+CDHM
+Centro de Desenvolvimento Humano Musical
+Formulário de inscrição
