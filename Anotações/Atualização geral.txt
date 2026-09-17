@@ -1,0 +1,13 @@
+- Semantic
+- Rename all the classes to english - OK
+- Accessibility
+
+- Scalable propeties
+
+- Media query mobile/smartphone
+- Final deploy
+
+
+
+
+"tag com papel estrutural específico"

@@ -22,6 +22,7 @@ html {
 }
 
 body {
+    background-color: #181a1b;
     /* Box model */
     width: 100%;
     min-height: 100vh;
@@ -31,21 +32,9 @@ body {
     font-size: 1.6rem;
 }
 
-/*================HEADER===================*/
+/*=== HEADER ===*/
 .header {
     /* Box model*/
-    width: 100%;
-    height: auto;
-
-    padding: 1rem;
-
-    /* Cores */
-    background-color: #808080;
-}
-
-/*================Header content===================*/
-.header-content {
-    /* background-color: aqua; */    
     width: 100%;
     height: auto;
 
@@ -59,6 +48,9 @@ body {
     justify-content: flex-start;
     /*  cross-axis */
     align-items: center;
+
+    /* Colors */ 
+    background-color: #808080;
 }
 
 /*================Images===================*/
@@ -87,12 +79,12 @@ body {
     align-items: center;
 }
 
-.heading-1 {
+.title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12.5rem;
 }
 
-.heading-2 {
+.subtitle {
     font-size: 5rem;
 }
 

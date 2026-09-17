@@ -1,0 +1,12 @@
+Unificar e escalar:
+
+Centralização de containers
+Cores gerais
+input-container
+Label
+Input
+Adress
+Media query
+Legends
+Fieldset
+Classes específicas para propriedades individuais e pontuais
