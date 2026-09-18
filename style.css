@@ -53,7 +53,7 @@ body {
     background-color: #808080;
 }
 
-/*================Images===================*/
+/*=== Images ===*/
 .cdhm-icon {
     width: 28.4rem;
     height: 25.3rem;
@@ -65,7 +65,7 @@ body {
     /* background-color: blue; */
 }
 
-/*================Headings===================*/
+/*=== Headings ===*/
 .headings {
     /* background-color: rebeccapurple;  */
     color: #FFFFFF;
@@ -88,13 +88,16 @@ body {
     font-size: 5rem;
 }
 
-.heading-3 {
-    font-size: 4.5rem;
+.form-title {
+    /* background-color: #000000; */
+    margin-top: 2.5rem;
+    margin-left: -8.5rem;
+    font-size: 8rem;
 }
 
-/*================MAIN CONTENT===================*/
+/*=== MAIN CONTENT ===*/
 
-/*================Main content===================*/
+/*=== Main content ===*/
 /* main content */
 .main-content {
     /* Flex box */
@@ -102,7 +105,7 @@ body {
     justify-content: center;
 }
 
-/*================Formulary===================*/
+/*=== Formulary ===*/
 .formulary {
     /*Box model*/
     width: 115rem;
@@ -111,15 +114,13 @@ body {
     margin: 7rem 18rem 6.9rem 18rem;
     border-radius: 25px;
 
-    /* padding-bottom: 5rem; */
-
     /*Flex box*/
     display: flex;
-    /*Eixo principal ativo*/
+    /* current main-axis */
     flex-direction: column;
-    /*Eixo principal*/
-    justify-content: start;
-    /*Eixo transversal*/
+    /* main-axis */
+    justify-content: flex-start;
+    /* cross-axis */
     align-items: center;
 
     /*Cores*/
@@ -130,21 +131,22 @@ body {
     color: #FCF0F9;
 }
 
-/*================PEOPLE'S DATA===================*/
+/*=== PEOPLE'S DATA ===*/
 
 /* People's data section */
 .pps-data-section {
     width: auto;
     height: auto;
+    border: none;
     /* background-color: darkviolet; */
-    padding-top: 3.5rem;
+    margin-top: 2.5rem;
 }
 
 /* Section's title */
 .sections-title {
     /* background-color: black; */
     width: 100%;
-    padding-left: 3rem;
+    margin-left: 3rem;
     font-size: 7rem; 
 }
 
@@ -1096,7 +1098,7 @@ fieldset div input::placeholder {
     color: #000000;
 }
 
-/*===============Botão CONTINUAR===================*/
+/*=== Button CONTINUAR ===*/
 
 .botao-enviar button {
     width: 98rem;
