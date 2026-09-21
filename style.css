@@ -3,9 +3,10 @@
     /* Nome da fonte local no arquivo */
     font-family: 'arial-rounded-mt-bold-regular';
     /* Caminho */
-    src: url('./assets/fonts/arial_rounded_mt_bold_regular.ttf') 
-    /* Identificador de formato de arquivo */
-    format('truetype') /* Instruções na pasta do arquivo da fonte */
+    src: url('./assets/fonts/arial_rounded_mt_bold_regular.ttf')
+        /* Identificador de formato de arquivo */
+        format('truetype')
+        /* Instruções na pasta do arquivo da fonte */
 }
 
 /*================CSS general reset===================*/
@@ -49,7 +50,7 @@ body {
     /*  cross-axis */
     align-items: center;
 
-    /* Colors */ 
+    /* Colors */
     background-color: #808080;
 }
 
@@ -57,7 +58,7 @@ body {
 .cdhm-icon {
     width: 28.4rem;
     height: 25.3rem;
-    
+
     margin-left: 18rem;
 
     display: block;
@@ -110,7 +111,7 @@ body {
     /*Box model*/
     width: 115rem;
     height: auto;
-    
+
     margin: 7rem 18rem 6.9rem 18rem;
     border-radius: 25px;
 
@@ -147,7 +148,7 @@ body {
     /* background-color: black; */
     width: 100%;
     margin-left: 3rem;
-    font-size: 7rem; 
+    font-size: 7rem;
 }
 
 .frd-font-size {
@@ -184,7 +185,7 @@ body {
     /*Box model*/
     width: 98rem;
     height: auto;
-    
+
     /*Flex Box*/
     display: flex;
     flex-direction: column;
@@ -205,7 +206,7 @@ fieldset div input::placeholder {
 
 /* Input title settings */
 .full-name label {
-    /*Box model*/ 
+    /*Box model*/
     margin-bottom: 1.404rem;
 
     cursor: pointer;
@@ -223,7 +224,7 @@ fieldset div input::placeholder {
     font-size: 3.2rem;
 }
 
-/*================BIRTH DATE===================*/ 
+/*================BIRTH DATE===================*/
 
 /* General settings to birth date */
 .birth-date {
@@ -251,7 +252,7 @@ fieldset div input::placeholder {
     padding: 0 1.5rem 0 1.5rem;
     border-radius: 2.5rem;
     border: none;
-    
+
     /*Definições da fonte*/
     font-size: 3rem;
 }
@@ -261,6 +262,7 @@ fieldset div input::placeholder {
 .birth-date input {
     color: #BDBCBC;
 }
+
 /* Calendar icon */
 .birth-date input::-webkit-calendar-picker-indicator {
     opacity: 0.2;
@@ -270,10 +272,10 @@ fieldset div input::placeholder {
 
 /* Birth date color */
 .birth-date input:focus {
-    color: black; 
+    color: black;
 }
 
-/* Calendar icon color */ 
+/* Calendar icon color */
 .birth-date input:focus::-webkit-calendar-picker-indicator {
     opacity: 1.0;
 }
@@ -286,21 +288,21 @@ fieldset div input::placeholder {
     /*Box model*/
     margin-top: 0.902rem;
 
-    /* Font settings */ 
+    /* Font settings */
     font-size: 4.5rem;
 }
 
-/* Label settings */ 
+/* Label settings */
 .cpf label {
 
-    /*Box model*/ 
+    /*Box model*/
     margin-bottom: 1.404rem;
 
     /* Cursor settings */
     cursor: pointer;
 }
 
-/* Input settings */ 
+/* Input settings */
 .cpf input {
     /*Box model*/
     height: 5.113rem;
@@ -319,21 +321,21 @@ fieldset div input::placeholder {
     /*Box model*/
     margin-top: 0.902rem;
 
-    /* Font settings */ 
+    /* Font settings */
     font-size: 4.5rem;
 }
 
-/* Label settings */ 
+/* Label settings */
 .rg label {
 
-    /*Box model*/ 
+    /*Box model*/
     margin-bottom: 1.404rem;
 
     /* Cursor settings */
     cursor: pointer;
 }
 
-/* Input settings */ 
+/* Input settings */
 .rg input {
     /*Box model*/
     height: 5.113rem;
@@ -349,12 +351,24 @@ fieldset div input::placeholder {
 
 /* General section settings */
 .sex {
+    /* background-color: green; */
+
+    width: 98rem;
+    height: auto;
+
+    border: none;
     margin-top: 0.902rem;
+
+    /* Flex box */
+    display: flex;
+    /* main axis direction */
+    flex-direction: row;
 }
 
 /* Section's title */
 .sex .sex-option-title {
-    /* Font settings */ 
+    /* background-color: blue; */
+    /* Font settings */
     font-size: 4.5rem;
 }
 
@@ -368,10 +382,6 @@ fieldset div input::placeholder {
     display: flex;
     /* main axis direction */
     flex-direction: row;
-    /* main-axis */
-    justify-content: flex-start;
-    /* cross-axis */
-    align-items: center;    
 }
 
 /* General label settings */
@@ -400,25 +410,25 @@ fieldset div input::placeholder {
 /*================NACIONALITY===================*/
 
 .nationality {
-    /*background-color: darkgray;*/
+    /* background-color: darkgray; */
     /*Box model*/
     margin-top: 0.902rem;
 
-    /* Font settings */ 
+    /* Font settings */
     font-size: 4.5rem;
 }
 
-/* Label settings */ 
+/* Label settings */
 .nationality label {
 
-    /*Box model*/ 
+    /*Box model*/
     margin-bottom: 1.404rem;
 
     /* Cursor settings */
     cursor: pointer;
 }
 
-/* Input settings */ 
+/* Input settings */
 .nationality input {
     /*Box model*/
     height: 5.113rem;
@@ -433,38 +443,33 @@ fieldset div input::placeholder {
 /*================NATURALIDADE===================*/
 
 .naturality {
-    /* background-color: darkgray; */
+    /* background-color: #000; */
+
     /*Box model*/
-    width: auto;
+    width: 98rem;
     height: auto;
+
+    border: none;
     margin-top: 0.902rem;
-
-    /* Font settings */ 
-    font-size: 4.5rem;
-}
-
-.naturality .naturality-content {
-    /* background-color: #1E3A5F; */
-    width: 100%;
-    /* padding: 0.5rem; */
 
     /* Flex box */
     display: flex;
     /* main axis direction */
     flex-direction: row;
     gap: 1rem;
+
+    /* Font settings */
+    font-size: 4.5rem;
 }
 
 /* UF */
-.naturality .naturality-content #natu-state {
+.naturality #natu-state {
     /*Box model*/
-    /* width: 98rem; */
     width: 25rem;
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    
 
     /* Font settings */
     font-size: 3.2rem;
@@ -472,9 +477,9 @@ fieldset div input::placeholder {
 }
 
 /* City */
-.naturality .naturality-content #natu-city {
+.naturality #natu-city {
     /*Box model*/
-    width: 77.7rem;
+    width: 100%;
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border-radius: 25px;
@@ -486,7 +491,7 @@ fieldset div input::placeholder {
 }
 
 
-/*================ADRESS===================*/ 
+/*================ADRESS===================*/
 
 /* Fieldset adress */
 .adress {
@@ -494,12 +499,12 @@ fieldset div input::placeholder {
     width: 105rem;
     height: auto;
     border: none;
-    margin-bottom: 4.173rem; 
+    margin-bottom: 4.173rem;
 
     display: flex;
     flex-direction: column;
     /*Eixo transversal*/
-    align-items: center;   
+    align-items: center;
 }
 
 /* Paragraph's duos */
@@ -511,32 +516,34 @@ fieldset div input::placeholder {
     /*Eixo principal*/
     justify-content: center;
 
-    gap: 1.104rem;  
+    gap: 1.104rem;
 }
 
 /* Duo's visual identification */
 .duo-a {
     /*background-color: lightgreen;*/
-    margin-top: 0.8rem; 
+    margin-top: 0.8rem;
 }
+
 .duo-b {
     /*background-color: yellow;*/
-    margin-top: 0.474rem; 
+    margin-top: 0.474rem;
 }
+
 .duo-c {
     /*background-color: lightblue;*/
-    margin-top: 0.474rem; 
+    margin-top: 0.474rem;
 }
 
-/* Paragraphs */ 
+/* Paragraphs */
 
 /* General adress inputs settings */
-.adress .duos p {
+.adress .duos div {
     width: 49rem;
     display: flex;
     flex-direction: column;
 
-    /*background-color: darkviolet;*/ 
+    /*background-color: darkviolet;*/
 }
 
 /*================Zip Code===================*/
@@ -550,7 +557,7 @@ fieldset div input::placeholder {
 
 .adress .duo-a .zip-code input {
     height: 5.113rem;
-    padding: 0 0 0 1.5rem; 
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
     font-size: 3.2rem;
@@ -558,16 +565,16 @@ fieldset div input::placeholder {
 
 /*================House number===================*/
 .adress .duo-a .house-number {
-    font-size: 4.5rem; 
+    font-size: 4.5rem;
 }
 
 .adress .duo-a .house-number label {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .adress .duo-a .house-number input {
     height: 5.113rem;
-    padding: 0 0 0 1.5rem; 
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
     font-size: 3.2rem;
@@ -579,29 +586,29 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-b .street label {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .adress .duo-b .street input {
     height: 5.113rem;
-    padding: 0 0 0 1.5rem; 
-    border: none; 
+    padding: 0 0 0 1.5rem;
+    border: none;
     border-radius: 25px;
     font-size: 3.2rem;
 }
 
 /*================Neighborhood===================*/
 .adress .duo-b .neighborhood {
-    font-size: 4.5rem; 
+    font-size: 4.5rem;
 }
 
 .adress .duo-b .neighborhood label {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .adress .duo-b .neighborhood input {
     height: 5.113rem;
-    padding: 0 0 0 1.5rem;  
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
     font-size: 3.2rem;
@@ -609,18 +616,18 @@ fieldset div input::placeholder {
 
 /*================City===================*/
 .adress .duo-c .city {
-    font-size: 4.5rem; 
+    font-size: 4.5rem;
 }
 
 .adress .duo-c .city label {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .adress .duo-c .city input {
     height: 5.113rem;
-    padding: 0 0 0 1.5rem; 
+    padding: 0 0 0 1.5rem;
     border: none;
-    border-radius: 25px; 
+    border-radius: 25px;
     font-size: 3.2rem;
 }
 
@@ -631,26 +638,26 @@ fieldset div input::placeholder {
 }
 
 .adress .duo-c .state label {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .adress .duo-c .state input {
     height: 5.113rem;
-    padding: 0 0 0 1.5rem; 
+    padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
     font-size: 3.2rem;
 }
 
-/*================Complement===================*/ 
+/*================Complement===================*/
 .adress .complement {
-    /*background-color: darkolivegreen;*/ 
+    /*background-color: darkolivegreen;*/
     width: 98rem;
     height: auto;
     margin-top: 0.893rem;
     font-size: 4.5rem;
 
-    display: flex; 
+    display: flex;
     flex-direction: column;
 }
 
@@ -675,10 +682,10 @@ fieldset div input::placeholder {
     width: 105rem;
     height: auto;
     border: none;
-    margin-bottom: 4.626rem; 
+    margin-bottom: 4.626rem;
 
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     /*Eixo transversal*/
     align-items: center;
 
@@ -732,20 +739,20 @@ fieldset div input::placeholder {
 
 /* General email settings */
 .email {
-    /*background-color: brown;*/ 
+    /*background-color: brown;*/
     margin-top: 3.409rem;
 }
 
 /* Input title's settings */
 .email label {
     font-size: 4.5rem;
-    margin-bottom: 0.3rem; 
+    margin-bottom: 0.3rem;
 }
 
 /* Input settings */
 .email input {
     height: 5.113rem;
-    padding: 0 0 0.7rem 1rem; 
+    padding: 0 0 0.7rem 1rem;
     border-radius: 25px;
     border: none;
     font-size: 3.2rem;
@@ -762,6 +769,7 @@ fieldset div input::placeholder {
 /* Does the student has any DISABILITY? */
 .health-info .pcd-yn {
     /* background-color: aqua; */
+    border: none;
     margin-top: 4.2rem;
 }
 
@@ -782,7 +790,7 @@ fieldset div input::placeholder {
     width: auto;
     height: auto;
 
-    margin: 3.4rem 0 0 3rem;
+    margin: 3rem 0 0 3rem;
 
     /* Flex box */
     display: flex;
@@ -791,13 +799,13 @@ fieldset div input::placeholder {
     /* main-axis */
     justify-content: flex-start;
     /* cross-axis */
-    align-items: center; 
+    align-items: center;
 }
 
 /* General label settings */
 .health-info .pcd-yn .pcd-options label {
     /* background-color: brown; */
-    
+
     /* Box model */
     margin-left: 0.3rem;
 
@@ -838,10 +846,13 @@ fieldset div input::placeholder {
     border: none;
     border-radius: 25px;
     margin: 2.287rem 0 0 3rem;
-    
+
     font-size: 3.2rem;
 }
 
+.disa-name {
+    font-size: 4rem;
+}
 
 /* Medica report file */
 .health-info .pcd-yn .medical-report {
@@ -853,7 +864,7 @@ fieldset div input::placeholder {
     gap: 1.2rem;
 }
 
-.health-info .pcd-yn .medical-report span {
+.health-info .pcd-yn .medical-report label {
     font-size: 4rem;
 }
 
@@ -891,8 +902,9 @@ fieldset div input::placeholder {
 
 /* Does the student has any ALLERGY? */
 .health-info .allergy-yn {
-    /* background-color: aqua; */
     margin-top: 4.2rem;
+    border: none;
+    /* background-color: aqua; */
 }
 
 .health-info .allergy-yn .allergy-title {
@@ -921,13 +933,13 @@ fieldset div input::placeholder {
     /* main-axis */
     justify-content: flex-start;
     /* cross-axis */
-    align-items: center; 
+    align-items: center;
 }
 
 /* General label settings */
 .health-info .allergy-yn .allergy-options label {
     /* background-color: brown; */
-    
+
     /* Box model */
     margin-left: 0.3rem;
 
@@ -968,7 +980,7 @@ fieldset div input::placeholder {
     border: none;
     border-radius: 25px;
     margin: 2.287rem 0 0 3rem;
-    
+
     font-size: 3.2rem;
 }
 
@@ -983,7 +995,7 @@ fieldset div input::placeholder {
     gap: 1.2rem;
 }
 
-.health-info .allergy-yn .medical-report span {
+.health-info .allergy-yn .medical-report label {
     font-size: 4rem;
 }
 
@@ -1061,7 +1073,7 @@ fieldset div input::placeholder {
     margin: 0 0 0 3rem;
 }
 
-.students-photo span {
+.students-photo label {
     /* background-color: blue; */
     font-size: 2.5rem;
 }
@@ -1102,13 +1114,13 @@ fieldset div input::placeholder {
 
 .botao-enviar button {
     width: 98rem;
-    height: 5.113rem;  
+    height: 5.113rem;
     border: none;
     border-radius: 25px;
     margin-bottom: 4.6rem;
-    
+
     background-color: #003366;
-    color: white; 
+    color: white;
     font-size: 4.8rem;
     font-weight: bold;
     cursor: pointer;
@@ -1118,7 +1130,7 @@ fieldset div input::placeholder {
     /*Eixo principal*/
     justify-content: center;
     /*Eixo transversal*/
-    align-items: center;  
+    align-items: center;
 }
 
 .botao-enviar button:hover {
@@ -1130,13 +1142,13 @@ fieldset div input::placeholder {
 
 /*===============RODAPÉ===================*/
 .rodape {
-    height: 10rem; 
+    height: 10rem;
     border-top: 0.1rem solid black;
     margin-top: 5rem;
 
-    background-color: #DA1F81; 
+    background-color: #DA1F81;
     color: white;
-    font-size: 3rem; 
+    font-size: 3rem;
 
 
     display: flex;
@@ -1144,5 +1156,5 @@ fieldset div input::placeholder {
     /*Eixo principal*/
     justify-content: space-around;
     /*Eixo transversal*/
-    align-items: center; 
+    align-items: center;
 }

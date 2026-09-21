@@ -69,142 +69,138 @@
                     </div>
 
                     <!-- Sex -->
-                    <div class="sex">
+                    <fieldset class="sex">
                         <!-- Visual id -->
-                        <span class="sex-option-title">Sexo</span>
+                        <legend class="sex-option-title">Sexo</legend>
 
-                        <div class="sex-option">
-                            <div class="male">
-                                <input type="radio" id="student-sex-male" name="students-sex" value="male">
-                                <label for="student-sex-male">Masculino</label>
-                            </div>
-
-                            <div class="female">
-                                <input type="radio" id="student-sex-female" name="students-sex" value="female">
-                                <label for="student-sex-female">Feminino</label>
-                            </div>
+                        <div class="male">
+                            <input type="radio" id="student-sex-male" name="students-sex" value="male">
+                            <label for="student-sex-male">Masculino</label>
                         </div>
-                    </div>
+
+                        <div class="female">
+                            <input type="radio" id="student-sex-female" name="students-sex" value="female">
+                            <label for="student-sex-female">Feminino</label>
+                        </div>
+                    </fieldset>
 
                     <div class="nationality">
                         <label for="nationality">Nacionalidade</label>
                         <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
                     </div>
 
-                    <div class="naturality">
-                        <span>Naturalidade</span>
-                        <div class="naturality-content">
-                            <!-- <label for="city">Cidade</label> -->
-                            <select id="natu-state" name="natu-state">
-                                <option value="" selected disabled>UF</option>
-                                <option value="AC">AC</option>
-                                <option value="AL">AL</option>
-                                <option value="AP">AP</option>
-                                <option value="AM">AM</option>
-                                <option value="BA">BA</option>
-                                <option value="CE">CE</option>
-                                <option value="DF">DF</option>
-                                <option value="ES">ES</option>
-                                <option value="GO">GO</option>
-                                <option value="MA">MA</option>
-                                <option value="MT">MT</option>
-                                <option value="MS">MS</option>
-                                <option value="MG">MG</option>
-                                <option value="PA">PA</option>
-                                <option value="PB">PB</option>
-                                <option value="PR">PR</option>
-                                <option value="PE">PE</option>
-                                <option value="PI">PI</option>
-                                <option value="RJ">RJ</option>
-                                <option value="RN">RN</option>
-                                <option value="RS">RS</option>
-                                <option value="RO">RO</option>
-                                <option value="RR">RR</option>
-                                <option value="SC">SC</option>
-                                <option value="SP">SP</option>
-                                <option value="SE">SE</option>
-                                <option value="TO">TO</option>
-                                <option value="EX">EX</option>
-                            </select>
+                    <fieldset class="naturality">
+                        <legend>Naturalidade</legend>
 
-                            <select id="natu-city" name="natu-city">
-                                <option value="" selected disabled>Cidade</option>
-                                <option value="Cidade-A">Cidade-A</option>
-                                <option value="Cidade-B">Cidade-B</option>
-                                <option value="Cidade-C">Cidade-C</option>
-                                <option value="Cidade-D">Cidade-D</option>
-                                <option value="Cidade-E">Cidade-E</option>
-                                <option value="Cidade-F">Cidade-F</option>
-                                <option value="Cidade-G">Cidade-G</option>
-                                <option value="Cidade-H">Cidade-H</option>
-                                <option value="Cidade-I">Cidade-I</option>
-                                <option value="Cidade-J">Cidade-J</option>
-                                <option value="Cidade-K">Cidade-K</option>
-                                <option value="Cidade-L">Cidade-L</option>
-                                <option value="Cidade-M">Cidade-M</option>
-                                <option value="Cidade-N">Cidade-N</option>
-                                <option value="Cidade-O">Cidade-O</option>
-                                <option value="Cidade-P">Cidade-P</option>
-                                <option value="Cidade-Q">Cidade-Q</option>
-                                <option value="Cidade-R">Cidade-R</option>
-                                <option value="Cidade-S">Cidade-S</option>
-                                <option value="Cidade-T">Cidade-T</option>
-                                <option value="Cidade-U">Cidade-U</option>
-                                <option value="Cidade-V">Cidade-V</option>
-                                <option value="Cidade-W">Cidade-W</option>
-                                <option value="Cidade-X">Cidade-X</option>
-                                <option value="Cidade-Y">Cidade-Y</option>
-                                <option value="Cidade-Z">Cidade-Z</option>
-                            </select>
-                        </div>
-                    </div>
+                        <select id="natu-state" name="natu-state">
+                            <option value="" selected disabled>UF</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MT">MT</option>
+                            <option value="MS">MS</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                            <option value="EX">EX</option>
+                        </select>
+
+                        <select id="natu-city" name="natu-city">
+                            <option value="" selected disabled>Cidade</option>
+                            <option value="Cidade-A">Cidade-A</option>
+                            <option value="Cidade-B">Cidade-B</option>
+                            <option value="Cidade-C">Cidade-C</option>
+                            <option value="Cidade-D">Cidade-D</option>
+                            <option value="Cidade-E">Cidade-E</option>
+                            <option value="Cidade-F">Cidade-F</option>
+                            <option value="Cidade-G">Cidade-G</option>
+                            <option value="Cidade-H">Cidade-H</option>
+                            <option value="Cidade-I">Cidade-I</option>
+                            <option value="Cidade-J">Cidade-J</option>
+                            <option value="Cidade-K">Cidade-K</option>
+                            <option value="Cidade-L">Cidade-L</option>
+                            <option value="Cidade-M">Cidade-M</option>
+                            <option value="Cidade-N">Cidade-N</option>
+                            <option value="Cidade-O">Cidade-O</option>
+                            <option value="Cidade-P">Cidade-P</option>
+                            <option value="Cidade-Q">Cidade-Q</option>
+                            <option value="Cidade-R">Cidade-R</option>
+                            <option value="Cidade-S">Cidade-S</option>
+                            <option value="Cidade-T">Cidade-T</option>
+                            <option value="Cidade-U">Cidade-U</option>
+                            <option value="Cidade-V">Cidade-V</option>
+                            <option value="Cidade-W">Cidade-W</option>
+                            <option value="Cidade-X">Cidade-X</option>
+                            <option value="Cidade-Y">Cidade-Y</option>
+                            <option value="Cidade-Z">Cidade-Z</option>
+                        </select>
+                    </fieldset>
                 </fieldset>
 
                 <!-- ADRESS -->
                 <fieldset class="adress categoria">
-                    <!--Título do campo-->
+                    <!-- Field's title -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
-                        <!--Entrada - CEP-->
-                        <p class="zip-code">
+                        <!-- CEP -->
+                        <div class="zip-code">
                             <label for="zip-code">CEP</label>
                             <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
-                        </p>
+                        </div>
 
-                        <!--Entrada - Número da casa-->
-                        <p class="house-number">
+                        <!-- House number -->
+                        <div class="house-number">
                             <label for="house-number">Número</label>
                             <input type="text" id="house-number" name="house-number" placeholder="0000">
-                        </p>
+                        </div>
                     </div>
 
                     <div class="duo-b duos">
-                        <!--Entrada - Nome da rua-->
-                        <p class="street">
+                        <!-- Street's name -->
+                        <div class="street">
                             <label for="street">Rua</label>
                             <input type="text" id="street" name="street" placeholder="Rua exemplo">
-                        </p>
+                        </div>
 
-                        <!--Entrada - Nome do bairro-->
-                        <p class="neighborhood">
+                        <!-- Neightborhood's name -->
+                        <div class="neighborhood">
                             <label for="neighborhood">Bairro</label>
                             <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
-                        </p>
+                        </div>
                     </div>
 
                     <div class="duo-c duos">
                         <!--Entrada - Nome da cidade-->
-                        <p class="city">
+                        <div class="city">
                             <label for="city">Cidade</label>
                             <input type="text" id="city" name="city" placeholder="Cidade exemplo">
-                        </p>
+                        </div>
 
                         <!--Entrada - Estado-->
-                        <p class="state">
+                        <div class="state">
                             <label for="state">Estado</label>
                             <input type="text" id="state" name="state" placeholder="EE">
-                        </p>
+                        </div>
                     </div>
 
                     <!--Entrada - Complemento-->
@@ -237,8 +233,8 @@
                     <legend class="fs-legend">Informações de saúde</legend>
 
                     <!-- DISABILITY -->
-                    <div class="pcd-yn">
-                        <span class="pcd-title">O aluno(a) é PCD?</span>
+                    <fieldset class="pcd-yn">
+                        <legend class="pcd-title">O participante é PCD?</legend>
 
                         <div class="pcd-options">
                             <div class="option-yes option">
@@ -252,20 +248,22 @@
                             </div>
                         </div>
 
-
-                        <input type="text" id="disa-name" name="disa-name" placeholder="Informe o nome da deficiência">
-
+                        <div class="disa-name-container">
+                            <label class="medical-report disa-name" for="disa-name">Nome da deficiência</label>
+                            <input type="text" id="disa-name" name="disa-name"
+                            placeholder="Informe o nome da deficiência">
+                        </div>
 
                         <div class="medical-report">
-                            <span for="mr-file">Anexe o laudo abaixo</span>
+                            <label class="mr-file" for="mr-file">Anexe o laudo abaixo</label>
                             <input type="file" id="mr-file" name="mr-file">
                         </div>
-                    </div>
+                    </fieldset>
 
 
                     <!-- ALLERGY -->
-                    <div class="allergy-yn">
-                        <span class="allergy-title">O aluno(a) tem alergia?</span>
+                    <fieldset class="allergy-yn">
+                        <legend class="allergy-title">O participante tem alergia?</legend>
 
                         <div class="allergy-options">
                             <div class="option-yes option">
@@ -279,15 +277,16 @@
                             </div>
                         </div>
 
-
-                        <input type="text" id="allergy-name" name="disa-name" placeholder="Informe o nome da alergia">
-
+                        <div class="disa-name-container">
+                            <label class="medical-report disa-name" for="allergy-name">Nome da alergia</label>
+                            <input type="text" id="allergy-name" name="disa-name" placeholder="Informe o nome da alergia">
+                        </div>
 
                         <div class="medical-report">
-                            <span for="mr-file">Anexe o laudo abaixo</span>
+                            <label for="mr-file">Anexe o laudo abaixo</label>
                             <input type="file" id="mr-file" name="mr-file">
                         </div>
-                    </div>
+                    </fieldset>
 
                     <!-- GENERAL INFO -->
                     <div class="general-info">
@@ -300,10 +299,10 @@
 
                 <!-- STUDENT'S PHOTO -->
                 <fieldset class="students-photo">
-                    <legend class="sf-title">Foto do aluno</legend>
+                    <legend class="sf-title">Foto do participante</legend>
 
                     <div>
-                        <span>Anexe a foto abaixo</span>
+                        <label for="students-photo">Anexe a foto abaixo</label>
                         <input type="file" id="students-photo" name="students-photo">
                     </div>
                 </fieldset>
