@@ -1,0 +1,9 @@
+Sobre a class "sex":
+
+Em formulários HTML
+
+Quando há múltiplos inputs do tipo radio (ou checkbox) em um mesmo grupo, o guia de acessibilidade recomenda o uso de <fieldset> e <legend>.
+Isto permite que leitores de tela identifiquem a legenda do grupo. 
+
+
+<fieldset> e <legend> serve exatamente para agrupar semanticamente elementos de um formulário que possuem uma relação direta entre si
