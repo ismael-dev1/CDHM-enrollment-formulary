@@ -1,6 +1,7 @@
-- Semantic
+- Semantic - OK
 - Rename all the classes to english - OK
-- Accessibility
+- Accessibility (rem) - OK 
+- Comments - OK
 
 - Scalable propeties
 
