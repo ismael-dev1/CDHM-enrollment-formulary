@@ -31,7 +31,10 @@ body {
     font-size: 1.6rem;
 }
 
-.general-alignment {
+
+
+
+.general-central-alignment {
     /*Flex box*/
     display: flex;
     /* current main-axis */
@@ -39,6 +42,15 @@ body {
     /* cross-axis */
     align-items: center;
 }
+
+.general-ipc-alignment {
+    /* Flex Box */
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
 
 /*=== HEADER ===*/
 .header {
@@ -164,10 +176,6 @@ body {
     /* Box model */
     width: 98rem;
     height: auto;
-
-    /* Flex Box */
-    display: flex;
-    flex-direction: column;
 }
 
 /*=== COLOR FOR ALL PLACEHOLDERS ===*/
@@ -474,23 +482,18 @@ fieldset div input::placeholder {
 
 /* Fieldset adress */
 .adress {
-    background-color: blue;
+    /* background-color: blue; */
     width: 105rem;
     height: auto;
     border: none;
     margin-bottom: 4.173rem;
-
-    display: flex;
-    /* current main-axis */
-    flex-direction: column;
-    /* cross-axis */
-    align-items: center;
 }
 
 /* Paragraph's duos */
 .duos {
     width: 98rem;
     height: auto;
+
     display: flex;
     flex-direction: row;
     /* main-axis */
@@ -519,11 +522,8 @@ fieldset div input::placeholder {
 
 /* General adress inputs settings */
 .adress .duos div {
+    /* background-color: #000000; */
     width: 49rem;
-    display: flex;
-    flex-direction: column;
-
-    /* background-color: darkviolet; */
 }
 
 /*=== Zip Code ===*/
@@ -631,14 +631,11 @@ fieldset div input::placeholder {
 
 /*=== Complement ===*/
 .adress .complement {
-    /*background-color: darkolivegreen;*/
+    /* background-color: darkolivegreen; */
     width: 98rem;
     height: auto;
     margin-top: 0.893rem;
     font-size: 4.5rem;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .adress .complement label {
@@ -663,13 +660,6 @@ fieldset div input::placeholder {
     height: auto;
     border: none;
     margin-bottom: 4.626rem;
-
-    display: flex;
-    flex-direction: column;
-    /* cross-axis */
-    align-items: center;
-
-    /*background-color: forestgreen;*/
 }
 
 /* Fieldset's title */
@@ -684,8 +674,7 @@ fieldset div input::placeholder {
 
 /* General contact paragraph settings */
 .contact div {
-    display: flex;
-    flex-direction: column;
+    /* background-color: #000000; */
 
     width: 98rem;
     height: auto;
@@ -815,8 +804,19 @@ fieldset div input::placeholder {
 }
 
 /* Disability name */
+
+.disa-name-container {
+    /* background-color: #000000; */
+
+    margin: 2.287rem 0 0 3rem;
+}
+
+.disa-name {
+    font-size: 4rem;
+}
+
 .health-info .pcd-yn #disa-name {
-    /* background-color: yellow; */
+    /* background-color: black; */
 
     display: block;
 
@@ -825,23 +825,17 @@ fieldset div input::placeholder {
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    margin: 2.287rem 0 0 3rem;
+    margin: 2.287rem 0 0 0;
 
     font-size: 3.2rem;
 }
 
-.disa-name {
-    font-size: 4rem;
-}
+
 
 /* Medica report file */
 .health-info .pcd-yn .medical-report {
     /* background-color: blue; */
     margin: 2.287rem 0 0 3rem;
-
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
 }
 
 .health-info .pcd-yn .medical-report label {
@@ -948,7 +942,17 @@ fieldset div input::placeholder {
     margin-left: 1rem;
 }
 
-/* Disability name */
+/* Allergy name */ 
+.allergy-name-container {
+    /* background-color: blue; */
+
+    margin: 2.287rem 0 0 3rem;
+}
+
+.allergy-name {
+    font-size: 4rem;
+}
+
 .health-info .allergy-yn #allergy-name {
     /* background-color: yellow; */
 
@@ -959,7 +963,7 @@ fieldset div input::placeholder {
     padding: 0 0 0 1.5rem;
     border: none;
     border-radius: 25px;
-    margin: 2.287rem 0 0 3rem;
+    margin: 2.287rem 0 0 0; 
 
     font-size: 3.2rem;
 }
@@ -969,10 +973,6 @@ fieldset div input::placeholder {
 .health-info .allergy-yn .medical-report {
     /* background-color: blue; */
     margin: 2.287rem 0 0 3rem;
-
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
 }
 
 .health-info .allergy-yn .medical-report label {
@@ -1011,11 +1011,7 @@ fieldset div input::placeholder {
 
 /* GENERAL INFO */
 .general-info {
-    /* background-color: aqua; */
     margin: 3.17rem 0 0 0;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .gi-title {
@@ -1103,13 +1099,6 @@ fieldset div input::placeholder {
     font-size: 4.8rem;
     font-weight: bold;
     cursor: pointer;
-
-    display: flex;
-    flex-direction: row;
-    /*Eixo principal*/
-    justify-content: center;
-    /*Eixo transversal*/
-    align-items: center;
 }
 
 .botao-enviar button:hover {

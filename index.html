@@ -16,7 +16,7 @@
     <header class="header">
         <img class="cdhm-icon" src="./assets/images/SVG/Ícone CDHM.svg" alt="ícone da cdhm">
 
-        <div class="headings general-alignment">
+        <div class="headings general-central-alignment">
             <h1 class="title">
                 CDHM
             </h1>
@@ -27,9 +27,9 @@
         </div>
     </header>
 
-    <main class="main-content general-alignment">
+    <main class="main-content general-central-alignment">
         <!-- FORMULARY -->
-        <form class="formulary general-alignment" action="#" method="#" target="_blank" autocomplete="off">
+        <form class="formulary general-central-alignment" action="#" method="#" target="_blank" autocomplete="off">
             <h3 class="form-title">
                 Formulário de cadastro
             </h3>
@@ -40,30 +40,30 @@
                 <legend class="sections-title">Dados do participante</legend>
 
                 <!-- PERSONAL DATA -->
-                <fieldset class="personal-data general-alignment">
+                <fieldset class="personal-data general-central-alignment">
                     <!-- Field's title -->
                     <legend class="fs-legend">Dados pessoais</legend>
 
                     <!-- Full name -->
-                    <div class="full-name">
+                    <div class="full-name general-ipc-alignment">
                         <label for="full-name">Nome completo</label>
                         <input type="text" id="full-name" name="full-name" placeholder="ex: João da Silva">
                     </div>
 
                     <!-- Birth date -->
-                    <div class="birth-date">
+                    <div class="birth-date general-ipc-alignment">
                         <label for="birth-date">Data de nascimento</label>
                         <input type="date" id="birth-date" name="birth-date">
                     </div>
 
                     <!-- CPF -->
-                    <div class="cpf">
+                    <div class="cpf general-ipc-alignment">
                         <label for="cpf">CPF</label>
                         <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
                     </div>
 
                     <!-- RG -->
-                    <div class="rg">
+                    <div class="rg general-ipc-alignment">
                         <label for="rg">RG</label>
                         <input type="text" id="rg" name="rg" placeholder="00.000.000-0">
                     </div>
@@ -84,7 +84,7 @@
                         </div>
                     </fieldset>
 
-                    <div class="nationality">
+                    <div class="nationality general-ipc-alignment">
                         <label for="nationality">Nacionalidade</label>
                         <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
                     </div>
@@ -157,19 +157,19 @@
                 </fieldset>
 
                 <!-- ADRESS -->
-                <fieldset class="adress categoria">
+                <fieldset class="adress general-central-alignment">
                     <!-- Field's title -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
                         <!-- CEP -->
-                        <div class="zip-code">
+                        <div class="zip-code general-ipc-alignment">
                             <label for="zip-code">CEP</label>
                             <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
                         </div>
 
                         <!-- House number -->
-                        <div class="house-number">
+                        <div class="house-number general-ipc-alignment">
                             <label for="house-number">Número</label>
                             <input type="text" id="house-number" name="house-number" placeholder="0000">
                         </div>
@@ -177,13 +177,13 @@
 
                     <div class="duo-b duos">
                         <!-- Street's name -->
-                        <div class="street">
+                        <div class="street general-ipc-alignment">
                             <label for="street">Rua</label>
                             <input type="text" id="street" name="street" placeholder="Rua exemplo">
                         </div>
 
-                        <!-- Neightborhood's name -->
-                        <div class="neighborhood">
+                        <!-- Neighborhood's name -->
+                        <div class="neighborhood general-ipc-alignment">
                             <label for="neighborhood">Bairro</label>
                             <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
                         </div>
@@ -191,38 +191,38 @@
 
                     <div class="duo-c duos">
                         <!-- City's name -->
-                        <div class="city">
+                        <div class="city general-ipc-alignment">
                             <label for="city">Cidade</label>
                             <input type="text" id="city" name="city" placeholder="Cidade exemplo">
                         </div>
 
                         <!-- State -->
-                        <div class="state">
+                        <div class="state general-ipc-alignment">
                             <label for="state">Estado</label>
                             <input type="text" id="state" name="state" placeholder="EE">
                         </div>
                     </div>
 
                     <!-- Complement -->
-                    <div class="complement">
+                    <div class="complement general-ipc-alignment">
                         <label for="complement">Complemento</label>
                         <input type="text" id="complement" name="complement" placeholder="Complemento exemplo">
                     </div>
                 </fieldset>
 
                 <!-- CONTACT -->
-                <fieldset class="contact">
+                <fieldset class="contact general-central-alignment">
                     <!-- Field's title -->
                     <legend class="contacts-legend">Contato</legend>
 
                     <!-- Phone number -->
-                    <div class="phone-number">
+                    <div class="phone-number general-ipc-alignment">
                         <label for="phone-number">Telefone</label>
                         <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000">
                     </div>
 
                     <!-- E-mail -->
-                    <div class="email">
+                    <div class="email general-ipc-alignment">
                         <label for="email">E-mail</label>
                         <input type="email" id="email" name="email" placeholder="exemplo@email.com">
                     </div>
@@ -249,7 +249,7 @@
                         </div>
 
                         <div class="disa-name-container">
-                            <label class="medical-report disa-name" for="disa-name">Nome da deficiência</label>
+                            <label class=" disa-name" for="disa-name">Nome da deficiência</label>
                             <input type="text" id="disa-name" name="disa-name"
                                 placeholder="Informe o nome da deficiência">
                         </div>
@@ -277,10 +277,10 @@
                             </div>
                         </div>
 
-                        <div class="disa-name-container">
-                            <label class="medical-report disa-name" for="allergy-name">Nome da alergia</label>
+                        <div class="allergy-name-container">
+                            <label class=" allergy-name" for="allergy-name">Nome da alergia</label>
                             <input type="text" id="allergy-name" name="disa-name"
-                                placeholder="Informe o nome da alergia">
+                            placeholder="Informe o nome da alergia">
                         </div>
 
                         <div class="medical-report">
@@ -290,7 +290,7 @@
                     </fieldset>
 
                     <!-- GENERAL INFO -->
-                    <div class="general-info">
+                    <div class="general-info general-ipc-alignment">
                         <label class="gi-title" for="gi-textarea">Observações gerais</label>
 
                         <textarea id="gi-textarea" name="gi-textarea" rows="50" cols="50">
@@ -317,30 +317,30 @@
                 <legend class="sections-title">Dados do responsável legal </legend>
 
                 <!-- PERSONAL DATA -->
-                <fieldset class="personal-data general-alignment">
+                <fieldset class="personal-data general-central-alignment">
                     <!-- Field's title -->
                     <legend class="fs-legend">Dados pessoais</legend>
 
                     <!-- Full name -->
-                    <div class="full-name">
+                    <div class="full-name general-ipc-alignment">
                         <label for="full-name">Nome completo</label>
                         <input type="text" id="full-name" name="full-name" placeholder="ex: João da Silva">
                     </div>
 
                     <!-- Birth date -->
-                    <div class="birth-date">
+                    <div class="birth-date general-ipc-alignment">
                         <label for="birth-date">Data de nascimento</label>
                         <input type="date" id="birth-date" name="birth-date">
                     </div>
 
                     <!-- CPF -->
-                    <div class="cpf">
+                    <div class="cpf general-ipc-alignment">
                         <label for="cpf">CPF</label>
                         <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
                     </div>
 
                     <!-- RG -->
-                    <div class="rg">
+                    <div class="rg general-ipc-alignment">
                         <label for="rg">RG</label>
                         <input type="text" id="rg" name="rg" placeholder="00.000.000-0">
                     </div>
@@ -361,7 +361,7 @@
                         </div>
                     </fieldset>
 
-                    <div class="nationality">
+                    <div class="nationality general-ipc-alignment">
                         <label for="nationality">Nacionalidade</label>
                         <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
                     </div>
@@ -434,19 +434,19 @@
                 </fieldset>
 
                 <!-- ADRESS -->
-                <fieldset class="adress categoria">
+                <fieldset class="adress general-central-alignment">
                     <!-- Fieldset's title -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
                         <!-- CEP -->
-                        <div class="zip-code">
+                        <div class="zip-code general-ipc-alignment">
                             <label for="zip-code">CEP</label>
                             <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
                         </div>
 
                         <!-- House number -->
-                        <div class="house-number">
+                        <div class="house-number general-ipc-alignment">
                             <label for="house-number">Número</label>
                             <input type="text" id="house-number" name="house-number" placeholder="0000">
                         </div>
@@ -454,13 +454,13 @@
 
                     <div class="duo-b duos">
                         <!--Entrada - Nome da rua-->
-                        <div class="street">
+                        <div class="street general-ipc-alignment">
                             <label for="street">Rua</label>
                             <input type="text" id="street" name="street" placeholder="Rua exemplo">
                         </div>
 
                         <!-- Neighborhood -->
-                        <div class="neighborhood">
+                        <div class="neighborhood general-ipc-alignment">
                             <label for="neighborhood">Bairro</label>
                             <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
                         </div>
@@ -468,38 +468,38 @@
 
                     <div class="duo-c duos">
                         <!-- City's name -->
-                        <div class="city">
+                        <div class="city general-ipc-alignment">
                             <label for="city">Cidade</label>
                             <input type="text" id="city" name="city" placeholder="Cidade exemplo">
                         </div>
 
                         <!-- State -->
-                        <div class="state">
+                        <div class="state general-ipc-alignment">
                             <label for="state">Estado</label>
                             <input type="text" id="state" name="state" placeholder="EE">
                         </div>
                     </div>
 
                     <!-- Complement -->
-                    <div class="complement">
+                    <div class="complement general-ipc-alignment">
                         <label for="complement">Complemento</label>
                         <input type="text" id="complement" name="complement" placeholder="Complemento exemplo">
                     </div>
                 </fieldset>
 
                 <!-- CONTACT -->
-                <fieldset class="contact">
+                <fieldset class="contact general-central-alignment">
                     <!--Título do campo-->
                     <legend class="contacts-legend">Contato</legend>
 
                     <!-- Phone number -->
-                    <div class="phone-number">
+                    <div class="phone-number general-ipc-alignment">
                         <label for="phone-number">Telefone</label>
                         <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000">
                     </div>
 
                     <!-- E-mail -->
-                    <div class="email">
+                    <div class="email general-ipc-alignment">
                         <label for="email">E-mail</label>
                         <input type="email" id="email" name="email" placeholder="exemplo@email.com">
                     </div>
@@ -517,30 +517,30 @@
                 <legend class="sections-title frd-font-size">Dados do responsável financeiro</legend>
 
                 <!-- PERSONAL DATA -->
-                <fieldset class="personal-data general-alignment">
+                <fieldset class="personal-data general-central-alignment">
                     <!--Título do campo-->
                     <legend class="fs-legend">Dados pessoais</legend>
 
                     <!-- Full name -->
-                    <div class="full-name">
+                    <div class="full-name general-ipc-alignment">
                         <label for="full-name">Nome completo</label>
                         <input type="text" id="full-name" name="full-name" placeholder="ex: João da Silva">
                     </div>
 
                     <!-- Birth date -->
-                    <div class="birth-date">
+                    <div class="birth-date general-ipc-alignment">
                         <label for="birth-date">Data de nascimento</label>
                         <input type="date" id="birth-date" name="birth-date">
                     </div>
 
                     <!-- CPF -->
-                    <div class="cpf">
+                    <div class="cpf general-ipc-alignment">
                         <label for="cpf">CPF</label>
                         <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
                     </div>
 
                     <!-- RG -->
-                    <div class="rg">
+                    <div class="rg general-ipc-alignment">
                         <label for="rg">RG</label>
                         <input type="text" id="rg" name="rg" placeholder="00.000.000-0">
                     </div>
@@ -563,7 +563,7 @@
                         </div>
                     </fieldset>
 
-                    <div class="nationality">
+                    <div class="nationality general-ipc-alignment">
                         <label for="nationality">Nacionalidade</label>
                         <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
                     </div>
@@ -637,19 +637,19 @@
                 </fieldset>
 
                 <!-- ADRESS -->
-                <fieldset class="adress categoria">
+                <fieldset class="adress general-central-alignment">
                     <!-- Fieldset's title -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
                         <!--Entrada - CEP-->
-                        <div class="zip-code">
+                        <div class="zip-code general-ipc-alignment">
                             <label for="zip-code">CEP</label>
                             <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
                         </div>
 
                         <!-- House number -->
-                        <div class="house-number">
+                        <div class="house-number general-ipc-alignment">
                             <label for="house-number">Número</label>
                             <input type="text" id="house-number" name="house-number"placeholder="0000">
                         </div>
@@ -657,13 +657,13 @@
 
                     <div class="duo-b duos">
                         <!-- Street's name -->
-                        <div class="street">
+                        <div class="street general-ipc-alignment">
                             <label for="street">Rua</label>
                             <input type="text" id="street" name="street" placeholder="Rua exemplo">
                         </div>
 
                         <!-- Neighborhood -->
-                        <div class="neighborhood">
+                        <div class="neighborhood general-ipc-alignment">
                             <label for="neighborhood">Bairro</label>
                             <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
                         </div>
@@ -671,38 +671,38 @@
 
                     <div class="duo-c duos">
                         <!-- City's name -->
-                        <div class="city">
+                        <div class="city general-ipc-alignment">
                             <label for="city">Cidade</label>
                             <input type="text" id="city" name="city" placeholder="Cidade exemplo">
                         </div>
 
                         <!-- State-->
-                        <div class="state">
+                        <div class="state general-ipc-alignment">
                             <label for="state">Estado</label>
                             <input type="text" id="state" name="state" placeholder="EE">
                         </div>
                     </div>
 
                     <!-- Complement -->
-                    <div class="complement">
+                    <div class="complement general-ipc-alignment">
                         <label for="complement">Complemento</label>
                         <input type="text" id="complement" name="complement" placeholder="Complemento exemplo">
                     </div>
                 </fieldset>
 
                 <!-- CONTACT -->
-                <fieldset class="contact">
+                <fieldset class="contact general-central-alignment">
                     <!--Título do campo-->
                     <legend class="contacts-legend">Contato</legend>
 
-                    <!--Entrada do telefone-->
-                    <div class="phone-number">
+                    <!-- Entrada do telefone -->
+                    <div class="phone-number general-ipc-alignment">
                         <label for="phone-number">Telefone</label>
                         <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000">
                     </div>
 
                     <!-- E-mail -->
-                    <div class="email">
+                    <div class="email general-ipc-alignment">
                         <label for="email">E-mail</label>
                         <input type="email" id="email" name="email" placeholder="exemplo@email.com">
                     </div>
