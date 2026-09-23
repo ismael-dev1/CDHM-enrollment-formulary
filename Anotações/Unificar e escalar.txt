@@ -1,6 +1,17 @@
 Unificar e escalar:
 
 Centralização de containers
+	- Centralizar os elementos do cabeçalho e do formulário em uma só seleção
+
+
+
+
+
+
+
+
+
+
 Cores gerais
 input-container
 Label

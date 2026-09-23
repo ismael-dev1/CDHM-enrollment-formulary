@@ -3,7 +3,7 @@
 - Accessibility (rem) - OK 
 - Comments - OK
 
-- Scalable propeties
+- Scalable properties
 
 - Media query mobile/smartphone
 - Final deploy
