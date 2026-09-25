@@ -1,14 +1,28 @@
-- Semantic - OK
-- Rename all the classes to english - OK
-- Accessibility (rem) - OK 
-- Comments - OK
+=== REESTRUTURAÇÃO ===
 
-- Scalable properties
+1. Estrutura e semântica
+   [OK] Semantic
 
-- Media query mobile/smartphone
-- Final deploy
+2. Padronização de nomenclatura
+   [OK] Rename all the classes to english
 
+3. Acessibilidade e unidades
+   [OK] Accessibility (rem)
 
+4. Escalabilidade
+   [ ] Scalable properties
 
+5. Responsividade
+   [ ] Media query mobile/smartphone
 
-"tag com papel estrutural específico"
+6. Documentação
+   [OK] Comments
+
+7. Entrega
+   [ ] Final deploy
+
+Resumo do que falta, em ordem:
+[ ] Scalable properties
+[ ] Media query mobile/smartphone
+[ ] Final deploy
+

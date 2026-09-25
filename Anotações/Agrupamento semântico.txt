@@ -1,0 +1,22 @@
+FORMULÁRIOS HTML: AGRUPAMENTO SEMÂNTICO COM FIELDSET E LEGEND
+
+1. PRINCÍPIO GERAL
+Em formulários HTML, inputs que pertencem ao mesmo grupo semântico devem ser agrupados. Para isso, usam-se <fieldset> e <legend>. O <fieldset> agrupa os controles; o <legend> dá nome ao grupo.
+
+2. RADIO E CHECKBOX: EXEMPLO DA CLASSE SEX
+Quando há vários inputs do tipo radio ou checkbox no mesmo grupo — por exemplo, opções de sexo —, as diretrizes de acessibilidade recomendam envolvê-los em um <fieldset> e descrever o grupo com um <legend>.
+Isso permite que leitores de tela anunciem a legenda do grupo antes das opções, deixando claro a que pergunta cada input se refere.
+Cada input ainda deve ter seu próprio <label>.
+
+3. FUNÇÃO SEMÂNTICA DE FIELDSET E LEGEND
+<fieldset> e <legend> servem exatamente para agrupar semanticamente elementos de formulário que possuem relação direta entre si. O <legend> funciona como o título ou rótulo desse grupo.
+
+4. SELECT DENTRO DE FIELDSET E LEGEND
+Para um único <select>, normalmente basta um <label>.
+Já quando dois ou mais <select> formam um grupo temático ou semanticamente relacionado dentro do formulário — por exemplo, selects de data, período, intervalo, cidade, estado e outros... —, o uso de <fieldset> e <legend> é recomendado para dar contexto ao conjunto.
+
+5. RESUMO PRÁTICO
+- Vários radios/checkboxes do mesmo grupo: use <fieldset> + <legend>.
+- Vários selects relacionados: use <fieldset> + <legend> quando fizer sentido semântico.
+- Cada controle individual deve continuar tendo seu <label>.
+- O <legend> deve descrever o grupo, não uma opção isolada.

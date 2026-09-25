@@ -1,23 +1,44 @@
-Unificar e escalar:
+ORDEM LÓGICA E PROGRESSIVA
 
-Centralização de containers
-	- Centralizar os elementos do cabeçalho e do formulário em uma só seleção
+1. BASE GLOBAL
+   - Cores gerais
+      - Preferir variáveis CSS em :root
+   - Reset/normalização básica
+      - box-sizing, margens, fontes, etc.
 
+2. LAYOUT E CONTAINERS
+   - Unificar e escalar
+      - Centralização de containers
+         - Centralizar os elementos do cabeçalho e do formulário em uma só seleção
+         - Ou usar uma classe compartilhada, como .container-centralizado
+   - input-container
+      - Definir como container estrutural dos campos
 
+3. COMPONENTES DE FORMULÁRIO
+   - fieldset
+   - legends
+   - label
+   - input
+   - address
 
+4. RESPONSIVIDADE
+   - media query
+      - Ajustes de layout e componentes
+      - Preferir abordagem mobile-first
 
+5. EXCEÇÕES E UTILITÁRIOS
+   - Classes específicas para propriedades individuais e pontuais
+      - Usar somente quando não for possível resolver com seletores globais, componentes ou variações
 
+FLUXO SUGERIDO DE REFATORAÇÃO
 
+1. Criar variáveis de cores.
+2. Unificar a centralização de header e form em um único seletor/classe.
+3. Padronizar .input-container.
+4. Estilizar fieldset, legend, label, input e address.
+5. Adicionar media queries para responsividade.
+6. Criar classes pontuais apenas para exceções reais.
 
+REGRA GERAL
 
-
-
-Cores gerais
-input-container
-Label
-Input
-Adress
-Media query
-Legends
-Fieldset
-Classes específicas para propriedades individuais e pontuais
+Quanto mais global e reutilizável, mais cedo entra; quanto mais específico e pontual, mais tarde entra.

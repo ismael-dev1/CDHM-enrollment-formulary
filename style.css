@@ -1,4 +1,4 @@
-/* Local font */
+/*=== LOCAL FONT ===*/
 @font-face {
     /* Font's name in the files local */
     font-family: 'arial-rounded-mt-bold-regular';
@@ -9,7 +9,7 @@
         /* Instructions are in the font's file folder */
 }
 
-/*=== CSS general reset ===*/
+/*=== CSS GENERAL RESET ===*/
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +18,6 @@
 }
 
 html {
-    /* Defining root as 62.5% for accessibility */
     font-size: 62.5%;
 }
 
@@ -31,9 +30,9 @@ body {
     font-size: 1.6rem;
 }
 
+/*=== SCALABLE PROPERTIES ===*/
 
-
-
+/* general alignment */
 .general-central-alignment {
     /*Flex box*/
     display: flex;
@@ -47,6 +46,21 @@ body {
     /* Flex Box */
     display: flex;
     flex-direction: column; 
+}
+
+/* general background-color */
+.gn-bg-color {
+    background-color: #808080;
+}
+
+/* type file background-color */
+.tp-file-bg-color {
+    background-color: #FFFFFF;
+}
+
+/* general file selector button-bg-color */
+.general-fsb-bg-color::file-selector-button {
+	background-color: transparent;
 }
 
 
@@ -68,12 +82,9 @@ body {
     justify-content: flex-start;
     /*  cross-axis */
     align-items: center;
-
-    /* Colors */
-    background-color: #808080;
 }
 
-/*=== Images ===*/
+/*=== IMAGES ===*/
 .cdhm-icon {
     width: 28.4rem;
     height: 25.3rem;
@@ -85,7 +96,7 @@ body {
     /* background-color: blue; */
 }
 
-/*=== Headings ===*/
+/*=== HEADINGS ===*/
 .headings {
     /* background-color: rebeccapurple; */
     color: #FFFFFF;
@@ -109,8 +120,7 @@ body {
     font-size: 8rem;
 }
 
-
-/*=== Formulary ===*/
+/*=== FORMULARY ===*/
 .formulary {
     /*Box model*/
     width: 115rem;
@@ -121,8 +131,6 @@ body {
 
     /* Colors */
 
-    /* background-color */
-    background-color: #808080;
     /* font-color */
     color: #FCF0F9;
 }
@@ -170,6 +178,9 @@ body {
     font-weight: bold;
 }
 
+
+
+
 /* General settings for personal data divs */
 .personal-data div {
     /* background-color: blue; */
@@ -187,7 +198,7 @@ fieldset div input::placeholder {
 
 /* General settings for full name */
 .full-name {
-    /* background-color: lightblue; */
+    /* background-color: blue; */
     font-size: 4.5rem;
 }
 
@@ -482,7 +493,7 @@ fieldset div input::placeholder {
 
 /* Fieldset adress */
 .adress {
-    /* background-color: blue; */
+    background-color: blue;
     width: 105rem;
     height: auto;
     border: none;
@@ -669,7 +680,7 @@ fieldset div input::placeholder {
     font-size: 7rem;
     font-weight: bold;
 
-    /*background-color: gray;*/
+    /* background-color: gray; */
 }
 
 /* General contact paragraph settings */
@@ -708,7 +719,7 @@ fieldset div input::placeholder {
 
 /* General email settings */
 .email {
-    /*background-color: brown;*/
+    /* background-color: brown; */
     margin-top: 3.409rem;
 }
 
@@ -735,7 +746,7 @@ fieldset div input::placeholder {
     border: none;
 }
 
-/* Does the student has any DISABILITY? */
+/* DISABILITY */
 .health-info .pcd-yn {
     /* background-color: aqua; */
     border: none;
@@ -843,8 +854,6 @@ fieldset div input::placeholder {
 }
 
 .health-info .pcd-yn .medical-report input {
-    background-color: #FFFFFF;
-
     width: 98rem;
     padding: 0.5rem;
     border-radius: 2.5rem;
@@ -857,7 +866,6 @@ fieldset div input::placeholder {
 }
 
 .health-info .pcd-yn .medical-report input::file-selector-button {
-    background-color: transparent;
     border: none;
 
     font-size: 3.2rem;
@@ -980,8 +988,6 @@ fieldset div input::placeholder {
 }
 
 .health-info .allergy-yn .medical-report input {
-    background-color: #FFFFFF;
-
     /* width: 27.8rem; */
     width: 98rem;
     padding: 0.5rem;
@@ -995,7 +1001,6 @@ fieldset div input::placeholder {
 }
 
 .health-info .allergy-yn .medical-report input::file-selector-button {
-    background-color: transparent;
     border: none;
 
     font-size: 3.2rem;
@@ -1054,10 +1059,7 @@ fieldset div input::placeholder {
     font-size: 2.5rem;
 }
 
-
 .students-photo input {
-    background-color: #FFFFFF;
-
     width: 98rem;
     padding: 0.5rem;
     border: none;
@@ -1071,7 +1073,6 @@ fieldset div input::placeholder {
 }
 
 .students-photo input::file-selector-button {
-    background-color: transparent;
     border: none;
 
     font-size: 3.2rem;
@@ -1109,12 +1110,11 @@ fieldset div input::placeholder {
 }
 
 /*=== FOOTER ===*/
-.rodape {
+.footer {
     height: 10rem;
     border-top: 0.1rem solid black;
     margin-top: 5rem;
 
-    background-color: #DA1F81;
     color: white;
     font-size: 3rem;
 

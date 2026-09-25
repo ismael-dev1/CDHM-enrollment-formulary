@@ -1,0 +1,44 @@
+Especificamente sobre o formulário de matrícula do CDHM:
+- Ids e/ou classes repetidos
+
+Tag semântica -> "tag com papel estrutural específico"
+
+Escalar baseado na estrutura do formulário
+(O formulário está parcialmente escalado)
+
+Personal data (3)
+Adress (3)
+Contact (3)
+Health info (1)
+
+=========================
+
+Escalar:
+- Cores gerais
+	- background-color
+	- color
+- Labels
+- Inputs (por tipo)
+- Adress (separado)
+
+=========================
+
+Escalando agora:
+
+- Cores gerais
+	- background-color
+		- Há cores que são comuns a todos os elementos
+		- Há cores que são exclusivas de elementos específicos
+
+- background-color
+	- Há cores que são comuns a todos os elementos
+	- Há cores que são exclusivas de elementos específicos
+
+Dá de escalar umas e outras não
+==============================================================
+
+BG-color: header, form, footer -> OK
+BG-color: health info inputs type file -> OK
+
+Escalar o que "as sobras" para escalar e health info localmente  
+s
