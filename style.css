@@ -30,9 +30,12 @@ body {
     font-size: 1.6rem;
 }
 
+
+
+
 /*=== SCALABLE PROPERTIES ===*/
 
-/* general alignment */
+/* GENERAL ALIGNMENT */
 .general-central-alignment {
     /*Flex box*/
     display: flex;
@@ -48,6 +51,8 @@ body {
     flex-direction: column; 
 }
 
+/* GENERAL COLORS */
+
 /* general background-color */
 .gn-bg-color {
     background-color: #808080;
@@ -55,15 +60,13 @@ body {
 
 /* type file background-color */
 .tp-file-bg-color {
-    background-color: #FFFFFF;
+    background-color: #fff;
 }
 
-/* general file selector button-bg-color */
+/* file-selector-button bg-color */
 .general-fsb-bg-color::file-selector-button {
 	background-color: transparent;
 }
-
-
 
 
 /*=== HEADER ===*/
@@ -130,7 +133,7 @@ body {
     border-radius: 25px;
 
     /* Colors */
-
+    background-color: #000;
     /* font-color */
     color: #FCF0F9;
 }
@@ -493,7 +496,7 @@ fieldset div input::placeholder {
 
 /* Fieldset adress */
 .adress {
-    background-color: blue;
+    /* background-color: blue; */
     width: 105rem;
     height: auto;
     border: none;
