@@ -29,64 +29,65 @@
 
     <main class="main-content general-central-alignment">
         <!-- FORMULARY -->
-        <form class="formulary general-central-alignment gn-bg-color" action="#" method="#" target="_blank" autocomplete="off">
+        <form class="formulary general-central-alignment gn-bg-color" action="#" method="post" target="_blank" autocomplete="off">
             <h3 class="form-title">
                 Formulário de cadastro
             </h3>
 
-            <!-- STUDENT'S DATA SECTION -->
+            <!-- STUDENT'S DATA -->
             <fieldset class="pps-data-section">
                 <!-- Section's title -->
                 <legend class="sections-title">Dados do participante</legend>
 
-                <!-- PERSONAL DATA -->
+                <!-- STUDENT'S PERSONAL DATA -->
                 <fieldset class="personal-data general-central-alignment">
-                    <!-- Field's title -->
+                    <!-- Field's legend -->
                     <legend class="fs-legend">Dados pessoais</legend>
 
-                    <!-- Full name -->
+                    <!-- Student's Full name -->
                     <div class="full-name general-ipc-alignment">
-                        <label for="full-name">Nome completo</label>
-                        <input type="text" id="full-name" name="full-name" placeholder="ex: João da Silva">
+                        <label for="student-full-name">Nome completo</label>
+                        <input type="text" id="student-full-name" name="student-full-name" placeholder="ex: João da Silva">
                     </div>
 
-                    <!-- Birth date -->
+                    <!-- Student's Birth date -->
                     <div class="birth-date general-ipc-alignment">
-                        <label for="birth-date">Data de nascimento</label>
-                        <input type="date" id="birth-date" name="birth-date">
+                        <label for="student-birth-date">Data de nascimento</label>
+                        <input type="date" id="student-birth-date" name="student-birth-date">
                     </div>
 
-                    <!-- CPF -->
+                    <!-- Student's CPF -->
                     <div class="cpf general-ipc-alignment">
-                        <label for="cpf">CPF</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                        <label for="student-cpf">CPF</label>
+                        <input type="text" id="student-cpf" name="student-cpf" placeholder="000.000.000-00">
                     </div>
 
-                    <!-- RG -->
+                    <!-- Student's RG -->
                     <div class="rg general-ipc-alignment">
-                        <label for="rg">RG</label>
-                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0">
+                        <label for="student-rg">RG</label>
+                        <input type="text" id="student-rg" name="student-rg" placeholder="00.000.000-0">
                     </div>
 
-                    <!-- Sex -->
-                    <fieldset class="sex">
-                        <!-- Visual id -->
-                        <legend class="sex-option-title">Sexo</legend>
+                    <!-- Student's Gender -->
+                    <fieldset class="gender">
+                        <!-- Gender legend -->
+                        <legend class="gender-legend">Sexo</legend>
 
                         <div class="male">
-                            <input type="radio" id="student-sex-male" name="students-sex" value="male">
-                            <label for="student-sex-male">Masculino</label>
+                            <input type="radio" id="student-gender-male" name="student-sex" value="male">
+                            <label for="student-gender-male">Masculino</label>
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="student-sex-female" name="students-sex" value="female">
-                            <label for="student-sex-female">Feminino</label>
+                            <input type="radio" id="student-gender-female" name="student-sex" value="female">
+                            <label for="student-gender-female">Feminino</label>
                         </div>
                     </fieldset>
 
+                    <!-- Student's nationality -->
                     <div class="nationality general-ipc-alignment">
-                        <label for="nationality">Nacionalidade</label>
-                        <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
+                        <label for="student-nationality">Nacionalidade</label>
+                        <input type="text" id="student-nationality" name="student-nationality" placeholder="ex: Brasileiro(a)">
                     </div>
 
                     <fieldset class="naturality">
@@ -156,83 +157,84 @@
                     </fieldset>
                 </fieldset>
 
-                <!-- ADRESS -->
+                <!-- STUDENT'S ADDRESS -->
                 <fieldset class="adress general-central-alignment">
-                    <!-- Field's title -->
+                    <!-- Field's legend -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
-                        <!-- CEP -->
+                        <!-- Student's cep -->
                         <div class="zip-code general-ipc-alignment">
-                            <label for="zip-code">CEP</label>
-                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
+                            <label for="student-zip-code">CEP</label>
+                            <input type="text" id="student-zip-code" name="student-zip-code" placeholder="00000-000">
                         </div>
 
-                        <!-- House number -->
+                        <!-- Student's house number -->
                         <div class="house-number general-ipc-alignment">
-                            <label for="house-number">Número</label>
-                            <input type="text" id="house-number" name="house-number" placeholder="0000">
+                            <label for="student-house-number">Número</label>
+                            <input type="text" id="student-house-number" name="student-house-number" placeholder="0000">
                         </div>
                     </div>
 
                     <div class="duo-b duos">
-                        <!-- Street's name -->
+                        <!-- Student street's name -->
                         <div class="street general-ipc-alignment">
-                            <label for="street">Rua</label>
-                            <input type="text" id="street" name="street" placeholder="Rua exemplo">
+                            <label for="student-street">Rua</label>
+                            <input type="text" id="student-street" name="student-street" placeholder="Rua exemplo">
                         </div>
 
-                        <!-- Neighborhood's name -->
+                        <!-- Student neighborhood's name -->
                         <div class="neighborhood general-ipc-alignment">
-                            <label for="neighborhood">Bairro</label>
-                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
+                            <label for="student-neighborhood">Bairro</label>
+                            <input type="text" id="student-neighborhood" name="student-neighborhood" placeholder="Bairro exemplo">
                         </div>
                     </div>
 
                     <div class="duo-c duos">
-                        <!-- City's name -->
+                        <!-- Student's city -->
                         <div class="city general-ipc-alignment">
-                            <label for="city">Cidade</label>
-                            <input type="text" id="city" name="city" placeholder="Cidade exemplo">
+                            <label for="student-city">Cidade</label>
+                            <input type="text" id="student-city" name="student-city" placeholder="Cidade exemplo">
                         </div>
 
-                        <!-- State -->
+                        <!-- Student's state -->
                         <div class="state general-ipc-alignment">
-                            <label for="state">Estado</label>
-                            <input type="text" id="state" name="state" placeholder="EE">
+                            <label for="student-state">Estado</label>
+                            <input type="text" id="student-state" name="student-state" placeholder="EE">
                         </div>
                     </div>
 
-                    <!-- Complement -->
+                    <!-- Student's complement -->
                     <div class="complement general-ipc-alignment">
-                        <label for="complement">Complemento</label>
-                        <input type="text" id="complement" name="complement" placeholder="Complemento exemplo">
+                        <label for="student-complement">Complemento</label>
+                        <input type="text" id="student-complement" name="student-complement" placeholder="Complemento exemplo">
                     </div>
                 </fieldset>
 
-                <!-- CONTACT -->
+                <!-- STUDENT'S CONTACT -->
                 <fieldset class="contact general-central-alignment">
-                    <!-- Field's title -->
+                    <!-- Field's legend -->
                     <legend class="contacts-legend">Contato</legend>
 
-                    <!-- Phone number -->
+                    <!-- Student's phone number -->
                     <div class="phone-number general-ipc-alignment">
-                        <label for="phone-number">Telefone</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000">
+                        <label for="student-phone-number">Telefone</label>
+                        <input type="tel" id="student-phone-number" name="student-phone-number" placeholder="(00) 00000-0000">
                     </div>
 
-                    <!-- E-mail -->
+                    <!-- Student's e-mail -->
                     <div class="email general-ipc-alignment">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                        <label for="student-email">E-mail</label>
+                        <input type="email" id="student-email" name="student-email" placeholder="exemplo@email.com">
                     </div>
                 </fieldset>
 
-                <!-- HEALTH INFO -->
+                <!-- STUDENT'S HEALTH INFO -->
                 <fieldset class="health-info">
+                    <!-- Field's legend -->
                     <legend class="fs-legend">Informações de saúde</legend>
 
-                    <!-- DISABILITY -->
+                    <!-- STUDENT'S DISABILITY -->
                     <fieldset class="pcd-yn">
                         <legend class="pcd-title">O participante é PCD?</legend>
 
@@ -322,15 +324,15 @@
             <fieldset class="pps-data-section">
                 <legend class="sections-title">Dados do responsável legal </legend>
 
-                <!-- PERSONAL DATA -->
+                <!-- LEGAL GUARDIAN'S PERSONAL DATA -->
                 <fieldset class="personal-data general-central-alignment">
-                    <!-- Field's title -->
+                    <!-- Field's legend -->
                     <legend class="fs-legend">Dados pessoais</legend>
 
-                    <!-- Full name -->
+                    <!-- Legal guardian's Full name -->
                     <div class="full-name general-ipc-alignment">
-                        <label for="full-name">Nome completo</label>
-                        <input type="text" id="full-name" name="full-name" placeholder="ex: João da Silva">
+                        <label for="lg-full-name">Nome completo</label>
+                        <input type="text" id="lg-full-name" name="lg-full-name" placeholder="ex: João da Silva">
                     </div>
 
                     <!-- Birth date -->
@@ -517,20 +519,20 @@
 
 
 
-            <!-- FINANCIAL RESPONSABLE'S DATA -->
+            <!-- FINANCIAL SPONSOR'S DATA -->
             <fieldset class="pps-data-section">
                 <!-- Section's title -->
                 <legend class="sections-title frd-font-size">Dados do responsável financeiro</legend>
 
-                <!-- PERSONAL DATA -->
+                <!-- FINANCIAL SPONSOR'S PERSONAL DATA -->
                 <fieldset class="personal-data general-central-alignment">
                     <!--Título do campo-->
                     <legend class="fs-legend">Dados pessoais</legend>
 
-                    <!-- Full name -->
+                    <!-- Financial sponsor's Full name -->
                     <div class="full-name general-ipc-alignment">
-                        <label for="full-name">Nome completo</label>
-                        <input type="text" id="full-name" name="full-name" placeholder="ex: João da Silva">
+                        <label for="fs-full-name">Nome completo</label>
+                        <input type="text" id="fs-full-name" name="fs-full-name" placeholder="ex: João da Silva">
                     </div>
 
                     <!-- Birth date -->

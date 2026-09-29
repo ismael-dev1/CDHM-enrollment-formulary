@@ -348,10 +348,10 @@ fieldset div input::placeholder {
     font-size: 3.2rem;
 }
 
-/*=== SEX ===*/
+/*=== GENDER ===*/
 
 /* General section settings */
-.sex {
+.gender {
     /* background-color: green; */
 
     width: 98rem;
@@ -367,14 +367,14 @@ fieldset div input::placeholder {
 }
 
 /* Section's title */
-.sex .sex-option-title {
+.gender .gender-legend {
     /* background-color: darkviolet; */
     /* Font settings */
     font-size: 4.5rem;
 }
 
 /* Sex options settings */
-.sex div {
+.gender div {
     /*Box model*/
     width: auto;
     height: auto;
@@ -386,7 +386,7 @@ fieldset div input::placeholder {
 }
 
 /* General label settings */
-.sex label {
+.gender label {
     /* Box model */
     margin-left: 0.3rem;
 
@@ -398,13 +398,13 @@ fieldset div input::placeholder {
 }
 
 /* General input settings */
-.sex input {
+.gender input {
     /*Box model*/
     width: 2.5rem;
     height: 3rem;
 }
 
-.sex .female {
+.gender .female {
     margin-left: 1rem;
 }
 
