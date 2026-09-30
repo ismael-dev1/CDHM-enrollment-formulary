@@ -1029,7 +1029,7 @@ fieldset div input::placeholder {
 
 #student-general-info-text-area {
     width: 98rem;
-    height: 30rem;
+    height: auto;
     padding: 1.5rem;
     border: none;
     border-radius: 25px;

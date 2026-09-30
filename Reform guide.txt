@@ -1,0 +1,5 @@
+Arrumar o student's data, os gerais pontuais que aparecerem pelo caminho e usar de modelo para arrumar os outros dois (legal guardian's data e financial sponsor's data)
+
+https://chat.deepseek.com/a/chat/s/6a579098-4530-4343-b454-633c64f2a225
+
+Continuar de "2. Problemas de acessibilidade"
