@@ -1027,7 +1027,7 @@ fieldset div input::placeholder {
     margin: 0 0 1rem 3rem;
 }
 
-#gi-textarea {
+#student-general-info-text-area {
     width: 98rem;
     height: 30rem;
     padding: 1.5rem;

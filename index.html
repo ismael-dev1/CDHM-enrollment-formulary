@@ -37,7 +37,7 @@
             <!-- STUDENT'S DATA -->
             <fieldset class="pps-data-section">
                 <!-- Section's title -->
-                <legend class="sections-title">Dados do participante</legend>
+                <legend class="sections-title">Dados do servidor</legend>
 
                 <!-- STUDENT'S PERSONAL DATA -->
                 <fieldset class="personal-data general-central-alignment">
@@ -236,77 +236,87 @@
 
                     <!-- STUDENT'S DISABILITY -->
                     <fieldset class="pcd-yn">
-                        <legend class="pcd-title">O participante é PCD?</legend>
+                        <legend class="pcd-title">O servidor é PCD?</legend>
 
+                        <!-- Student's pcd option -->
                         <div class="pcd-options">
+                            <!-- Student is pcd -->
                             <div class="option-yes option">
-                                <input type="radio" id="input-yes" name="pcd-option" value="yes">
-                                <label for="input-yes">Sim</label>
+                                <input type="radio" id="is-pcd" name="pcd-option" value="yes">
+                                <label for="is-pcd">Sim</label>
                             </div>
 
+                            <!-- Student is not pcd -->
                             <div class="option-no option">
-                                <input type="radio" id="input-no" name="pcd-option" value="no">
-                                <label for="input-no">Não</label>
+                                <input type="radio" id="is-not-pcd" name="pcd-option" value="no">
+                                <label for="is-not-pcd">Não</label>
                             </div>
                         </div>
 
+                        <!-- Student's PCD name -->
                         <div class="disa-name-container">
-                            <label class=" disa-name" for="disa-name">Nome da deficiência</label>
+                            <label class="disa-name" for="disa-name">Nome da deficiência</label>
                             <input type="text" id="disa-name" name="disa-name"
                                 placeholder="Informe o nome da deficiência">
                         </div>
 
+                        <!-- Student's pcd medical report file -->
                         <div class="medical-report">
-                            <label class="mr-file" for="mr-file">Anexe o laudo abaixo</label>
-                            <input type="file" id="mr-file"
+                            <label class="mr-file" for="pcd-mr-file">Anexe o laudo abaixo</label>
+                            <input type="file" id="pcd-mr-file"
                             class="tp-file-bg-color general-fsb-bg-color"
-                            name="mr-file">
+                            name="pcd-mr-file">
                         </div>
                     </fieldset>
 
 
-                    <!-- ALLERGY -->
+                    <!-- STUDENT'S ALLERGY -->
                     <fieldset class="allergy-yn">
-                        <legend class="allergy-title">O participante tem alergia?</legend>
+                        <legend class="allergy-title">O servidor tem alergia?</legend>
 
+                        <!-- Student's pcd option allergy -->
                         <div class="allergy-options">
+                            <!-- Student is allergic -->
                             <div class="option-yes option">
-                                <input type="radio" id="input-yes" name="allergy-option" value="yes">
-                                <label for="input-yes">Sim</label>
+                                <input type="radio" id="is-allergic" name="allergy-option" value="yes">
+                                <label for="is-allergic">Sim</label>
                             </div>
 
+                            <!-- Student is not allergic -->
                             <div class="option-no option">
-                                <input type="radio" id="input-no" name="allergy-option" value="no">
-                                <label for="input-no">Não</label>
+                                <input type="radio" id="is-not-allergic" name="allergy-option" value="no">
+                                <label for="is-not-allergic">Não</label>
                             </div>
                         </div>
 
+                        <!-- Student's allergy name -->
                         <div class="allergy-name-container">
-                            <label class=" allergy-name" for="allergy-name">Nome da alergia</label>
-                            <input type="text" id="allergy-name" name="disa-name"
+                            <label class="allergy-name" for="allergy-name">Nome da alergia</label>
+                            <input type="text" id="allergy-name" name="allergy-name"
                             placeholder="Informe o nome da alergia">
                         </div>
 
+                        <!-- Student's allergy medical report file -->
                         <div class="medical-report">
-                            <label for="mr-file">Anexe o laudo abaixo</label>
-                            <input type="file" id="mr-file"
+                            <label for="allergy-mr-file">Anexe o laudo abaixo</label>
+                            <input type="file" id="allergy-mr-file"
                             class="tp-file-bg-color general-fsb-bg-color"
-                            name="mr-file">
+                            name="allergy-mr-file">
                         </div>
                     </fieldset>
 
-                    <!-- GENERAL INFO -->
+                    <!-- STUDENT'S GENERAL INFO -->
                     <div class="general-info general-ipc-alignment">
-                        <label class="gi-title" for="gi-textarea">Observações gerais</label>
+                        <label class="gi-title" for="student-general-info">Observações gerais</label>
 
-                        <textarea id="gi-textarea" name="gi-textarea" rows="50" cols="50">
+                        <textarea id="student-general-info-text-area" name="gi-textarea" rows="50" cols="50">
                         </textarea>
                     </div>
                 </fieldset>
 
                 <!-- STUDENT'S PHOTO -->
                 <fieldset class="students-photo">
-                    <legend class="sf-title">Foto do participante</legend>
+                    <legend class="sf-title">Foto do servidor</legend>
 
                     <div>
                         <label for="students-photo">Anexe a foto abaixo</label>
