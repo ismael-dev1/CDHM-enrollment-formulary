@@ -93,70 +93,83 @@
                             placeholder="ex: Brasileiro(a)">
                     </div>
 
+                    <!-- Student's naturality -->
                     <fieldset class="naturality">
                         <legend>Naturalidade</legend>
 
-                        <select id="natu-state" name="natu-state">
-                            <option value="" selected disabled>UF</option>
-                            <option value="AC">AC</option>
-                            <option value="AL">AL</option>
-                            <option value="AP">AP</option>
-                            <option value="AM">AM</option>
-                            <option value="BA">BA</option>
-                            <option value="CE">CE</option>
-                            <option value="DF">DF</option>
-                            <option value="ES">ES</option>
-                            <option value="GO">GO</option>
-                            <option value="MA">MA</option>
-                            <option value="MT">MT</option>
-                            <option value="MS">MS</option>
-                            <option value="MG">MG</option>
-                            <option value="PA">PA</option>
-                            <option value="PB">PB</option>
-                            <option value="PR">PR</option>
-                            <option value="PE">PE</option>
-                            <option value="PI">PI</option>
-                            <option value="RJ">RJ</option>
-                            <option value="RN">RN</option>
-                            <option value="RS">RS</option>
-                            <option value="RO">RO</option>
-                            <option value="RR">RR</option>
-                            <option value="SC">SC</option>
-                            <option value="SP">SP</option>
-                            <option value="SE">SE</option>
-                            <option value="TO">TO</option>
-                            <option value="EX">EX</option>
-                        </select>
+                        <!-- Student's naturality state -->
+                        <div class="naturality-state-container">
 
-                        <select id="natu-city" name="natu-city">
-                            <option value="" selected disabled>Cidade</option>
-                            <option value="Cidade-A">Cidade-A</option>
-                            <option value="Cidade-B">Cidade-B</option>
-                            <option value="Cidade-C">Cidade-C</option>
-                            <option value="Cidade-D">Cidade-D</option>
-                            <option value="Cidade-E">Cidade-E</option>
-                            <option value="Cidade-F">Cidade-F</option>
-                            <option value="Cidade-G">Cidade-G</option>
-                            <option value="Cidade-H">Cidade-H</option>
-                            <option value="Cidade-I">Cidade-I</option>
-                            <option value="Cidade-J">Cidade-J</option>
-                            <option value="Cidade-K">Cidade-K</option>
-                            <option value="Cidade-L">Cidade-L</option>
-                            <option value="Cidade-M">Cidade-M</option>
-                            <option value="Cidade-N">Cidade-N</option>
-                            <option value="Cidade-O">Cidade-O</option>
-                            <option value="Cidade-P">Cidade-P</option>
-                            <option value="Cidade-Q">Cidade-Q</option>
-                            <option value="Cidade-R">Cidade-R</option>
-                            <option value="Cidade-S">Cidade-S</option>
-                            <option value="Cidade-T">Cidade-T</option>
-                            <option value="Cidade-U">Cidade-U</option>
-                            <option value="Cidade-V">Cidade-V</option>
-                            <option value="Cidade-W">Cidade-W</option>
-                            <option value="Cidade-X">Cidade-X</option>
-                            <option value="Cidade-Y">Cidade-Y</option>
-                            <option value="Cidade-Z">Cidade-Z</option>
-                        </select>
+                            <label for="student-naturality-state">Estado</label>
+                            <select class="naturality-state-input" id="student-naturality-state"
+                                name="student-naturality-state">
+                                <option value="" selected disabled>UF</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                                <option value="EX">EX</option>
+                            </select>
+                        </div>
+
+                        <!-- Student's naturality city -->
+                        <div class="naturality-city-container">
+
+                            <label for="student-naturality-city">Cidade</label>
+                            <select class="naturality-city-input" id="student-naturality-city"
+                                name="student-naturality-city">
+                                <option value="" selected disabled>Cidade</option>
+                                <option value="Cidade-A">Cidade-A</option>
+                                <option value="Cidade-B">Cidade-B</option>
+                                <option value="Cidade-C">Cidade-C</option>
+                                <option value="Cidade-D">Cidade-D</option>
+                                <option value="Cidade-E">Cidade-E</option>
+                                <option value="Cidade-F">Cidade-F</option>
+                                <option value="Cidade-G">Cidade-G</option>
+                                <option value="Cidade-H">Cidade-H</option>
+                                <option value="Cidade-I">Cidade-I</option>
+                                <option value="Cidade-J">Cidade-J</option>
+                                <option value="Cidade-K">Cidade-K</option>
+                                <option value="Cidade-L">Cidade-L</option>
+                                <option value="Cidade-M">Cidade-M</option>
+                                <option value="Cidade-N">Cidade-N</option>
+                                <option value="Cidade-O">Cidade-O</option>
+                                <option value="Cidade-P">Cidade-P</option>
+                                <option value="Cidade-Q">Cidade-Q</option>
+                                <option value="Cidade-R">Cidade-R</option>
+                                <option value="Cidade-S">Cidade-S</option>
+                                <option value="Cidade-T">Cidade-T</option>
+                                <option value="Cidade-U">Cidade-U</option>
+                                <option value="Cidade-V">Cidade-V</option>
+                                <option value="Cidade-W">Cidade-W</option>
+                                <option value="Cidade-X">Cidade-X</option>
+                                <option value="Cidade-Y">Cidade-Y</option>
+                                <option value="Cidade-Z">Cidade-Z</option>
+                            </select>
+                        </div>
                     </fieldset>
                 </fieldset>
 
@@ -313,7 +326,8 @@
                     <div class="general-info general-ipc-alignment">
                         <label class="gi-title" for="student-general-info-text-area">Observações gerais</label>
 
-                        <textarea id="student-general-info-text-area" name="student-general-info-text-area" rows="5" cols="40">
+                        <textarea id="student-general-info-text-area" name="student-general-info-text-area" rows="5"
+                            cols="40">
                         </textarea>
                     </div>
                 </fieldset>
@@ -388,70 +402,82 @@
                         <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
                     </div>
 
+                    <!-- Legal guardian's naturality -->
                     <fieldset class="naturality">
-                        <legend class="naturality">Naturalidade</legend>
+                        <legend>Naturalidade</legend>
 
-                        <select id="natu-state" name="natu-state">
-                            <option value="" selected disabled>UF</option>
-                            <option value="AC">AC</option>
-                            <option value="AL">AL</option>
-                            <option value="AP">AP</option>
-                            <option value="AM">AM</option>
-                            <option value="BA">BA</option>
-                            <option value="CE">CE</option>
-                            <option value="DF">DF</option>
-                            <option value="ES">ES</option>
-                            <option value="GO">GO</option>
-                            <option value="MA">MA</option>
-                            <option value="MT">MT</option>
-                            <option value="MS">MS</option>
-                            <option value="MG">MG</option>
-                            <option value="PA">PA</option>
-                            <option value="PB">PB</option>
-                            <option value="PR">PR</option>
-                            <option value="PE">PE</option>
-                            <option value="PI">PI</option>
-                            <option value="RJ">RJ</option>
-                            <option value="RN">RN</option>
-                            <option value="RS">RS</option>
-                            <option value="RO">RO</option>
-                            <option value="RR">RR</option>
-                            <option value="SC">SC</option>
-                            <option value="SP">SP</option>
-                            <option value="SE">SE</option>
-                            <option value="TO">TO</option>
-                            <option value="EX">EX</option>
-                        </select>
+                        <!-- Legal guardian's naturality state -->
+                        <div class="naturality-state-container">
 
-                        <select id="natu-city" name="natu-city">
-                            <option value="" selected disabled>Cidade</option>
-                            <option value="Cidade-A">Cidade-A</option>
-                            <option value="Cidade-B">Cidade-B</option>
-                            <option value="Cidade-C">Cidade-C</option>
-                            <option value="Cidade-D">Cidade-D</option>
-                            <option value="Cidade-E">Cidade-E</option>
-                            <option value="Cidade-F">Cidade-F</option>
-                            <option value="Cidade-G">Cidade-G</option>
-                            <option value="Cidade-H">Cidade-H</option>
-                            <option value="Cidade-I">Cidade-I</option>
-                            <option value="Cidade-J">Cidade-J</option>
-                            <option value="Cidade-K">Cidade-K</option>
-                            <option value="Cidade-L">Cidade-L</option>
-                            <option value="Cidade-M">Cidade-M</option>
-                            <option value="Cidade-N">Cidade-N</option>
-                            <option value="Cidade-O">Cidade-O</option>
-                            <option value="Cidade-P">Cidade-P</option>
-                            <option value="Cidade-Q">Cidade-Q</option>
-                            <option value="Cidade-R">Cidade-R</option>
-                            <option value="Cidade-S">Cidade-S</option>
-                            <option value="Cidade-T">Cidade-T</option>
-                            <option value="Cidade-U">Cidade-U</option>
-                            <option value="Cidade-V">Cidade-V</option>
-                            <option value="Cidade-W">Cidade-W</option>
-                            <option value="Cidade-X">Cidade-X</option>
-                            <option value="Cidade-Y">Cidade-Y</option>
-                            <option value="Cidade-Z">Cidade-Z</option>
-                        </select>
+                            <label for="legal-guardian-naturality-state">Estado</label>
+                            <select class="naturality-state-input" id="legal-guardian-naturality-state"
+                                name="legal-guardian-naturality-state">
+                                <option value="" selected disabled>UF</option>
+                                <option value=" AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                                <option value="EX">EX</option>
+                            </select>
+                        </div>
+
+                        <!-- Legal guardian's naturality city -->
+                        <div class="naturality-city-container">
+
+                            <label for="legal-guardian-naturality-state">Cidade</label>
+                            <select class="naturality-state-input" id="naturality-city" name="naturality-city">
+                                <option value="" selected disabled>Cidade</option>
+                                <option value="Cidade-A">Cidade-A</option>
+                                <option value="Cidade-B">Cidade-B</option>
+                                <option value="Cidade-C">Cidade-C</option>
+                                <option value="Cidade-D">Cidade-D</option>
+                                <option value="Cidade-E">Cidade-E</option>
+                                <option value="Cidade-F">Cidade-F</option>
+                                <option value="Cidade-G">Cidade-G</option>
+                                <option value="Cidade-H">Cidade-H</option>
+                                <option value="Cidade-I">Cidade-I</option>
+                                <option value="Cidade-J">Cidade-J</option>
+                                <option value="Cidade-K">Cidade-K</option>
+                                <option value="Cidade-L">Cidade-L</option>
+                                <option value="Cidade-M">Cidade-M</option>
+                                <option value="Cidade-N">Cidade-N</option>
+                                <option value="Cidade-O">Cidade-O</option>
+                                <option value="Cidade-P">Cidade-P</option>
+                                <option value="Cidade-Q">Cidade-Q</option>
+                                <option value="Cidade-R">Cidade-R</option>
+                                <option value="Cidade-S">Cidade-S</option>
+                                <option value="Cidade-T">Cidade-T</option>
+                                <option value="Cidade-U">Cidade-U</option>
+                                <option value="Cidade-V">Cidade-V</option>
+                                <option value="Cidade-W">Cidade-W</option>
+                                <option value="Cidade-X">Cidade-X</option>
+                                <option value="Cidade-Y">Cidade-Y</option>
+                                <option value="Cidade-Z">Cidade-Z</option>
+                            </select>
+                        </div>
                     </fieldset>
                 </fieldset>
 
@@ -591,70 +617,81 @@
                         <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
                     </div>
 
+                    <!-- Financial sponsor's naturality -->
                     <fieldset class="naturality">
                         <legend>Naturalidade</legend>
 
-                        <select id="natu-state" name="natu-state">
-                            <option value="" selected disabled>UF</option>
-                            <option value="AC">AC</option>
-                            <option value="AL">AL</option>
-                            <option value="AP">AP</option>
-                            <option value="AM">AM</option>
-                            <option value="BA">BA</option>
-                            <option value="CE">CE</option>
-                            <option value="DF">DF</option>
-                            <option value="ES">ES</option>
-                            <option value="GO">GO</option>
-                            <option value="MA">MA</option>
-                            <option value="MT">MT</option>
-                            <option value="MS">MS</option>
-                            <option value="MG">MG</option>
-                            <option value="PA">PA</option>
-                            <option value="PB">PB</option>
-                            <option value="PR">PR</option>
-                            <option value="PE">PE</option>
-                            <option value="PI">PI</option>
-                            <option value="RJ">RJ</option>
-                            <option value="RN">RN</option>
-                            <option value="RS">RS</option>
-                            <option value="RO">RO</option>
-                            <option value="RR">RR</option>
-                            <option value="SC">SC</option>
-                            <option value="SP">SP</option>
-                            <option value="SE">SE</option>
-                            <option value="TO">TO</option>
-                            <option value="EX">EX</option>
-                        </select>
+                        <div class="naturality-state-container">
+                            <!-- Financial sponsor's naturality state -->
+                            <label for="financial-sponsor-naturality-state">Estado</label>
+                            <select class="naturality-state-input" id="financial-sponsor-naturality-state"
+                                name="financial-sponsor-naturality-state">
+                                <option value="" selected disabled>UF</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                                <option value="EX">EX</option>
+                            </select>
+                        </div>
 
-                        <select id="natu-city" name="natu-city">
-                            <option value="" selected disabled>Cidade</option>
-                            <option value="Cidade-A">Cidade-A</option>
-                            <option value="Cidade-B">Cidade-B</option>
-                            <option value="Cidade-C">Cidade-C</option>
-                            <option value="Cidade-D">Cidade-D</option>
-                            <option value="Cidade-E">Cidade-E</option>
-                            <option value="Cidade-F">Cidade-F</option>
-                            <option value="Cidade-G">Cidade-G</option>
-                            <option value="Cidade-H">Cidade-H</option>
-                            <option value="Cidade-I">Cidade-I</option>
-                            <option value="Cidade-J">Cidade-J</option>
-                            <option value="Cidade-K">Cidade-K</option>
-                            <option value="Cidade-L">Cidade-L</option>
-                            <option value="Cidade-M">Cidade-M</option>
-                            <option value="Cidade-N">Cidade-N</option>
-                            <option value="Cidade-O">Cidade-O</option>
-                            <option value="Cidade-P">Cidade-P</option>
-                            <option value="Cidade-Q">Cidade-Q</option>
-                            <option value="Cidade-R">Cidade-R</option>
-                            <option value="Cidade-S">Cidade-S</option>
-                            <option value="Cidade-T">Cidade-T</option>
-                            <option value="Cidade-U">Cidade-U</option>
-                            <option value="Cidade-V">Cidade-V</option>
-                            <option value="Cidade-W">Cidade-W</option>
-                            <option value="Cidade-X">Cidade-X</option>
-                            <option value="Cidade-Y">Cidade-Y</option>
-                            <option value="Cidade-Z">Cidade-Z</option>
-                        </select>
+                        <div class="naturality-city-container">
+                            <!-- Financial sponsor's naturality city -->
+                            <label for="financial-sponsor-naturality-city">Cidade</label>
+                            <select class="naturality-city-input" id="financial-sponsor-naturality-city"
+                                name="financial-sponsor-naturality-city">
+                                <option value="" selected disabled>Cidade</option>
+                                <option value="Cidade-A">Cidade-A</option>
+                                <option value="Cidade-B">Cidade-B</option>
+                                <option value="Cidade-C">Cidade-C</option>
+                                <option value="Cidade-D">Cidade-D</option>
+                                <option value="Cidade-E">Cidade-E</option>
+                                <option value="Cidade-F">Cidade-F</option>
+                                <option value="Cidade-G">Cidade-G</option>
+                                <option value="Cidade-H">Cidade-H</option>
+                                <option value="Cidade-I">Cidade-I</option>
+                                <option value="Cidade-J">Cidade-J</option>
+                                <option value="Cidade-K">Cidade-K</option>
+                                <option value="Cidade-L">Cidade-L</option>
+                                <option value="Cidade-M">Cidade-M</option>
+                                <option value="Cidade-N">Cidade-N</option>
+                                <option value="Cidade-O">Cidade-O</option>
+                                <option value="Cidade-P">Cidade-P</option>
+                                <option value="Cidade-Q">Cidade-Q</option>
+                                <option value="Cidade-R">Cidade-R</option>
+                                <option value="Cidade-S">Cidade-S</option>
+                                <option value="Cidade-T">Cidade-T</option>
+                                <option value="Cidade-U">Cidade-U</option>
+                                <option value="Cidade-V">Cidade-V</option>
+                                <option value="Cidade-W">Cidade-W</option>
+                                <option value="Cidade-X">Cidade-X</option>
+                                <option value="Cidade-Y">Cidade-Y</option>
+                                <option value="Cidade-Z">Cidade-Z</option>
+                            </select>
+                        </div>
                     </fieldset>
                 </fieldset>
 

@@ -444,7 +444,7 @@ fieldset div input::placeholder {
 /*=== NATURALIDADE ===*/
 
 .naturality {
-    /* background-color: #000; */
+    /* background-color: orange; */
 
     /*Box model*/
     width: 98rem;
@@ -463,10 +463,30 @@ fieldset div input::placeholder {
     font-size: 4.5rem;
 }
 
+/* .naturality legend {
+    background-color: green;
+} */
 /* UF */
-.naturality #natu-state {
+
+/* UF Container */
+.naturality .naturality-state-container {
+    /* background-color: blue; */
+
+    margin-top: 0.5rem;
+
+    width: 24.5rem;
+}
+
+/* UF Label */
+.naturality .naturality-state-container label {
+    /* background-color: gray; */
+    font-size: 4rem;
+}
+
+/* UF Input */
+.naturality .naturality-state-input {
     /* Box model */
-    width: 25rem;
+    width: 100%;
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -478,7 +498,23 @@ fieldset div input::placeholder {
 }
 
 /* City */
-.naturality #natu-city {
+
+/* City Container */
+.naturality .naturality-city-container {
+    /* background-color: blue; */
+    width: 73.5rem;
+
+    margin-top: 0.5rem;
+}
+
+/* City Label */
+.naturality .naturality-city-container label {
+    /* background-color: gray; */
+    font-size: 4rem;
+}
+
+/* City Input */
+.naturality .naturality-city-input {
     /* Box model */
     width: 100%;
     height: 5.113rem;

@@ -1,5 +1,32 @@
-Arrumar o student's data, os gerais pontuais que aparecerem pelo caminho e usar de modelo para arrumar os outros dois (legal guardian's data e financial sponsor's data)
+DATA CORRECTION TASKS
 
-https://chat.deepseek.com/a/chat/s/6a579098-4530-4343-b454-633c64f2a225
+1. FIX THE STUDENT'S DATA
 
-Continuar de "2. Problemas de acessibilidade"
+Review and correct the student's information.
+Address any general issues identified during the review.
+Resolve any specific issues that arise along the way.
+
+2. USE THE STUDENT'S DATA AS A MODEL
+
+Use the corrected student data as the reference standard.
+Apply the same correction approach to the other records.
+
+3. FIX THE LEGAL GUARDIAN'S DATA
+
+Review and correct the legal guardian's information.
+Apply the same corrections and standards used for the student's data.
+
+4. FIX THE FINANCIAL SPONSOR'S DATA
+
+Review and correct the financial sponsor's information.
+Apply the same correction process and standards used for the student's data.
+
+5. ENSURE CONSISTENCY
+
+Verify that the student, legal guardian, and financial sponsor data follow the same standards.
+Check for any remaining inconsistencies or errors.
+
+
+----------------------------------------------------------------------------------------------
+
+Continue from "2. Problemas de acessibilidade"
