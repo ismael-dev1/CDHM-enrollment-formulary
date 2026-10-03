@@ -29,4 +29,12 @@ Check for any remaining inconsistencies or errors.
 
 ----------------------------------------------------------------------------------------------
 
-Continue from "2. Problemas de acessibilidade"
+Continue from "Campos obrigatórios"
+
+Discriminar a diferença entre uma alteração em "Student's data" em "General".
+autocomplete on 
+Campos obrigatórios
+
+----------------------------------------------------------------------------------------------
+
+Mudar "Nacionalidade" de input para select

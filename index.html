@@ -30,7 +30,7 @@
     <main class="main-content general-central-alignment">
         <!-- FORMULARY -->
         <form class="formulary general-central-alignment gn-bg-color" action="#" method="post" target="_blank"
-            autocomplete="off">
+            autocomplete="on">
             <h3 class="form-title">
                 Formulário de cadastro
             </h3>
@@ -47,62 +47,62 @@
 
                     <!-- Student's full name -->
                     <div class="full-name general-ipc-alignment">
-                        <label for="student-full-name">Nome completo</label>
+                        <label for="student-full-name">Nome completo*</label>
                         <input type="text" id="student-full-name" name="student-full-name"
-                            placeholder="ex: João da Silva">
+                        placeholder="ex: João da Silva" required>
                     </div>
 
                     <!-- Student's Birth date -->
                     <div class="birth-date general-ipc-alignment">
-                        <label for="student-birth-date">Data de nascimento</label>
-                        <input type="date" id="student-birth-date" name="student-birth-date">
+                        <label for="student-birth-date">Data de nascimento*</label>
+                        <input type="date" id="student-birth-date" name="student-birth-date" required>
                     </div>
 
                     <!-- Student's CPF -->
                     <div class="cpf general-ipc-alignment">
-                        <label for="student-cpf">CPF</label>
-                        <input type="text" id="student-cpf" name="student-cpf" placeholder="000.000.000-00">
+                        <label for="student-cpf">CPF*</label>
+                        <input type="text" id="student-cpf" name="student-cpf" placeholder="000.000.000-00" required>
                     </div>
 
                     <!-- Student's RG -->
                     <div class="rg general-ipc-alignment">
-                        <label for="student-rg">RG</label>
-                        <input type="text" id="student-rg" name="student-rg" placeholder="00.000.000-0">
+                        <label for="student-rg">RG*</label>
+                        <input type="text" id="student-rg" name="student-rg" placeholder="00.000.000-0" required>
                     </div>
 
                     <!-- Student's Gender -->
                     <fieldset class="gender">
                         <!-- Gender legend -->
-                        <legend class="gender-legend">Sexo</legend>
+                        <legend class="gender-legend">Sexo*</legend>
 
                         <div class="male">
-                            <input type="radio" id="student-gender-male" name="student-sex" value="male">
+                            <input type="radio" id="student-gender-male" name="student-sex" value="male" required>
                             <label for="student-gender-male">Masculino</label>
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="student-gender-female" name="student-sex" value="female">
+                            <input type="radio" id="student-gender-female" name="student-sex" value="female" required>
                             <label for="student-gender-female">Feminino</label>
                         </div>
                     </fieldset>
 
                     <!-- Student's nationality -->
                     <div class="nationality general-ipc-alignment">
-                        <label for="student-nationality">Nacionalidade</label>
+                        <label for="student-nationality">Nacionalidade*</label>
                         <input type="text" id="student-nationality" name="student-nationality"
-                            placeholder="ex: Brasileiro(a)">
+                        placeholder="ex: Brasileiro(a)" required>
                     </div>
 
                     <!-- Student's naturality -->
                     <fieldset class="naturality">
-                        <legend>Naturalidade</legend>
+                        <legend>Naturalidade*</legend>
 
                         <!-- Student's naturality state -->
                         <div class="naturality-state-container">
 
                             <label for="student-naturality-state">Estado</label>
                             <select class="naturality-state-input" id="student-naturality-state"
-                                name="student-naturality-state">
+                            name="student-naturality-state" required>
                                 <option value="" selected disabled>UF</option>
                                 <option value="AC">AC</option>
                                 <option value="AL">AL</option>
@@ -140,7 +140,7 @@
 
                             <label for="student-naturality-city">Cidade</label>
                             <select class="naturality-city-input" id="student-naturality-city"
-                                name="student-naturality-city">
+                            name="student-naturality-city" required>
                                 <option value="" selected disabled>Cidade</option>
                                 <option value="Cidade-A">Cidade-A</option>
                                 <option value="Cidade-B">Cidade-B</option>
@@ -176,48 +176,48 @@
                 <!-- STUDENT'S ADDRESS -->
                 <fieldset class="adress general-central-alignment">
                     <!-- Field's legend -->
-                    <legend class="fs-legend">Endereço</legend>
+                    <legend class="fs-legend">Endereço*</legend>
 
                     <div class="duo-a duos">
                         <!-- Student's cep -->
                         <div class="zip-code general-ipc-alignment">
-                            <label for="student-zip-code">CEP</label>
-                            <input type="text" id="student-zip-code" name="student-zip-code" placeholder="00000-000">
+                            <label for="student-zip-code">CEP*</label>
+                            <input type="text" id="student-zip-code" name="student-zip-code" placeholder="00000-000" required>
                         </div>
 
                         <!-- Student's house number -->
                         <div class="house-number general-ipc-alignment">
-                            <label for="student-house-number">Número</label>
-                            <input type="text" id="student-house-number" name="student-house-number" placeholder="0000">
+                            <label for="student-house-number">Número*</label>
+                            <input type="text" id="student-house-number" name="student-house-number" placeholder="0000" required>
                         </div>
                     </div>
 
                     <div class="duo-b duos">
                         <!-- Student street's name -->
                         <div class="street general-ipc-alignment">
-                            <label for="student-street">Rua</label>
-                            <input type="text" id="student-street" name="student-street" placeholder="Rua exemplo">
+                            <label for="student-street">Rua*</label>
+                            <input type="text" id="student-street" name="student-street" placeholder="Rua exemplo" required>
                         </div>
 
                         <!-- Student neighborhood's name -->
                         <div class="neighborhood general-ipc-alignment">
-                            <label for="student-neighborhood">Bairro</label>
+                            <label for="student-neighborhood">Bairro*</label>
                             <input type="text" id="student-neighborhood" name="student-neighborhood"
-                                placeholder="Bairro exemplo">
+                            placeholder="Bairro exemplo" required>
                         </div>
                     </div>
 
                     <div class="duo-c duos">
                         <!-- Student's city -->
                         <div class="city general-ipc-alignment">
-                            <label for="student-city">Cidade</label>
-                            <input type="text" id="student-city" name="student-city" placeholder="Cidade exemplo">
+                            <label for="student-city">Cidade*</label>
+                            <input type="text" id="student-city" name="student-city" placeholder="Cidade exemplo" required>
                         </div>
 
                         <!-- Student's state -->
                         <div class="state general-ipc-alignment">
-                            <label for="student-state">Estado</label>
-                            <input type="text" id="student-state" name="student-state" placeholder="EE">
+                            <label for="student-state">Estado*</label>
+                            <input type="text" id="student-state" name="student-state" placeholder="EE" required>
                         </div>
                     </div>
 
@@ -230,95 +230,99 @@
                 </fieldset>
 
                 <!-- STUDENT'S CONTACT -->
+                <!-- Aplicar a regra em JS: obrigatório apenas para alunos com idade >= 18. -->
                 <fieldset class="contact general-central-alignment">
                     <!-- Field's legend -->
                     <legend class="contacts-legend">Contato</legend>
 
                     <!-- Student's phone number -->
                     <div class="phone-number general-ipc-alignment">
-                        <label for="student-phone-number">Telefone</label>
+                        <label for="student-phone-number">Telefone*</label>
                         <input type="tel" id="student-phone-number" name="student-phone-number"
-                            placeholder="(00) 00000-0000">
+                        placeholder="(00) 00000-0000" required>
                     </div>
 
                     <!-- Student's e-mail -->
                     <div class="email general-ipc-alignment">
-                        <label for="student-email">E-mail</label>
-                        <input type="email" id="student-email" name="student-email" placeholder="exemplo@email.com">
+                        <label for="student-email">E-mail*</label>
+                        <input type="email" id="student-email" name="student-email" placeholder="exemplo@email.com" required>
                     </div>
                 </fieldset>
 
                 <!-- STUDENT'S HEALTH INFO -->
+                <!-- Aplicar a regra em JS: obrigatório responder se sim ou se não; caso a reposta seja sim, o nome da deficiência e o laudo são obrigatórios. -->
                 <fieldset class="health-info">
                     <!-- Field's legend -->
                     <legend class="fs-legend">Informações de saúde</legend>
 
                     <!-- STUDENT'S DISABILITY -->
+                    <!-- Eu vou marcar o nome e o laudo tanto da deficiência quanto alergia como obrigatórios porque se a resposta for "não" para qualquer uma das duas, o JS vai entrar dentro da estrutura html e retirar o required lá para que o fluxo do formulário possa seguir normalmente. -->
                     <fieldset class="pcd-yn">
-                        <legend class="pcd-title">O servidor é PCD?</legend>
+                        <legend class="pcd-title">O servidor é PCD?*</legend>
 
                         <!-- Student's pcd option -->
                         <div class="pcd-options">
                             <!-- Student is pcd -->
                             <div class="option-yes option">
-                                <input type="radio" id="is-pcd" name="pcd-option" value="yes">
+                                <input type="radio" id="is-pcd" name="pcd-option" value="yes" required>
                                 <label for="is-pcd">Sim</label>
                             </div>
 
                             <!-- Student is not pcd -->
                             <div class="option-no option">
-                                <input type="radio" id="is-not-pcd" name="pcd-option" value="no">
+                                <input type="radio" id="is-not-pcd" name="pcd-option" value="no" required>
                                 <label for="is-not-pcd">Não</label>
                             </div>
                         </div>
 
                         <!-- Student's PCD name -->
                         <div class="disa-name-container">
-                            <label class="disa-name" for="disa-name">Nome da deficiência</label>
+                            <label class="disa-name" for="disa-name">Nome da deficiência*</label>
                             <input type="text" id="disa-name" name="disa-name"
-                                placeholder="Informe o nome da deficiência">
+                            placeholder="Informe o nome da deficiência" required>
                         </div>
 
                         <!-- Student's pcd medical report file -->
                         <div class="medical-report">
-                            <label class="mr-file" for="pcd-mr-file">Anexe o laudo abaixo</label>
+                            <label class="mr-file" for="pcd-mr-file">Anexe o laudo abaixo*</label>
                             <input type="file" id="pcd-mr-file" class="tp-file-bg-color general-fsb-bg-color"
-                                name="pcd-mr-file">
+                            name="pcd-mr-file" required>
                         </div>
                     </fieldset>
 
 
                     <!-- STUDENT'S ALLERGY -->
+                    <!-- Eu vou marcar o nome e o laudo tanto da deficiência quanto alergia como obrigatórios porque se a resposta for "não" para qualquer uma das duas, o JS vai entrar dentro da estrutura html e retirar o required lá para que o fluxo do formulário possa seguir normalmente. -->
                     <fieldset class="allergy-yn">
-                        <legend class="allergy-title">O servidor tem alergia?</legend>
+                        <legend class="allergy-title">O servidor tem alergia?*</legend>
 
                         <!-- Student's pcd option allergy -->
                         <div class="allergy-options">
                             <!-- Student is allergic -->
                             <div class="option-yes option">
-                                <input type="radio" id="is-allergic" name="allergy-option" value="yes">
+                                <input type="radio" id="is-allergic" name="allergy-option" value="yes" required>
                                 <label for="is-allergic">Sim</label>
                             </div>
 
                             <!-- Student is not allergic -->
                             <div class="option-no option">
-                                <input type="radio" id="is-not-allergic" name="allergy-option" value="no">
+                                <input type="radio" id="is-not-allergic" name="allergy-option" value="no" required>
                                 <label for="is-not-allergic">Não</label>
                             </div>
                         </div>
 
                         <!-- Student's allergy name -->
                         <div class="allergy-name-container">
-                            <label class="allergy-name" for="allergy-name">Nome da alergia</label>
+                            <label class="allergy-name" for="allergy-name">Nome da alergia*</label>
                             <input type="text" id="allergy-name" name="allergy-name"
-                                placeholder="Informe o nome da alergia">
+                            placeholder="Informe o nome da alergia" required>
                         </div>
 
                         <!-- Student's allergy medical report file -->
                         <div class="medical-report">
-                            <label for="allergy-mr-file">Anexe o laudo abaixo</label>
+                            <label for="allergy-mr-file">Anexe o laudo abaixo*</label>
                             <input type="file" id="allergy-mr-file" class="tp-file-bg-color general-fsb-bg-color"
-                                name="allergy-mr-file">
+                            name="allergy-mr-file" required>
                         </div>
                     </fieldset>
 
@@ -334,12 +338,12 @@
 
                 <!-- STUDENT'S PHOTO -->
                 <fieldset class="students-photo">
-                    <legend class="sf-title">Foto do servidor</legend>
+                    <legend class="sf-title">Foto do servidor*</legend>
 
                     <div>
                         <label for="students-photo">Anexe a foto abaixo</label>
                         <input type="file" id="students-photo" class="tp-file-bg-color general-fsb-bg-color"
-                            name="students-photo">
+                        name="students-photo" required>
                     </div>
                 </fieldset>
             </fieldset>
