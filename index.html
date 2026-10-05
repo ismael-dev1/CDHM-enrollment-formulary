@@ -176,7 +176,7 @@
                 <!-- STUDENT'S ADDRESS -->
                 <fieldset class="adress general-central-alignment">
                     <!-- Field's legend -->
-                    <legend class="fs-legend">Endereço*</legend>
+                    <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
                         <!-- Student's cep -->
@@ -362,62 +362,62 @@
 
                     <!-- Legal guardian's full name -->
                     <div class="full-name general-ipc-alignment">
-                        <label for="legal-guardian-full-name">Nome completo</label>
+                        <label for="legal-guardian-full-name">Nome completo*</label>
                         <input type="text" id="legal-guardian-full-name" name="legal-guardian-full-name"
-                            placeholder="ex: João da Silva">
+                        placeholder="ex: João da Silva" required>
                     </div>
 
                     <!-- Birth date -->
                     <div class="birth-date general-ipc-alignment">
-                        <label for="birth-date">Data de nascimento</label>
-                        <input type="date" id="birth-date" name="birth-date">
+                        <label for="birth-date">Data de nascimento*</label>
+                        <input type="date" id="birth-date" name="birth-date" required>
                     </div>
 
                     <!-- CPF -->
                     <div class="cpf general-ipc-alignment">
-                        <label for="cpf">CPF</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                        <label for="cpf">CPF*</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
                     </div>
 
                     <!-- RG -->
                     <div class="rg general-ipc-alignment">
-                        <label for="rg">RG</label>
-                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0">
+                        <label for="rg">RG*</label>
+                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0" required>
                     </div>
 
                     <!-- Sex -->
                     <fieldset class="sex">
                         <!-- Visual id -->
-                        <legend class="sex-option-title">Sexo</legend>
+                        <legend class="sex-option-title">Sexo*</legend>
 
                         <div class="male">
-                            <input type="radio" id="lg-sex-male" name="lg-sex" value="male">
+                            <input type="radio" id="lg-sex-male" name="lg-sex" value="male" required>
                             <label for="lg-sex-male">Masculino</label>
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="lg-sex-female" name="lg-sex" value="female">
+                            <input type="radio" id="lg-sex-female" name="lg-sex" value="female" required>
                             <label for="lg-sex-female">Feminino</label>
                         </div>
                     </fieldset>
 
                     <div class="nationality general-ipc-alignment">
-                        <label for="nationality">Nacionalidade</label>
-                        <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
+                        <label for="nationality">Nacionalidade*</label>
+                        <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)" required>
                     </div>
 
                     <!-- Legal guardian's naturality -->
                     <fieldset class="naturality">
-                        <legend>Naturalidade</legend>
+                        <legend>Naturalidade*</legend>
 
                         <!-- Legal guardian's naturality state -->
                         <div class="naturality-state-container">
 
                             <label for="legal-guardian-naturality-state">Estado</label>
                             <select class="naturality-state-input" id="legal-guardian-naturality-state"
-                                name="legal-guardian-naturality-state">
+                                name="legal-guardian-naturality-state" required>
                                 <option value="" selected disabled>UF</option>
-                                <option value=" AC">AC</option>
+                                <option value="AC">AC</option>
                                 <option value="AL">AL</option>
                                 <option value="AP">AP</option>
                                 <option value="AM">AM</option>
@@ -451,8 +451,9 @@
                         <!-- Legal guardian's naturality city -->
                         <div class="naturality-city-container">
 
-                            <label for="legal-guardian-naturality-state">Cidade</label>
-                            <select class="naturality-state-input" id="naturality-city" name="naturality-city">
+                            <label for="legal-guardian-naturality-city">Cidade</label>
+                            <select class="naturality-state-input" id="legal-guardian-naturality-city"
+                            name="naturality-city" required>
                                 <option value="" selected disabled>Cidade</option>
                                 <option value="Cidade-A">Cidade-A</option>
                                 <option value="Cidade-B">Cidade-B</option>
@@ -493,42 +494,42 @@
                     <div class="duo-a duos">
                         <!-- CEP -->
                         <div class="zip-code general-ipc-alignment">
-                            <label for="zip-code">CEP</label>
-                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
+                            <label for="zip-code">CEP*</label>
+                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000" required>
                         </div>
 
                         <!-- House number -->
                         <div class="house-number general-ipc-alignment">
-                            <label for="house-number">Número</label>
-                            <input type="text" id="house-number" name="house-number" placeholder="0000">
+                            <label for="house-number">Número*</label>
+                            <input type="text" id="house-number" name="house-number" placeholder="0000" required>
                         </div>
                     </div>
 
                     <div class="duo-b duos">
-                        <!--Entrada - Nome da rua-->
+                        <!-- Street -->
                         <div class="street general-ipc-alignment">
-                            <label for="street">Rua</label>
-                            <input type="text" id="street" name="street" placeholder="Rua exemplo">
+                            <label for="street">Rua*</label>
+                            <input type="text" id="street" name="street" placeholder="Rua exemplo" required>
                         </div>
 
                         <!-- Neighborhood -->
                         <div class="neighborhood general-ipc-alignment">
-                            <label for="neighborhood">Bairro</label>
-                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
+                            <label for="neighborhood">Bairro*</label>
+                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo" required>
                         </div>
                     </div>
 
                     <div class="duo-c duos">
                         <!-- City's name -->
                         <div class="city general-ipc-alignment">
-                            <label for="city">Cidade</label>
-                            <input type="text" id="city" name="city" placeholder="Cidade exemplo">
+                            <label for="city">Cidade*</label>
+                            <input type="text" id="city" name="city" placeholder="Cidade exemplo" required>
                         </div>
 
                         <!-- State -->
                         <div class="state general-ipc-alignment">
-                            <label for="state">Estado</label>
-                            <input type="text" id="state" name="state" placeholder="EE">
+                            <label for="state">Estado*</label>
+                            <input type="text" id="state" name="state" placeholder="EE" required>
                         </div>
                     </div>
 
@@ -546,14 +547,14 @@
 
                     <!-- Phone number -->
                     <div class="phone-number general-ipc-alignment">
-                        <label for="phone-number">Telefone</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000">
+                        <label for="phone-number">Telefone*</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000" required>
                     </div>
 
                     <!-- E-mail -->
                     <div class="email general-ipc-alignment">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                        <label for="email">E-mail*</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
                     </div>
                 </fieldset>
             </fieldset>
@@ -575,50 +576,48 @@
 
                     <!-- Financial sponsor's full name -->
                     <div class="full-name general-ipc-alignment">
-                        <label for="financial-sponsor-full-name">Nome completo</label>
+                        <label for="financial-sponsor-full-name">Nome completo*</label>
                         <input type="text" id="financial-sponsor-full-name" name="financial-sponsor-full-name"
-                            placeholder="ex: João da Silva">
+                            placeholder="ex: João da Silva" required>
                     </div>
 
                     <!-- Birth date -->
                     <div class="birth-date general-ipc-alignment">
-                        <label for="birth-date">Data de nascimento</label>
-                        <input type="date" id="birth-date" name="birth-date">
+                        <label for="birth-date">Data de nascimento*</label>
+                        <input type="date" id="birth-date" name="birth-date" required>
                     </div>
 
                     <!-- CPF -->
                     <div class="cpf general-ipc-alignment">
-                        <label for="cpf">CPF</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+                        <label for="cpf">CPF*</label>
+                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
                     </div>
 
                     <!-- RG -->
                     <div class="rg general-ipc-alignment">
-                        <label for="rg">RG</label>
-                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0">
+                        <label for="rg">RG*</label>
+                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0" required>
                     </div>
 
                     <!-- Sex -->
                     <fieldset class="sex">
                         <!-- Visual id -->
-                        <legend class="sex-option-title">Sexo</legend>
-
+                        <legend class="sex-option-title">Sexo*</legend>
 
                         <div class="male">
-                            <input type="radio" id="fr-sex-male" name="fr-sex" value="male">
-                            <label for="fr-sex-male">
-                                Masculino</label>
+                            <input type="radio" id="fr-sex-male" name="fr-sex" value="male" required>
+                            <label for="fr-sex-male">Masculino</label>
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="fr-sex-female" name="fr-sex" value="female">
+                            <input type="radio" id="fr-sex-female" name="fr-sex" value="female" required>
                             <label for="fr-sex-female">Feminino</label>
                         </div>
                     </fieldset>
 
                     <div class="nationality general-ipc-alignment">
-                        <label for="nationality">Nacionalidade</label>
-                        <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)">
+                        <label for="nationality">Nacionalidade*</label>
+                        <input type="text" id="nationality" name="nationality" placeholder="ex: Brasileiro(a)" required>
                     </div>
 
                     <!-- Financial sponsor's naturality -->
@@ -627,9 +626,9 @@
 
                         <div class="naturality-state-container">
                             <!-- Financial sponsor's naturality state -->
-                            <label for="financial-sponsor-naturality-state">Estado</label>
+                            <label for="financial-sponsor-naturality-state">Estado*</label>
                             <select class="naturality-state-input" id="financial-sponsor-naturality-state"
-                                name="financial-sponsor-naturality-state">
+                                name="financial-sponsor-naturality-state" required>
                                 <option value="" selected disabled>UF</option>
                                 <option value="AC">AC</option>
                                 <option value="AL">AL</option>
@@ -664,9 +663,9 @@
 
                         <div class="naturality-city-container">
                             <!-- Financial sponsor's naturality city -->
-                            <label for="financial-sponsor-naturality-city">Cidade</label>
+                            <label for="financial-sponsor-naturality-city">Cidade*</label>
                             <select class="naturality-city-input" id="financial-sponsor-naturality-city"
-                                name="financial-sponsor-naturality-city">
+                                name="financial-sponsor-naturality-city" required>
                                 <option value="" selected disabled>Cidade</option>
                                 <option value="Cidade-A">Cidade-A</option>
                                 <option value="Cidade-B">Cidade-B</option>
@@ -707,42 +706,42 @@
                     <div class="duo-a duos">
                         <!--Entrada - CEP-->
                         <div class="zip-code general-ipc-alignment">
-                            <label for="zip-code">CEP</label>
-                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000">
+                            <label for="zip-code">CEP*</label>
+                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000" required>
                         </div>
 
                         <!-- House number -->
                         <div class="house-number general-ipc-alignment">
-                            <label for="house-number">Número</label>
-                            <input type="text" id="house-number" name="house-number" placeholder="0000">
+                            <label for="house-number">Número*</label>
+                            <input type="text" id="house-number" name="house-number" placeholder="0000" required>
                         </div>
                     </div>
 
                     <div class="duo-b duos">
                         <!-- Street's name -->
                         <div class="street general-ipc-alignment">
-                            <label for="street">Rua</label>
-                            <input type="text" id="street" name="street" placeholder="Rua exemplo">
+                            <label for="street">Rua*</label>
+                            <input type="text" id="street" name="street" placeholder="Rua exemplo" required>
                         </div>
 
                         <!-- Neighborhood -->
                         <div class="neighborhood general-ipc-alignment">
-                            <label for="neighborhood">Bairro</label>
-                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo">
+                            <label for="neighborhood">Bairro*</label>
+                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo" required>
                         </div>
                     </div>
 
                     <div class="duo-c duos">
                         <!-- City's name -->
                         <div class="city general-ipc-alignment">
-                            <label for="city">Cidade</label>
-                            <input type="text" id="city" name="city" placeholder="Cidade exemplo">
+                            <label for="city">Cidade*</label>
+                            <input type="text" id="city" name="city" placeholder="Cidade exemplo" required>
                         </div>
 
                         <!-- State-->
                         <div class="state general-ipc-alignment">
-                            <label for="state">Estado</label>
-                            <input type="text" id="state" name="state" placeholder="EE">
+                            <label for="state">Estado*</label>
+                            <input type="text" id="state" name="state" placeholder="EE" required>
                         </div>
                     </div>
 
@@ -760,14 +759,14 @@
 
                     <!-- Entrada do telefone -->
                     <div class="phone-number general-ipc-alignment">
-                        <label for="phone-number">Telefone</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000">
+                        <label for="phone-number">Telefone*</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000" required>
                     </div>
 
                     <!-- E-mail -->
                     <div class="email general-ipc-alignment">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@email.com">
+                        <label for="email">E-mail*</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
                     </div>
                 </fieldset>
             </fieldset>

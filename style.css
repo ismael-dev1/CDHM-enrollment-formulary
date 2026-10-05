@@ -1151,6 +1151,7 @@ fieldset div input::placeholder {
 
 /*=== FOOTER ===*/
 .footer {
+    background-color: #000;
     height: 10rem;
     border-top: 0.1rem solid black;
     margin-top: 5rem;
