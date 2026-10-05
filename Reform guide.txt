@@ -26,15 +26,3 @@ Apply the same correction process and standards used for the student's data.
 Verify that the student, legal guardian, and financial sponsor data follow the same standards.
 Check for any remaining inconsistencies or errors.
 
-
-----------------------------------------------------------------------------------------------
-
-Continue from "Campos obrigatórios"
-
-Discriminar a diferença entre uma alteração em "Student's data" em "General".
-autocomplete on 
-Campos obrigatórios
-
-----------------------------------------------------------------------------------------------
-
-Mudar "Nacionalidade" de input para select

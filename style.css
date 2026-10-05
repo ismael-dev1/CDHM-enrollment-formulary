@@ -409,7 +409,7 @@ fieldset div input::placeholder {
     margin-left: 1rem;
 }
 
-/*=== NACIONALITY ===*/
+/*=== NATIONALITY ===*/
 
 .nationality {
     /* background-color: darkgray; */
@@ -431,15 +431,16 @@ fieldset div input::placeholder {
 }
 
 /* Input settings */
-.nationality input {
+.nationality select {
     /* Box model */
     height: 5.113rem;
-    padding: 1.5rem 0 1.5rem 1.5rem;
+    padding-left: 1rem;
     border-radius: 25px;
     border: none;
 
     /* Font settings */
     font-size: 3.2rem;
+    color: #BDBCBC;
 }
 
 /*=== NATURALIDADE ===*/
