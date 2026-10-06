@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de servidores</title> 
+    <title>Cadastro de servidores</title>
 
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./style.css">
@@ -81,7 +81,8 @@
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="student-gender-female" name="student-gender" value="female" required>
+                            <input type="radio" id="student-gender-female" name="student-gender" value="female"
+                                required>
                             <label for="student-gender-female">Feminino</label>
                         </div>
                     </fieldset>
@@ -436,8 +437,7 @@
                         <!-- Student's cep -->
                         <div class="zip-code general-ipc-alignment">
                             <label for="student-zip-code">CEP*</label>
-                            <input type="text" id="student-zip-code" name="student-zip-code" placeholder="00000-000"
-                                required>
+                            <input type="text" id="student-zip-code" name="student-zip-code" placeholder="00000-000" required>
                         </div>
 
                         <!-- Student's house number -->
@@ -468,8 +468,7 @@
                         <!-- Student's city -->
                         <div class="city general-ipc-alignment">
                             <label for="student-city">Cidade*</label>
-                            <input type="text" id="student-city" name="student-city" placeholder="Cidade exemplo"
-                                required>
+                            <input type="text" id="student-city" name="student-city" placeholder="Cidade exemplo" required>
                         </div>
 
                         <!-- Student's state -->
@@ -538,14 +537,14 @@
                         <div class="disability-name-container">
                             <label class="disability-name" for="disability-name">Nome da deficiência*</label>
                             <input type="text" id="disability-name" name="disability-name"
-                            placeholder="Informe o nome da deficiência" required>
+                                placeholder="Informe o nome da deficiência" required>
                         </div>
 
                         <!-- Student's pcd medical report file -->
                         <div class="medical-report">
                             <label for="pcd-medical-report-file">Anexe o laudo abaixo*</label>
-                            <input type="file" id="pcd-medical-report-file" class="tp-file-bg-color general-fsb-bg-color"
-                                name="pcd-medical-report-file" required>
+                            <input type="file" id="pcd-medical-report-file"
+                                class="tp-file-bg-color general-fsb-bg-color" name="pcd-medical-report-file" required>
                         </div>
                     </fieldset>
 
@@ -580,17 +579,19 @@
                         <!-- Student's allergy medical report file -->
                         <div class="medical-report">
                             <label for="allergy-medical-report-file">Anexe o laudo abaixo*</label>
-                            <input type="file" id="allergy-medical-report-file" class="tp-file-bg-color general-fsb-bg-color"
-                            name="allergy-medical-report-file" required>
+                            <input type="file" id="allergy-medical-report-file"
+                                class="tp-file-bg-color general-fsb-bg-color" name="allergy-medical-report-file"
+                                required>
                         </div>
                     </fieldset>
 
                     <!-- STUDENT'S GENERAL INFO -->
                     <div class="general-info general-ipc-alignment">
-                        <label class="general-information-title" for="student-general-info-text-area">Observações gerais</label>
+                        <label class="general-information-title" for="student-general-info-text-area">Observações
+                            gerais</label>
 
                         <textarea id="student-general-info-text-area" name="student-general-info-text-area" rows="5"
-                          cols="40">
+                            cols="40">
                         </textarea>
                     </div>
                 </fieldset>
@@ -623,39 +624,43 @@
                     <div class="full-name general-ipc-alignment">
                         <label for="legal-guardian-full-name">Nome completo*</label>
                         <input type="text" id="legal-guardian-full-name" name="legal-guardian-full-name"
-                            placeholder="ex: João da Silva" required>
+                        placeholder="ex: João da Silva" required>
                     </div>
 
-                    <!-- Birth date -->
+                    <!-- Legal guardian's Birth date -->
                     <div class="birth-date general-ipc-alignment">
-                        <label for="birth-date">Data de nascimento*</label>
-                        <input type="date" id="birth-date" name="birth-date" required>
+                        <label for="legal-guardian-birth-date">Data de nascimento*</label>
+                        <input type="date" id="legal-guardian-birth-date" name="legal-guardian-birth-date" required>
                     </div>
 
-                    <!-- CPF -->
+                    <!-- Legal guardian's CPF -->
                     <div class="cpf general-ipc-alignment">
-                        <label for="cpf">CPF*</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                        <label for="legal-guardian-">CPF*</label>
+                        <input type="text" id="legal-guardian-cpf" name="legal-guardian-cpf"
+                            placeholder="000.000.000-00" required>
                     </div>
 
-                    <!-- RG -->
+                    <!-- Legal guardian's RG -->
                     <div class="rg general-ipc-alignment">
-                        <label for="rg">RG*</label>
-                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0" required>
+                        <label for="legal-guardian-rg">RG*</label>
+                        <input type="text" id="legal-guardian-rg" name="legal-guardian-rg"
+                        placeholder="00.000.000-0" required>
                     </div>
 
                     <!-- Legal guardian's gender -->
                     <fieldset class="gender">
-                        <!-- Visual id -->
+                        <!-- Gender legend -->
                         <legend class="gender-legend">Sexo*</legend>
 
                         <div class="male">
-                            <input type="radio" id="legal-guardian-gender-male" name="legal-guardian-gender" value="male" required>
+                            <input type="radio" id="legal-guardian-gender-male" name="legal-guardian-gender"
+                                value="male" required>
                             <label for="legal-guardian-gender-male">Masculino</label>
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="legal-guardian-gender-female" name="legal-guardian-gender" value="female" required>
+                            <input type="radio" id="legal-guardian-gender-female" name="legal-guardian-gender"
+                            value="female" required>
                             <label for="legal-guardian-gender-female">Feminino</label>
                         </div>
                     </fieldset>
@@ -918,7 +923,6 @@
                             <option value="ZM">Zâmbia</option>
                             <option value="ZW">Zimbábue</option>
                         </select>
-                        <!-- total - 252 -->
                     </div>
 
                     <!-- Legal guardian's naturality -->
@@ -967,8 +971,8 @@
                         <div class="naturality-city-container">
 
                             <label for="legal-guardian-naturality-city">Cidade</label>
-                            <select class="naturality-state-input" id="legal-guardian-naturality-city"
-                                name="naturality-city" required>
+                            <select class="naturality-city-input" id="legal-guardian-naturality-city"
+                                name="legal-guardian-naturality-city" required>
                                 <option value="" selected disabled>Cidade</option>
                                 <option value="Cidade-A">Cidade-A</option>
                                 <option value="Cidade-B">Cidade-B</option>
@@ -1001,76 +1005,79 @@
                     </fieldset>
                 </fieldset>
 
-                <!-- ADDRESS -->
+                <!-- LEGAL GUARDIAN'S ADDRESS -->
                 <fieldset class="address general-central-alignment">
                     <!-- Fieldset's title -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
-                        <!-- CEP -->
+                        <!-- Legal guardian's CEP -->
                         <div class="zip-code general-ipc-alignment">
-                            <label for="zip-code">CEP*</label>
-                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000" required>
+                            <label for="legal-guardian-zip-code">CEP*</label>
+                            <input type="text" id="legal-guardian-zip-code" name="legal-guardian-zip-code"
+                            placeholder="00000-000" required>
                         </div>
 
-                        <!-- House number -->
+                        <!-- Legal guardian's house number -->
                         <div class="house-number general-ipc-alignment">
-                            <label for="house-number">Número*</label>
-                            <input type="text" id="house-number" name="house-number" placeholder="0000" required>
+                            <label for="legal-guardian-house-number">Número*</label>
+                            <input type="text" id="legal-guardian-house-number" name="legal-guardian-house-number"
+                            placeholder="0000" required>
                         </div>
                     </div>
 
                     <div class="duo-b duos">
-                        <!-- Street -->
+                        <!-- Legal guardian's street -->
                         <div class="street general-ipc-alignment">
-                            <label for="street">Rua*</label>
-                            <input type="text" id="street" name="street" placeholder="Rua exemplo" required>
+                            <label for="legal-guardian-street">Rua*</label>
+                            <input type="text" id="legal-guardian-street" name="legal-guardian-street"
+                            placeholder="Rua exemplo" required>
                         </div>
 
-                        <!-- Neighborhood -->
+                        <!-- Legal guardian's neighborhood -->
                         <div class="neighborhood general-ipc-alignment">
-                            <label for="neighborhood">Bairro*</label>
-                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo"
-                                required>
+                            <label for="legal-guardian-neighborhood">Bairro*</label>
+                            <input type="text" id="legal-guardian-neighborhood" name="legal-guardian-neighborhood"
+                            placeholder="Bairro exemplo" required>
                         </div>
                     </div>
 
                     <div class="duo-c duos">
-                        <!-- City's name -->
+                        <!-- Legal guardian's city -->
                         <div class="city general-ipc-alignment">
-                            <label for="city">Cidade*</label>
-                            <input type="text" id="city" name="city" placeholder="Cidade exemplo" required>
+                            <label for="legal-guardian-city">Cidade*</label>
+                            <input type="text" id="legal-guardian-city" name="legal-guardian-city" placeholder="Cidade exemplo" required>
                         </div>
 
-                        <!-- State -->
+                        <!-- Legal guardian's state -->
                         <div class="state general-ipc-alignment">
-                            <label for="state">Estado*</label>
-                            <input type="text" id="state" name="state" placeholder="EE" required>
+                            <label for="legal-guardian-state">Estado*</label>
+                            <input type="text" id="legal-guardian-state" name="legal-guardian-state" placeholder="EE" required>
                         </div>
                     </div>
 
-                    <!-- Complement -->
+                    <!-- Legal guardian's complement -->
                     <div class="complement general-ipc-alignment">
-                        <label for="complement">Complemento</label>
-                        <input type="text" id="complement" name="complement" placeholder="Complemento exemplo">
+                        <label for="legal-guardian-complement">Complemento</label>
+                        <input type="text" id="legal-guardian-complement" name="legal-guardian-complement" placeholder="Complemento exemplo">
                     </div>
                 </fieldset>
 
-                <!-- CONTACT -->
+                <!-- LEGAL GUARDIAN'S CONTACT -->
                 <fieldset class="contact general-central-alignment">
-                    <!--Título do campo-->
+                    <!-- Field's legend -->
                     <legend class="contacts-legend">Contato</legend>
 
-                    <!-- Phone number -->
+                    <!-- Legal guardian's phone number -->
                     <div class="phone-number general-ipc-alignment">
-                        <label for="phone-number">Telefone*</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000" required>
+                        <label for="legal-guardian-phone-number">Telefone*</label>
+                        <input type="tel" id="legal-guardian-phone-number" name="legal-guardian-phone-number" placeholder="(00) 00000-0000" required>
                     </div>
 
-                    <!-- E-mail -->
+                    <!-- Legal guardian's e-mail -->
                     <div class="email general-ipc-alignment">
-                        <label for="email">E-mail*</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                        <label for="legal-guardian-email">E-mail*</label>
+                        <input type="email" id="legal-guardian-email" name="legal-guardian-email" placeholder="exemplo@email.com" required>
                     </div>
                 </fieldset>
             </fieldset>
@@ -1078,46 +1085,44 @@
 
 
 
-
-
             <!-- FINANCIAL SPONSOR'S DATA -->
             <fieldset class="pps-data-section">
-                <!-- Section's title -->
+                <!-- Field's legend -->
                 <legend class="sections-title frd-font-size">Dados do responsável financeiro</legend>
 
                 <!-- FINANCIAL SPONSOR'S PERSONAL DATA -->
                 <fieldset class="personal-data general-central-alignment">
-                    <!--Título do campo-->
+                    <!-- Field's legend -->
                     <legend class="fs-legend">Dados pessoais</legend>
 
                     <!-- Financial sponsor's full name -->
                     <div class="full-name general-ipc-alignment">
                         <label for="financial-sponsor-full-name">Nome completo*</label>
                         <input type="text" id="financial-sponsor-full-name" name="financial-sponsor-full-name"
-                            placeholder="ex: João da Silva" required>
+                        placeholder="ex: João da Silva" required>
                     </div>
 
-                    <!-- Birth date -->
+                    <!-- Financial sponsor's birth date -->
                     <div class="birth-date general-ipc-alignment">
-                        <label for="birth-date">Data de nascimento*</label>
-                        <input type="date" id="birth-date" name="birth-date" required>
+                        <label for="financial-sponsor-birth-date">Data de nascimento*</label>
+                        <input type="date" id="financial-sponsor-birth-date" name="financial-sponsor-birth-date" required>
                     </div>
 
-                    <!-- CPF -->
+                    <!-- Financial sponsor's CPF -->
                     <div class="cpf general-ipc-alignment">
-                        <label for="cpf">CPF*</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                        <label for="financial-sponsor-cpf">CPF*</label>
+                        <input type="text" id="financial-sponsor-cpf" name="financial-sponsor-cpf" placeholder="000.000.000-00" required>
                     </div>
 
-                    <!-- RG -->
+                    <!-- Financial sponsor's RG -->
                     <div class="rg general-ipc-alignment">
-                        <label for="rg">RG*</label>
-                        <input type="text" id="rg" name="rg" placeholder="00.000.000-0" required>
+                        <label for="financial-sponsor-rg">RG*</label>
+                        <input type="text" id="financial-sponsor-rg" name="financial-sponsor-rg" placeholder="00.000.000-0" required>
                     </div>
 
                     <!-- Financial sponsor's gender -->
                     <fieldset class="gender">
-                        <!-- Visual id -->
+                        <!-- Field's legend -->
                         <legend class="gender-legend">Sexo*</legend>
 
                         <div class="male">
@@ -1126,8 +1131,9 @@
                         </div>
 
                         <div class="female">
-                            <input type="radio" id="financial-sponsor-female" name="financial-sponsor-gender" value="female" required>
-                            <label for="financial-sponsor-female">Feminino</label>
+                            <input type="radio" id="financial-sponsor-gender-female"
+                            name="financial-sponsor-gender" value="female" required>
+                            <label for="financial-sponsor-gender-female">Feminino</label>
                         </div>
                     </fieldset>
 
@@ -1389,7 +1395,6 @@
                             <option value="ZM">Zâmbia</option>
                             <option value="ZW">Zimbábue</option>
                         </select>
-                        <!-- total - 252 -->
                     </div>
 
                     <!-- Financial sponsor's naturality -->
@@ -1435,7 +1440,7 @@
 
                         <!-- Financial sponsor's naturality city -->
                         <div class="naturality-city-container">
-                            
+
                             <label for="financial-sponsor-naturality-city">Cidade</label>
                             <select class="naturality-city-input" id="financial-sponsor-naturality-city"
                                 name="financial-sponsor-naturality-city" required>
@@ -1471,76 +1476,75 @@
                     </fieldset>
                 </fieldset>
 
-                <!-- ADDRESS -->
+                <!-- FINANCIAL SPONSOR'S ADDRESS -->
                 <fieldset class="address general-central-alignment">
-                    <!-- Fieldset's title -->
+                    <!-- Field's legend -->
                     <legend class="fs-legend">Endereço</legend>
 
                     <div class="duo-a duos">
-                        <!--Entrada - CEP-->
+                        <!-- Financial sponsor's CEP -->
                         <div class="zip-code general-ipc-alignment">
-                            <label for="zip-code">CEP*</label>
-                            <input type="text" id="zip-code" name="zip-code" placeholder="00000-000" required>
+                            <label for="financial-sponsor-zip-code">CEP*</label>
+                            <input type="text" id="financial-sponsor-zip-code" name="financial-sponsor-zip-code" placeholder="00000-000" required>
                         </div>
 
-                        <!-- House number -->
+                        <!-- Financial sponsor's house number -->
                         <div class="house-number general-ipc-alignment">
-                            <label for="house-number">Número*</label>
-                            <input type="text" id="house-number" name="house-number" placeholder="0000" required>
+                            <label for="financial-sponsor-house-number">Número*</label>
+                            <input type="text" id="financial-sponsor-house-number" name="financial-sponsor-house-number" placeholder="0000" required>
                         </div>
                     </div>
 
                     <div class="duo-b duos">
-                        <!-- Street's name -->
+                        <!-- Financial sponsor's street's name -->
                         <div class="street general-ipc-alignment">
-                            <label for="street">Rua*</label>
-                            <input type="text" id="street" name="street" placeholder="Rua exemplo" required>
+                            <label for="financial-sponsor-street">Rua*</label>
+                            <input type="text" id="financial-sponsor-street" name="financial-sponsor-street" placeholder="Rua exemplo" required>
                         </div>
 
-                        <!-- Neighborhood -->
+                        <!-- Financial sponsor's neighborhood -->
                         <div class="neighborhood general-ipc-alignment">
-                            <label for="neighborhood">Bairro*</label>
-                            <input type="text" id="neighborhood" name="neighborhood" placeholder="Bairro exemplo"
-                                required>
+                            <label for="financial-sponsor-neighborhood">Bairro*</label>
+                            <input type="text" id="financial-sponsor-neighborhood" name="financial-sponsor-neighborhood" placeholder="Bairro exemplo" required>
                         </div>
                     </div>
 
                     <div class="duo-c duos">
-                        <!-- City's name -->
+                        <!-- Financial sponsor's City -->
                         <div class="city general-ipc-alignment">
-                            <label for="city">Cidade*</label>
-                            <input type="text" id="city" name="city" placeholder="Cidade exemplo" required>
+                            <label for="financial-sponsor-city">Cidade*</label>
+                            <input type="text" id="financial-sponsor-city" name="financial-sponsor-city" placeholder="Cidade exemplo" required>
                         </div>
 
-                        <!-- State-->
+                        <!-- Financial sponsor's state-->
                         <div class="state general-ipc-alignment">
-                            <label for="state">Estado*</label>
-                            <input type="text" id="state" name="state" placeholder="EE" required>
+                            <label for="financial-sponsor-state">Estado*</label>
+                            <input type="text" id="financial-sponsor-state" name="financial-sponsor-state" placeholder="EE" required>
                         </div>
                     </div>
 
-                    <!-- Complement -->
+                    <!-- Financial sponsor's complement -->
                     <div class="complement general-ipc-alignment">
-                        <label for="complement">Complemento</label>
-                        <input type="text" id="complement" name="complement" placeholder="Complemento exemplo">
+                        <label for="financial-sponsor-complement">Complemento</label>
+                        <input type="text" id="financial-sponsor-complement" name="financial-sponsor-complement" placeholder="Complemento exemplo">
                     </div>
                 </fieldset>
 
-                <!-- CONTACT -->
+                <!-- FINANCIAL SPONSOR'S CONTACT -->
                 <fieldset class="contact general-central-alignment">
-                    <!--Título do campo-->
+                    <!-- Field's legend -->
                     <legend class="contacts-legend">Contato</legend>
 
-                    <!-- Entrada do telefone -->
+                    <!-- Financial sponsor's phone number -->
                     <div class="phone-number general-ipc-alignment">
-                        <label for="phone-number">Telefone*</label>
-                        <input type="tel" id="phone-number" name="phone-number" placeholder="(00) 00000-0000" required>
+                        <label for="financial-sponsor-phone-number">Telefone*</label>
+                        <input type="tel" id="financial-sponsor-phone-number" name="financial-sponsor-phone-number" placeholder="(00) 00000-0000" required>
                     </div>
 
-                    <!-- E-mail -->
+                    <!-- Financial sponsor's e-mail -->
                     <div class="email general-ipc-alignment">
-                        <label for="email">E-mail*</label>
-                        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                        <label for="financial-sponsor-email">E-mail*</label>
+                        <input type="email" id="financial-sponsor-email" name="financial-sponsor-email" placeholder="exemplo@email.com" required>
                     </div>
                 </fieldset>
             </fieldset>

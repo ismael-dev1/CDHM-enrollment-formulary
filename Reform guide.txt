@@ -28,4 +28,5 @@ Check for any remaining inconsistencies or errors.
 
 ------------------------------------------
 
-Continue from here: "2. Campo Estado no endereço"
+2. Continue from here: "3. Data de nascimento - Considere min e max para limitar datas inválidas. (Referência -> 579. Formulários e Inputs HTML - Parte 3)"
+
