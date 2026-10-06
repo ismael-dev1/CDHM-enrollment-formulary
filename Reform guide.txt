@@ -26,3 +26,6 @@ Apply the same correction process and standards used for the student's data.
 Verify that the student, legal guardian, and financial sponsor data follow the same standards.
 Check for any remaining inconsistencies or errors.
 
+------------------------------------------
+
+Continue from here: "2. Campo Estado no endereço"

@@ -2,7 +2,7 @@
 @font-face {
     /* Font's name in the files local */
     font-family: 'arial-rounded-mt-bold-regular';
-    /* Adress */
+    /* File's address */
     src: url('./assets/fonts/arial_rounded_mt_bold_regular.ttf')
         /* File's format identifier */
         format('truetype')
@@ -530,10 +530,10 @@ fieldset div input::placeholder {
 }
 
 
-/*=== ADRESS ===*/
+/*=== ADDRESS ===*/
 
 /* Fieldset adress */
-.adress {
+.address {
     /* background-color: blue; */
     width: 105rem;
     height: auto;
@@ -572,22 +572,22 @@ fieldset div input::placeholder {
 
 /* Paragraphs */
 
-/* General adress inputs settings */
-.adress .duos div {
+/* General address inputs settings */
+.address .duos div {
     /* background-color: #000000; */
     width: 49rem;
 }
 
 /*=== Zip Code ===*/
-.adress .duo-a .zip-code {
+.address .duo-a .zip-code {
     font-size: 4.5rem;
 }
 
-.adress .duo-a .zip-code label {
+.address .duo-a .zip-code label {
     cursor: pointer;
 }
 
-.adress .duo-a .zip-code input {
+.address .duo-a .zip-code input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -596,15 +596,15 @@ fieldset div input::placeholder {
 }
 
 /*=== House number ===*/
-.adress .duo-a .house-number {
+.address .duo-a .house-number {
     font-size: 4.5rem;
 }
 
-.adress .duo-a .house-number label {
+.address .duo-a .house-number label {
     cursor: pointer;
 }
 
-.adress .duo-a .house-number input {
+.address .duo-a .house-number input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -613,15 +613,15 @@ fieldset div input::placeholder {
 }
 
 /*=== Street ===*/
-.adress .duo-b .street {
+.address .duo-b .street {
     font-size: 4.5rem;
 }
 
-.adress .duo-b .street label {
+.address .duo-b .street label {
     cursor: pointer;
 }
 
-.adress .duo-b .street input {
+.address .duo-b .street input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -630,15 +630,15 @@ fieldset div input::placeholder {
 }
 
 /*=== Neighborhood ===*/
-.adress .duo-b .neighborhood {
+.address .duo-b .neighborhood {
     font-size: 4.5rem;
 }
 
-.adress .duo-b .neighborhood label {
+.address .duo-b .neighborhood label {
     cursor: pointer;
 }
 
-.adress .duo-b .neighborhood input {
+.address .duo-b .neighborhood input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -647,15 +647,15 @@ fieldset div input::placeholder {
 }
 
 /*=== City ===*/
-.adress .duo-c .city {
+.address .duo-c .city {
     font-size: 4.5rem;
 }
 
-.adress .duo-c .city label {
+.address .duo-c .city label {
     cursor: pointer;
 }
 
-.adress .duo-c .city input {
+.address .duo-c .city input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -665,15 +665,15 @@ fieldset div input::placeholder {
 
 /*=== State ===*/
 
-.adress .duo-c .state {
+.address .duo-c .state {
     font-size: 4.5rem;
 }
 
-.adress .duo-c .state label {
+.address .duo-c .state label {
     cursor: pointer;
 }
 
-.adress .duo-c .state input {
+.address .duo-c .state input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -682,7 +682,7 @@ fieldset div input::placeholder {
 }
 
 /*=== Complement ===*/
-.adress .complement {
+.address .complement {
     /* background-color: darkolivegreen; */
     width: 98rem;
     height: auto;
@@ -690,12 +690,12 @@ fieldset div input::placeholder {
     font-size: 4.5rem;
 }
 
-.adress .complement label {
+.address .complement label {
     cursor: pointer;
     margin-bottom: 0.5rem;
 }
 
-.adress .complement input {
+.address .complement input {
     height: 5.113rem;
     padding: 0 0 0 1.5rem;
     border: none;
@@ -857,17 +857,17 @@ fieldset div input::placeholder {
 
 /* Disability name */
 
-.disa-name-container {
+.disability-name-container {
     /* background-color: #000000; */
 
     margin: 2.287rem 0 0 3rem;
 }
 
-.disa-name {
+.disability-name {
     font-size: 4rem;
 }
 
-.health-info .pcd-yn #disa-name {
+.health-info .pcd-yn #disability-name {
     /* background-color: black; */
 
     display: block;
@@ -883,10 +883,9 @@ fieldset div input::placeholder {
 }
 
 
-
-/* Medica report file */
+/* Medical report file */
 .health-info .pcd-yn .medical-report {
-    /* background-color: blue; */
+    /* background-color: lightblue; */
     margin: 2.287rem 0 0 3rem;
 }
 
@@ -923,7 +922,7 @@ fieldset div input::placeholder {
 
 
 
-/* Does the student has any ALLERGY? */
+/* Allergy name */
 .health-info .allergy-yn {
     margin-top: 4.2rem;
     border: none;
@@ -1060,7 +1059,7 @@ fieldset div input::placeholder {
     margin: 3.17rem 0 0 0;
 }
 
-.gi-title {
+.general-information-title {
     font-size: 4rem;
     margin: 0 0 1rem 3rem;
 }
@@ -1129,7 +1128,7 @@ fieldset div input::placeholder {
 
 /*=== Button CONTINUAR ===*/
 
-.botao-enviar button {
+.submit-button-container button {
     width: 98rem;
     height: 5.113rem;
     border: none;
@@ -1143,7 +1142,7 @@ fieldset div input::placeholder {
     cursor: pointer;
 }
 
-.botao-enviar button:hover {
+.submit-button-container button:hover {
     border: none;
     border-radius: 25px;
     background-color: #00DFFF;

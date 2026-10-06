@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário ... | ABCD</title>
+    <title>Cadastro de servidores</title> 
 
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./style.css">
@@ -14,7 +14,7 @@
 
     <!-- HEADER -->
     <header class="header gn-bg-color">
-        <img class="cdhm-icon" src="./assets/images/SVG/Ícone CDHM.svg" alt="ícone da cdhm">
+        <img class="cdhm-icon" src="./assets/images/SVG/icone-cdhm.svg" alt="Ícone do CDHM">
 
         <div class="headings general-central-alignment">
             <h1 class="title">
@@ -428,7 +428,7 @@
                 </fieldset>
 
                 <!-- STUDENT'S ADDRESS -->
-                <fieldset class="adress general-central-alignment">
+                <fieldset class="address general-central-alignment">
                     <!-- Field's legend -->
                     <legend class="fs-legend">Endereço</legend>
 
@@ -534,18 +534,18 @@
                             </div>
                         </div>
 
-                        <!-- Student's PCD name -->
-                        <div class="disa-name-container">
-                            <label class="disa-name" for="disa-name">Nome da deficiência*</label>
-                            <input type="text" id="disa-name" name="disa-name"
-                                placeholder="Informe o nome da deficiência" required>
+                        <!-- Student's disability name -->
+                        <div class="disability-name-container">
+                            <label class="disability-name" for="disability-name">Nome da deficiência*</label>
+                            <input type="text" id="disability-name" name="disability-name"
+                            placeholder="Informe o nome da deficiência" required>
                         </div>
 
                         <!-- Student's pcd medical report file -->
                         <div class="medical-report">
-                            <label class="mr-file" for="pcd-mr-file">Anexe o laudo abaixo*</label>
-                            <input type="file" id="pcd-mr-file" class="tp-file-bg-color general-fsb-bg-color"
-                                name="pcd-mr-file" required>
+                            <label for="pcd-medical-report-file">Anexe o laudo abaixo*</label>
+                            <input type="file" id="pcd-medical-report-file" class="tp-file-bg-color general-fsb-bg-color"
+                                name="pcd-medical-report-file" required>
                         </div>
                     </fieldset>
 
@@ -579,18 +579,18 @@
 
                         <!-- Student's allergy medical report file -->
                         <div class="medical-report">
-                            <label for="allergy-mr-file">Anexe o laudo abaixo*</label>
-                            <input type="file" id="allergy-mr-file" class="tp-file-bg-color general-fsb-bg-color"
-                                name="allergy-mr-file" required>
+                            <label for="allergy-medical-report-file">Anexe o laudo abaixo*</label>
+                            <input type="file" id="allergy-medical-report-file" class="tp-file-bg-color general-fsb-bg-color"
+                            name="allergy-medical-report-file" required>
                         </div>
                     </fieldset>
 
                     <!-- STUDENT'S GENERAL INFO -->
                     <div class="general-info general-ipc-alignment">
-                        <label class="gi-title" for="student-general-info-text-area">Observações gerais</label>
+                        <label class="general-information-title" for="student-general-info-text-area">Observações gerais</label>
 
                         <textarea id="student-general-info-text-area" name="student-general-info-text-area" rows="5"
-                            cols="40">
+                          cols="40">
                         </textarea>
                     </div>
                 </fieldset>
@@ -612,7 +612,7 @@
 
             <!-- LEGAL GUARDIAN'S DATA -->
             <fieldset class="pps-data-section">
-                <legend class="sections-title">Dados do responsável legal </legend>
+                <legend class="sections-title">Dados do responsável legal</legend>
 
                 <!-- LEGAL GUARDIAN'S PERSONAL DATA -->
                 <fieldset class="personal-data general-central-alignment">
@@ -1001,8 +1001,8 @@
                     </fieldset>
                 </fieldset>
 
-                <!-- ADRESS -->
-                <fieldset class="adress general-central-alignment">
+                <!-- ADDRESS -->
+                <fieldset class="address general-central-alignment">
                     <!-- Fieldset's title -->
                     <legend class="fs-legend">Endereço</legend>
 
@@ -1433,8 +1433,9 @@
                             </select>
                         </div>
 
+                        <!-- Financial sponsor's naturality city -->
                         <div class="naturality-city-container">
-                            <!-- Financial sponsor's naturality city -->
+                            
                             <label for="financial-sponsor-naturality-city">Cidade</label>
                             <select class="naturality-city-input" id="financial-sponsor-naturality-city"
                                 name="financial-sponsor-naturality-city" required>
@@ -1470,8 +1471,8 @@
                     </fieldset>
                 </fieldset>
 
-                <!-- ADRESS -->
-                <fieldset class="adress general-central-alignment">
+                <!-- ADDRESS -->
+                <fieldset class="address general-central-alignment">
                     <!-- Fieldset's title -->
                     <legend class="fs-legend">Endereço</legend>
 
@@ -1544,9 +1545,10 @@
                 </fieldset>
             </fieldset>
 
-            <!-- Button "CONTINUAR" -->
-            <div class="botao-enviar">
-                <button type="submit" id="verdadeiro-botao-enviar">CONTINUAR</button>
+            <!-- Button "CONTINUAR"
+            Takes to the review page -->
+            <div class="submit-button-container">
+                <button type="submit" id="submit-button">CONTINUAR</button>
             </div>
         </form>
     </main>
