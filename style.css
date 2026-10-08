@@ -139,9 +139,9 @@ body {
     color: #FCF0F9;
 }
 
-/*=== PEOPLE'S DATA ===*/
+/*=== CLIENT'S DATA ===*/
 
-/* People's data section */
+/* Client's data container */
 .client-data-container {
     width: auto;
     height: auto;
@@ -150,15 +150,15 @@ body {
     margin-top: 2.5rem;
 }
 
-/* Section's title */
-.sections-title {
+/* Client's data container legend */
+.client-container-legend {
     /* background-color: black; */
     width: 100%;
     margin-left: 3rem;
     font-size: 7rem;
 }
 
-.frd-font-size {
+.financial-sponsor-legend-font-size {
     font-size: 6.4rem;
 }
 
@@ -218,7 +218,7 @@ fieldset div input::placeholder {
 .full-name input {
     /* Box model */
     height: 5.113rem;
-    padding: 1.3rem 0 1.5rem 1.5rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
     border-radius: 25px;
     border: none;
 
@@ -465,9 +465,9 @@ fieldset div input::placeholder {
     font-size: 4.5rem;
 }
 
-/* .naturality legend {
-    background-color: green;
-} */
+
+
+
 /* UF */
 
 /* UF Container */
