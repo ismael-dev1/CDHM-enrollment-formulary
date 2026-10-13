@@ -22,7 +22,6 @@ html {
 }
 
 body {
-    background-color: #181a1b;
     /* Box model */
     width: 100%;
     min-height: 100vh;
@@ -71,7 +70,7 @@ body {
 
 /*=== HEADER ===*/
 .header {
-    background-color: #000;
+    
     /* Box model*/
     width: 100%;
     height: auto;
@@ -133,8 +132,6 @@ body {
     margin: 7rem 18rem 6.9rem 18rem;
     border-radius: 25px;
 
-    /* Colors */
-    background-color: #000;
     /* font-color */
     color: #FCF0F9;
 }
@@ -1151,7 +1148,6 @@ fieldset div input::placeholder {
 
 /*=== FOOTER ===*/
 .footer {
-    background-color: #000;
     height: 10rem;
     border-top: 0.1rem solid black;
     margin-top: 5rem;
